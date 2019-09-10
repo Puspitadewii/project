@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114.5" height="14.07" viewBox="0 0 114.5 14.07">
+  <g id="Group_228" data-name="Group 228" transform="translate(-625.5 -168)">
+    <g id="eye" transform="translate(625 166)">
+      <path id="Path_112" data-name="Path 112" d="M1,9.272S3.636,4,8.249,4,15.5,9.272,15.5,9.272s-2.636,5.272-7.249,5.272S1,9.272,1,9.272Z" fill="none" stroke="#cbcbcb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <circle id="Ellipse_30" data-name="Ellipse 30" cx="1.977" cy="1.977" r="1.977" transform="translate(6.272 7.295)" stroke-width="1" stroke="#cbcbcb" stroke-linecap="round" stroke-linejoin="round" fill="rgba(113,100,100,0)"/>
+    </g>
+    <text id="_60" data-name="60" transform="translate(646 179)" fill="#a1a1a1" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">60</tspan></text>
+    <path id="bookmark" d="M14,14.57,9.5,11.356,5,14.57V4.286A1.286,1.286,0,0,1,6.286,3h6.428A1.286,1.286,0,0,1,14,4.286Z" transform="translate(710 167)" fill="none" stroke="#cbcbcb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="star" d="M7.774,2,9.558,5.614l3.989.583L10.66,9.009l.681,3.972L7.774,11.1,4.205,12.981l.681-3.972L2,6.2l3.989-.583Z" transform="translate(670 168)" fill="none" stroke="#cbcbcb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <text id="_60-2" data-name="60" transform="translate(689 179)" fill="#a1a1a1" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">60</tspan></text>
+    <text id="_60-3" data-name="60" transform="translate(729 179)" fill="#a1a1a1" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">60</tspan></text>
+  </g>
+</svg>

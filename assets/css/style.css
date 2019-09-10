@@ -1,0 +1,85 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+html, body{
+  overflow-x: hidden;
+}
+
+.container{
+	max-width: 1080px;
+	margin: auto;
+}
+/*.menu{*/
+	/*float: right;*/
+	/*margin-top: -40px; color: #fff;*/
+/*}*/
+/*menu a{text-decoration: none; color: #fff;}	*/
+/*.menu ul li{display: inline;padding-right: 40px;text-decoration: none;}*/
+/*nav{background-color:#216583;  font-family:Sans-serif;  padding-top: 3%; font-size: 14px;}*/
+
+
+.logo.h4{padding-left: 3em; }
+.jumbotron-content{padding-top: 150px; color: #fff; }
+.jumbotron{ background-color: #216583; height: 609px; clear: both; position: relative; background-image:url(../img/homepage/bullet.svg); }
+.jumbotron h2  { font-size: 3em;  max-width: 13em; margin: auto; line-height: 45px; font-weight: 500;}
+.jumbotron h2 { text-align: center; }
+.jumbotron p{font-size: 14px; max-width: 39em; margin: auto; line-height: 25px; text-align: center;}
+.jumbotron a{ text-decoration: none; color: #fff;  padding: 18px 42px;
+ border-radius: 25px; border: 1px solid #FFFFFF; position: relative;left: 40%
+	}
+.row{width: 100%; clear: both;}
+.col-3{width: 16,6%; float: left; padding: 12px; box-sizing: border-box; overflow: hidden;}
+.thumb{  width: 100%;}
+.col-2{width: 50%; float: left; padding: 12px; box-sizing: border-box; overflow: hidden;}
+h3{
+  float: center;
+}
+h1, h2{font-weight: 500; font-family: vidaloka;}
+.populer form{
+  margin: auto;
+}
+.tombol a{ padding: 0px 30px; height: 50px; border-radius: 25px; border: 1px solid black; padding-top: 2%;}
+/*.tombol{padding: 15px 42px; border-radius: 25px; border: 1px solid #FFFFFF;}
+*/#two{ margin-top: 180px; }
+#two h1{font-size: 24px; line-height: 35px; max-width: 231px; font-weight: 500;}
+#two p{margin-top: 45px; text-align: left; line-height: 32px; max-width: 450px; color: #888888;}
+#tri img{
+	margin-top: 215px;}
+#tri #text{margin-top: 300px;}
+#text p{font-size: 14px; color: #888888; margin-top: 50px; line-height: 32px; max-width: 302px;}
+#text h1 { font-family: vidaloka, sans-serif; font-size: 24px; max-width: 267px; color: #666666; line-height: 35px;  }
+.workingspace{background-image: url(../img/homepage/jumbotron-bg.png);height: 628px; margin-top: 69%; background-size: cover;
+	}
+.col-4{width: 30%;float: left; padding:0px; box-sizing: border-box; overflow: hidden; }
+#grup{margin-left: 9%;}
+.sub{color: #888888; float: right; margin-right: 13em;}
+.sub h2{max-width: 180px; line-height: 20px; font-size: 16px;}
+.sub p{font-size: 10px; max-width: 210px; }
+#four{ margin-top: 10em; }
+.box{background-color: #FFFFFF; height: 270px; margin-top: -15%; border-radius: 16px; box-shadow: 1px 4px 10px #888888;}
+.box img {margin-top: 20%;} .sub{ margin-top: 16%; } .sub p{ line-height: 16px;  padding-top: 10px; }
+.books{text-align: center;} .books h2{font-size: 20px;} .books p{line-height: 30px; font-size: 14px; max-width: 570px;
+ margin: 0 auto; color: #888888;}
+.books a{background-color: #216583; color: #fff;  padding: 18px 42px;
+ border-radius: 25px; border: 1px solid #216583; margin-top: 2em;}
+ a{text-decoration: none;}
+ /*footer*/
+footer{background-color: #1C6A7E; color: #fff;
+ height: 350px; 
+ margin-top: 8em;
+ } #five{ padding-top: 5em;} .list{max-width: 320px; line-height: 25px;  font-size: 14px;}
+  #navigasi li{list-style-type: none; max-width: 8%; line-height: 2em; margin-left: 27em; margin-top: -7em; color: #fff;}
+  #sport{list-style-type: none; max-width: 6%; line-height: 2em; margin-left: 37em; margin-top: -8em;}
+  footer a{ color: #fff; }
+  /*ahir footer*/
+#contact{max-width:15%; list-style-type: none; line-height: 2em; margin-left: 43em; margin-top: -8em;}
+
+/*books*/
+
+
+/*RESPONSIVE*/
+/*mobile*/
+/*RESPONSIVE*/
+/*mobile*/
