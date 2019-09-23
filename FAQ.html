@@ -2,27 +2,47 @@
 <html>
 <head>
 	<title>FAQ</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive/faq-responsive.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<script src="assets/js/jquery.js"></script>
+    <script src="assets/js/functions.js"></script>
 </head>
 <body>
 	<!--nav-->
-	<div class="container">	
-			<nav>
-				<div class="logo">
-					<a href="#"><img src="assets/img/homepage/logo-blue.svg" width="16%"></a>
-				</div>
-				<div class="menu">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="tentang.html">Tentang</a></li>
-						<li><a href="#">Kategori</a></li>
-						<li><a href="FAQ.html">FaQ</a></li>
-						<li><a href="login.html">Masuk</a></li>
-						<li><a href="#" class="tombol"></a>Daftar</li>
-					</ul>
-				</div>		
-			</nav>
-	</div>
+<section class ="nav-bar">
+  <div class="nav-container">
+    <div class="brand">
+      <a href="index.html"><img src="assets/img/homepage/logo-blue.svg"></a>
+    </div>
+    <nav>
+      <div class="nav-mobile"><a id="nav-toggle" href="#"><span></span></a></div>
+      <ul class="nav-list">
+        <li> <a href="index.html">Home</a></li>
+        <li><a href="tentang.html">Tentang</a> </li>
+
+      	<li> <a href="#">Kategori</a>
+          <ul class="nav-dropdown">
+            <li><a href="#">Semua</a></li>
+            <li><a href="#">Cerpen</a></li>
+            <li><a href="#">Novel</a></li>
+            <li><a href="#">Matematika</a></li>
+            <li><a href="#">Biografi</a></li>
+          </ul>
+        </li>
+
+        <li><a href="FAQ.html">FAQ</a></li>
+        <li><a href="login.html">Masuk</a></li>
+        <li><a href="reg_siswa.html" class="tombol">Daftar</a></li>
+      </ul>
+    </nav>
+  </div>
+</section>
+
+	<!--ahir nav-->
+		<section id="faq">	
+			
 	<div class="container">	
 		<div id="faq_how">	
 			<h1>Bagaimana  Cara Kami</h1>
@@ -39,25 +59,26 @@
 				<div class="col-3">	
 					<div id="general">	
 						<h3>General</h3>
-						<p>	Apa Tujuan Website Ini? <br> Fitur Apa Saja Yang Ada Disini?<br> Bagaimana Cara Saya Memberikan Rating Disini?</p>
+						<p>	<a href="#">Apa Tujuan Website Ini?</a><br><a href="#">Fitur Apa Saja Yang Ada Disini?</a> <br> <a href="#">Bagaimana Cara Saya Memberikan Rating Disini?</a></p>
 					</div>
 				</div>
 				<div class="col-3">
 					<div id="akun">	
 						<h3>Akun Dan Profil</h3>
-						<p>	Bagaimana cara Saya Membuat Akun?<br>	Bagaimana Cara Saya Bergabung Disini?<br>	Bagaimana Cara Saya Keluar?</p>
+						<p>	<a href="#">Bagaimana cara Saya Membuat Akun?</a><br><a href="#">Bagaimana Cara Saya Bergabung Disini?</a><br><a href="#">Bagaimana Cara Saya Keluar?</a></p>
 					</div>
 				</div>
 				<div class="col-3">
 					<div id="membaca">	
 						<h3>Membaca</h3>
-						<p>	Bagaimana Cara Saya Mencari Buku? <br>	Apa Saja Daftar Isi Buku Di Sini?<br>	Bagaimana Cara Saya Berkomentar</p>
+						<p>	<a href="#">Bagaimana Cara Saya Mencari Buku?</a> <br><a href="#">Apa Saja Daftar Isi Buku Di Sini?</a>	<br><a href="#">Bagaimana Cara Saya Berkomentar</a>	</p>
 					</div>
 				</div>
 			</div>	
 		</div>
 	</div>	
 
+		</section>	
 	<!--footer--> 
 		<footer>
  		<div class="container">

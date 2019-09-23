@@ -13,12 +13,14 @@ h1{color: #666666;}
 h2, h3{
 	color: #666666;
 	font-size: 20px;
-	font-family: vidaoka; font-weight: 500;
+ font-weight: 500;
 }
 .container{
-	max-width: 1200px;
+	max-width: 1080px;
 	margin: auto;
+  
 }
+.nav-bar
 /*un
  dropdown*/
 /*ahirdropdown*/
@@ -39,42 +41,51 @@ h2, h3{
 /*nav{background-color:#fff;  font-family:Sans-serif;  padding-top: 3%; font-size: 14px; */
 }.tombol{padding: 15px 42px; border-radius: 25px; border: 1px solid #8B8B8B;position: relative;left: 10%;}
 /*konten*/
+.view{margin-top: 7%;}
 .views{
-	display: inline;} #reviews{margin-left: 12em; margin-top: -16em; font-family: "vidaloka", sans-serif;}
+	display: inline; margin-top: 5%!important; } #reviews{position: relative; left: 20%; margin-top: -16em; font-family: "vidaloka", sans-serif; width: 50%;}
 	#reviews h2{text-align: left;}
-	#reviews img{ padding: 2px; }
+	#reviews img{ padding: 2px; } #span-bok{color: #A7A7A7; font-size: 10px;}
 .book{
-	margin-top: 130px;}
+	margin-top: 130px; padding: 20px;}
 	/*share*/
 .share{
-	float: right; margin-top:-18em;
+	float: right; margin-top:-19em; margin-right: 7%;
 }
 .share a{color: #1F5F7B; font-size: 12px; float: right;}
-.row{width: 100%; clear: both;}
-.icons img{float: right; padding: 2px; margin-top: -23px;}  #share-head img{padding-right: 2em;}
+.row{width: 100%;} .icons{position: relative; right: 14%;}
+.icons img{float: right; padding: 2px; margin-top: -23px; }  #share-head img{padding-right: 3em; margin-top: 15%;}
 #reviews a{
-	background-color: #1F5F7B; color: #fff;  padding: 17px 38px; border-radius: 25px;
-}
-.buku-pertama img{ padding: 5px; }
-#buku-kedua { float: right; margin-top: -12em; padding: 2px;} #buku-kedua img{padding: 5px;} #buku-kedua h4{margin-right: 65%;}
+	background-color: #1F5F7B; color: #fff;  padding: 16px 38px; border-radius: 25px;
+} 
+li{list-style-type: none;}
+#book-rat img{ width: 3%; }
+#book-rat {position: relative; left: 0%;}
+#buku_terbaik{ margin-top: 15%; }
+.buku-pertama img{ padding: 5px;  width: 99px;  height: 140px; margin-top: 9%;} .buku-pertama p{padding-top: 15%; position: relative; left: 9%;}
+#buku-kedua { float: right; margin-top: -10em; padding: 2px; margin-right: 9%;} #buku-kedua img{padding: 5px;} #buku-kedua h4{margin-right: 69%; width: 200px;}
 #img{
 	padding: 9px;
 }
 /*footer*/
 footer{background-color: #1C6A7E; color: #fff;
  height: 350px; 
- margin-top: ;
+ margin-top: 8em;
  } #five{ padding-top: 5em;} .list{max-width: 320px; line-height: 25px;  font-size: 14px;}
   #navigasi li{list-style-type: none; max-width: 8%; line-height: 2em; margin-left: 27em; margin-top: -7em; color: #fff;}
-  #sport{list-style-type: none; max-width: 6%; line-height: 2em; margin-left: 37em; margin-top: -8em;}
+  #sport{list-style-type: none; max-width: 6%; line-height: 2em; margin-left: 39em; margin-top: -8em;}
   footer a{ color: #fff; }
   /*ahir footer*/
-#contact{max-width:15%; list-style-type: none; line-height: 2em; margin-left: 43em; margin-top: -8em;}
-/*Home page*/
-.home-head{margin-top: 20%;  margin-left: 23em;} 
+#contact{max-width:15%; list-style-type: none; line-height: 2em; margin-left: 51em; margin-top: -8em;}
+
+
+ #logos{width: 40%;}
+ /*Home page*/
+.home-head{padding-top: 30%;  margin-left: 23em;} 
 .home-head p{color: #BBBBBB;   font-size: 14px; max-width: 407px; text-align:center; line-height: 25px; margin-left: 9em;}
 .home-head h1{color: #666666; font-size: 42px; line-height: 55px;}
 h1, h2, h4{font-weight: 500; font-family: "vidaloka",sans-serif; text-align: center; max-width: 630px;}
+#lainnya{margin-left: 7%;}
 /*search*/
 #search-box {
 position: relative; left : 18%;
@@ -92,27 +103,28 @@ margin-top: 100px;
 position: absolute; top: 0; right: 0; height: 42px; width: 160px; font-size: 14px; color: #fff;text-align: center;line-height: 42px;border-width: 0;
 background-color: #216583;-moz-border-radius: 0px 5px 5px 0px; border-radius: 40px;cursor: pointer; margin-top: 6px;
 }
+#ket_foot{padding-top: 12px; line-height: 25px; padding-left: 36px;}
+#ket img{padding: 2px;}
 /*genre populer*/
 #genre-buku-populer img{
 	padding: 17px;
-}
+} 
+#genre-buku-populer img:hover{margin-top: -3px;}
 #home-genre{
-	margin-top: 100px;
+	margin-top: 100px; position: relative; left: 2em;
 }
 #home-genre p{color: #928D8D; font-size: 24px; margin-left:12em;}
 /*buku populer*/
-.buku-pertama h4{right: 23%; position: relative;}
+#bok_fot{position: absolute; }  #cover_fot{position: absolute; } #cover_fot h4{position: relative;right: 10%;}
+
 #home-buku-populer{margin-top: 110px;}#home-buku-populer p{color: #666666; font-size: 24px; margin-left: 15em}
 #home-link{margin-top: 60px; margin-left: 10%;}
 #home-link a{margin: 20px;}
 #link{color: #999999;padding: 15px 42px; border-radius: 25px; border: 1px solid #DBDBDB}
 #novel{color: #E8E8E8; padding: 15px 42px; border-radius: 25px; border: 1px solid #DBDBDB; background-color: #216583;}
-#buku_first{margin-top: 60px; margin: 2%;}
-#buku_second{margin: 2%; margin-top: 6%!important;}
+#buku_first{margin-top: 60px; margin-left: 6%;}
+#buku_second{ margin-left: 6%; margin-top: 35%; height: 400px;}
 .col p{line-height: 24px; font-size: 14px;}
-.klik{padding: 15px 45px; border-radius: 25px; border: 1px solid #216583;
-	color: #216583; margin-left: 30em;}
-.klik a{margin-top: 50px;}
 /*Grid*/
 .row{
 	width: 100%;
@@ -124,7 +136,7 @@ background-color: #216583;-moz-border-radius: 0px 5px 5px 0px; border-radius: 40
 
 }
 .col-3{
-	width: 33.3%;
+	width: 33%;
 	float: left;
 }
 .col-2{
@@ -133,80 +145,60 @@ background-color: #216583;-moz-border-radius: 0px 5px 5px 0px; border-radius: 40
 }
 .col{ float: left; }
 /*fitur*/
-
-#fitur{padding-top: 115px;} #tukar_poin{margin-left: 6%;} 
-#tukar_poin img{margin-left: 15%;}#tukar_poin h4{padding-left: 4%;}
- #fre_fitur{margin-left: 5%;} #fre_fitur p{margin-top: 17%;}
-  #baca_buku{margin-left: 10%;} #baca_buku p{margin-top: 10%;}
-
+#fitur-dukungan a{color: #E8E8E8; padding: 15px 42px; border-radius: 25px; border: 1px solid #DBDBDB; background-color: #042F4B; float: left; margin-top: 26%; position: relative; right: 37%;}
+#fitur-dukungan{background-color: #042F4B; width: 100%; height: 635px; margin-top: 7%;} #fitur-dukungan h2{font-size: 24px; color: #FFFFFF; font-weight: 500; padding-top: 9%;}
+#fitur-dukungan li{max-width: 200px; float: left; padding-left: 11%; margin-top: 6%; } #fitur-dukungan li p{color: white; font-size: 14px; line-height: 24px; text-align: center;}
+#fitur-dukungan h4{color: white; padding-top: 5%;} #fitur-dukungan img{padding-left: 9%;} #membaca_seru img, #tukar_poin img{left: 18%; position: relative;} #fitur_gratis{margin-top: -9%;}
 
 
-#fitur h2{color: #fff; margin-left: 19%;}
-#fitur h4{color: #fff; margin-top: 2em; font-size: 18px; margin-right: 9em;} #fitur p{color: #A1A1A1; font-size: 14px;
-text-align: center; max-width: 250px;}
-#home_fitur{background-color: #042F4B; height: 637px; margin-top: 100px;} 
+
 /*literasi*/
-#home_literasi{margin-top: 115px;} #literasi h2{color: #666666; font-size: 36px; max-width: 316px; text-align: left;}
-#literasi p{color: #777777; font-size: 14px; line-height: 30px; max-width: 400px;}
-#tingkat_literasi{margin-left: 4em;}
- #tingkat_literasi a{padding: 15px 42px; border-radius: 25px; border: 1px solid #216583;
-	color: #216583; margin-top: 19px;} 
+#imj{ margin-top: -18%; position: relative; left: 50%;}
+#lebih_lanjut{color: #216583; padding: 15px 42px; border-radius: 25px; border: 1px solid #216583; background-color: #fff;}
+#home_literasi{padding-top: 190px; overflow: hidden; height: 300px;}
+#tingkat_literasi h2{ font-size: 36px; color: #666666;  max-width: 300px; text-align: left; line-height: 42px;}
+.btn_testy{color: #E8E8E8; padding: 15px 42px; border-radius: 25px; border: 1px solid #DBDBDB; background-color: #042F4B; }
 /*testimony*/ 
-#home_testimony{padding-top: 200px;}
-#testimony_first{
-	margin-top: 105px; background-image: url(../img/homepage/literasi.svg); padding-top: 230px; 
-	width: 600px; height: 600px; padding-left: 12em; }
-#text{margin-left: 4em;}
-#testimony_first h2{color: #D9D9D9; font-size: 32px; max-width: 310px; text-align: left;}
-#text p{color: #C4C4C4; font-size: 14px; line-height: 30px; max-width: 310px; margin-top: 2em;}
-.learn_tombol{
-		padding: 15px 42px; border-radius: 25px; border: 1px solid #8B8B8B; color: #C4C4C4}
-.testimony_second{position: relative; left: 50%; margin-top: -46em;  }.testimony_second p{font-size: 14px; line-height: 20px; }
 
-#syafira .comment{background-color: #1C6A7E; height: 116px; width: 280px; border-radius: 20px 20px 20px 0px; margin-top: -11%; 
- position: relative; right: 3%; padding-top: 15px;}
-#syafira{ color: #BCBCBC; } .comment{padding-left: 2em;} #syafira img{right: 8%; position: relative; padding-top: 7%;}
-#yuki{margin-left: 25%;}
-#yuki .comment{background-color: #FFFFFF; height: 130px; width: 300px; border-radius: 20px 20px 20px 0px;  box-shadow: 1px 4px 10px #888888;
- color: #777777; line-height: 15px; margin-top: -18%; padding-top: 15px;}  #yuki img{position: relative; right: 6%; padding-top: -6%;}
-#sayyid .comment{background-color: #543864; height: 140px; width: 320px; border-radius: 20px 20px 20px 0px; 
-	color: #BCBCBC; font-size: 14px; line-height: 20px; padding: 7px; margin-top: -5%;} 
-	#sayyid img{position: relative; right: 7%; padding-top: 3%;}
-#puspita .comment{background-color: #D1517A; height: 100px; width: 300px; border-radius: 20px 20px 20px 0px; 
-	color: #BEBEBE; padding: 15px; line-height: 15px; margin-top: 4%;}
-	#puspita img{float: left; position: relative; right: 4%; padding-top: 7%;}#puspita{}
-#frastio .comment{background-color: #FFFFFF; height: 100px; color: #999999; padding: 15px; width: 280px; border-radius: 20px 20px 20px 0px; box-shadow: 1px 4px 10px #888888;}
-#frastio{ float: left; position: relative; left: 26%; margin-top: -20%;}
 /*FAQ*/
 #faq_how h1{margin: 0 auto; color: #666666; margin-top: 160px;}
-#frekuently{margin-top: 110px;  height: 370px;} #frekuently h2{color: #666666; position: relative;right: 18%;}
+#frekuently{margin-top: 180px;  height: 370px;} #frekuently a{color: #999999;}
+#frekuently h2{color: #666666; position: relative;right: 18%;}
 #frekuently h3{color: #666666;} #frekuently p{color: #999999; font-size: 14px; line-height: 30px;}
-#general, #akun ,#membaca{margin-top: 3em;}
+#general, #akun ,#membaca{margin-top: 3em;} #membaca{position: relative; left: 17%;} #akun{position: relative;left: 14%;}
 
-/*halaman login*/
-#login_first{ width: 40%; padding-top: 40px;} #login_first img{padding-left: 10em;}#login_first h1{color: #666666;font-size: 28px;}
-#login_second{width: 60%; float: right; margin-top: -39em;}
-.masuk{width: 317px; margin: 35px;
- box-shadow: 1px 4px 10px #888888; position: relative;
+/*halaman -*/
+.login{height: 500px!important;}
+#login_second img{height: 848px;}
+#tetap-masuk li {padding-left:30px ; margin: 8%; float: left;} #tetap-masuk p , #tdk_akun p{color: #8E9191; font-size: 12px;} #tdk_akun a{font-size: 12px;}
+#email h4{padding-right: 25em; color: #777777; font-size: 12px;}
+#login_first{ width: 40%; padding-top: 110px;} #login_first img{padding-left: 10em;}#login_first h1{color: #666666;font-size: 28px;}
+#login_second {width: 61%; float: right; margin-top: -45em;position: relative; left: 2%;} #tdk_akun li{float: left;position: relative;left: 25%;}
+#logoslog{width: 45%;}
+.masuk{ padding: 17px 14px; margin: 25px; 
+ box-shadow: 0px 2px 7px #888888;
  }
- .masuk p{color:#777777;font-size: 12px; margin-left: 6em;}
+ .masuk p{color:#777777;font-size: 12px; margin-left: 6em; margin-top: -10%;}
 .masuk img{position: relative;right: 43%;}
-#login_first span{color:#CECECE; font-size: 12px;}
-.box input{width: 400px;height: 45px;}#span{margin-left: 8em;}
-.psd{list-style-type: none; color: #216583; font-size: 12px; float: right;}
-#btn_masuk{background-color:#216583; color: #fff;  padding: 14px 180px;
- border-radius: 5px; border: 1px solid #216583; }
+#login_first span{color:#CECECE; font-size: 12px;} .box{margin: 2%;}
+.box input{width: 386px;height: 45px; position: relative;left: 3%;}#span{margin-left: 8em;}
+.psd{list-style-type: none; color: #216583; font-size: 12px; }
+#btn_masuk{background-color:#216583; color: #fff;  padding: 14px 170px;
+ border-radius: 5px; border: 1px solid #216583; position: relative; left: 5%; }
  /*isi buku*/
- #chapter_head{ padding-top: 72px; margin-left: 24%; border-bottom: 1px solid #CFCFCF;}
+ #isi_ulasan input{outline: none; color: #DBDBDB;}
+ #chapter_head{ padding-top: 15%; margin:0 auto; width: 60%; border-bottom: 1px solid #CFCFCF;}
  #chapter_bodi{margin-top: 9%;}
- #chapter_head img{ padding-left: 30vh; } #chapter_bodi h4{color: #888888; right: 6%; position: relative;}
+ #chapter_head img{ padding-left:58vh  ; } #chapter_bodi h4{color: #888888; right: 6%; position: relative;}
  #chapter_bodi p{color: #888888; font-size: 14px; width: 60%; text-align: left; line-height: 25px; margin: 0 auto;}
  #next{color: #fff; background-color: #1C6A7E; padding: 17px 38px; margin: 0 auto; left: 40%; position: relative;
- }
- /*Quiz*/
+ } #bagi_share{margin-top: -7%; margin-left: 10%;}
+ #next:hover{background-color: #042F4B;}
+ #head_comen h5 ,.little-span{margin-left: 7%; margin-top: -5%;} .little-span{color: #C8C6C6; font-size: 10px;}
+ /*Quiz*/ 
  .quiz{margin-top: 10%;}
  #ikut_quiz{ box-shadow: 1px 4px 10px #888888; margin: 0 auto; width: 330px; padding: 25px;border-radius: 20px 20px 20px 0px; height: 200px; margin-top: 10%;} 
- #ikut_quiz h3{width: 250px;} #ikut_quiz p{color: #666666; font-size: 14px; line-height: 20px;}
+ #ikut_quiz h3{width: 250px; font-size: 20px; color: #666666;} #ikut_quiz p{color: #666666; font-size: 14px; line-height: 20px;}
  #ikut_quiz a{background-color: #1C6A7E; color: #fff;  padding: 10px 25px; border-radius:20px 20px 20px 20px; z-index: 1;
 	position: relative;}
 #ikut_quiz a::after{
@@ -223,32 +215,38 @@ text-align: center; max-width: 250px;}
   #bagi span{color: #999999; font-size:12px; }#bagi{margin-left: 40%; margin-top: 5%;} #bagi img{padding: 3px; padding-top: 3%;}
  #penentuan{margin-left: 23%; margin-top: 8%; padding: 20px;}#penentuan h1{font-size: 28px;}
  .penentu_form p{color:#777777; font-size: 12px;  }
- .penentu_form input{width:53%;  padding: 10px; }
+ .penentu_form input{width:53%;  padding: 15px; border: 1px solid #DBDBDB; color: #DBDBDB;}
  .penentu_form{margin-left: 16%; margin-top: 9%;}
  #lihat_test{background-color:#216583; color: #fff;  padding: 10px 135px;
  border-radius: 5px; border: 1px solid #216583; margin-top: 15%;}
- #rating{margin-top: 5%;} #rating h3{color: #666666;font-size: 15px;}
+ #rating{margin-top: 5%; padding: 6px;} #rating h3{color: #666666;font-size: 19px; font-family: vidaoka;}
  #beri_rating img{padding: 5px;} #rating_span{right: 10%; position: relative;margin-top: 2%;} 
  .bintang img{padding: 5px;}
 
  /*REGISTRASI*/
- #registrasi{background-color: #216583; height: 760px;}
- #reg_head{margin-right: 40%; padding-top: 10%;} #reg_head img{padding: 16px; margin-left: 2%;} #reg_head h1{right: 20%; position: relative; font-size: 35px;}
-.login-form{
-       width: 40%;
+ #txtc{border-bottom: 2px solid #999999; width: 290px; font-weight: 500;}
+ #txtc input{color: #777777; font-size: 36px; border: none; background: none; outline: none;}
+ #registrasi{background-color: #216583; height: 900px; padding-right: 15%; margin-top: 10%;}#img_register{float: right; margin-top: -70%; width: 62%;position: relative; left: 18%; height: 133%; }
+ .head_img{position: relative; left: 17%; margin: 10px;}
+ #reg_head{margin-right:9%;padding-top: 10%;} #reg_head h1{right:6%;position:relative;font-size: 35px;}
+ #logosreg{width:30%; position: relative; left: 9%;}
+	#option{width: 50%; padding: 0; position: relative; float: right; right: 24%; padding: 0;}
+
+  .login-form{
         margin-right: 30%; 
       }
+     #width{width: 455px;}
       .txtb{
         border-bottom: 2px solid #adadad;
         position: relative;
-        margin: 30px 0; display: inline-block; 
+        margin: 20px ; display: inline-block; width: 208px;
         
       }
       .txtb input{
         font-size: 15px;
         color: #333;
         border: none;
-        width: 120%;
+        width: 100%;
         outline: none;
         background: none; 
         padding: 0 5px;
@@ -260,7 +258,7 @@ text-align: center; max-width: 250px;}
         position: absolute; 
         top: 50%;
         left: 5px;
-        color: #adadad;
+        color: #E1E1E1;
         transform: translateY(-50%);
         transition: .3s;
       
@@ -271,9 +269,8 @@ text-align: center; max-width: 250px;}
         left: 0%;
         bottom: -4%;
         width: 0%;
-        height: 2px;
-        background-color: pink;  
-      
+        height: 3px;
+        background-color:;
         transition: .3s;
       }
       .focus + span::before{
@@ -282,10 +279,31 @@ text-align: center; max-width: 250px;}
       .focus + span::after{
         width: 100%;
       }
+      #pilihan{color:#fff; font-size: 20px; box-sizing: none; font-size: 16px;}
+      .opt{background: #216583;border : 9px solid pink;color: #fff;}
+      .logbtn{
+        display: block;
+        width: 457px;
+        height: 50px;
+        border: none; background:#216583;background-size: 200%; color: #E1E1E1;border: 2px solid #fff;
+        outline: none; cursor: pointer; transition: .5s;
+        margin-left: 3%;
+      }
+      .logbtn:hover{
+        background: #fff; color: #216583;
+      }
+      .button-text{
+        margin-top: 60px;
+        text-align: center; font-size: 20px;
+       color: #E5E5E5;font-family: Quicksand;margin-right: 40%; margin-top: 1px;
+      }
+      .button-text a{color: #fff; font-family: Quicksand; }
+      .txtb select{background: none; }
+     .txtb select,option{border:none; outline: none; color:#E1E1E1;}
       
       
  /*ulasan*/
-
+#coment_ulasan{left: 15%; position: relative;}
  #comen{margin-left: 20%;  margin-top: 5%;}
  .comen_bodi p{font-size: 14px; line-height: 20px; color: #999999; max-width: 500px;}
  #comen a{margin: 10px; color: #1C6A7E; font-size: 14px;}
@@ -293,7 +311,7 @@ text-align: center; max-width: 250px;}
  #progressbar {
   background-color: #e9e9e9;
   width: 315px;
-  margin-top: -9%;
+  margin-top: -9%; padding: 0px;
  
   /* (height of inner div) / 2 + padding */
 }
@@ -305,7 +323,5 @@ text-align: center; max-width: 250px;}
   height: 13px;
  
 }
+/*Pencarian*/
 
-/*RESPONSIVE*/
-/*mobile*/
- /*ini hambur*/

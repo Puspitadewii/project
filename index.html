@@ -3,10 +3,13 @@
 <head>
 	<title>home-page</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="assets/css/home-responsive.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive/home-responsive.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/page.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
 	<script src="assets/js/jquery.js"></script>
     <script src="assets/js/functions.js"></script>
+
 </head>
 <body>
 
@@ -14,12 +17,12 @@
 <section class ="nav-bar">
   <div class="nav-container">
     <div class="brand">
-      <a href="home-page.html"><img src="assets/img/homepage/logo-blue.svg"></a>
+      <a href="index.html"><img src="assets/img/homepage/logo-blue.svg"></a>
     </div>
     <nav>
       <div class="nav-mobile"><a id="nav-toggle" href="#"><span></span></a></div>
       <ul class="nav-list">
-        <li> <a href="home-page.html">Home</a></li>
+        <li> <a href="index.html">Home</a></li>
         <li><a href="tentang.html">Tentang</a> </li>
 
       	<li> <a href="#">Kategori</a>
@@ -34,7 +37,7 @@
 
         <li><a href="FAQ.html">FAQ</a></li>
         <li><a href="login.html">Masuk</a></li>
-        <li><a href="#" class="tombol">Daftar</a></li>
+        <li><a href="reg_siswa.html" class="tombol">Daftar</a></li>
       </ul>
     </nav>
   </div>
@@ -82,228 +85,167 @@
 			<section id="buku_first">
 				<div class="row">
 					<div class="col-4">
-							<img src="assets/img/homepage/salah_asuhan.png" width="200px">
-							<div id="rating">
+							<img src="assets/img/homepage/salah_asuhan.png" width="200px" class="gleam">
+							<div id="ket">
 									<img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg">
-							</div>	
-							<h5>Salah asuhan</h5>
+							</div>
+							<div id="ket_foot">
+								<h5>Salah asuhan</h5>
 							<span>Awan sundiawan</span>
+							</div>
+							
 					</div>
 
 					<div class="col-4">
-						<img src="assets/img/homepage/buku.jpg" width="180px">
-						<div id="rating">
+						<img src="assets/img/homepage/buku.jpg" width="205px" height="260px" class="gleam" id="gleam">
+						<div id="ket">
 							<img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg">
 						</div>	
-						<h5>Cerita tentang Hari Ini</h5>
+						<div id="ket_foot">
+							<h5>Cerita  Hari Ini</h5>
 						<span>Marchella Fp</span>
-					</div>
-
-					<div class="col-4">
-							<img src="assets/img/homepage/pramoedya.png" width="200px">
-							<div id="rating">
-								<img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg">
-							</div>	
-								<h5>Bumi manusia</h5>
-								<span>Anata Toer</span>
-					</div>
-
-					<div class="col-4">
-						<img src="assets/img/homepage/garis.png" width="200px">
-						<div id="rating">
-							<img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg">
-						</div>	
-							<h5>Garis waktu</h5>
-							<span>Fiersa Besari</span>
-					</div>
-				</div>
-			</section>
-
-			<!--buku baris kedua-->
-			<section id="buku_second">
-				<div class="row">
-					<div class="col-4">
-						<img src="assets/img/homepage/aroma kesra.png" width="200px">
-							<div id="rating">
-								<img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg">
-							</div>	
-							<h5>Aroma Kersa</h5>
-							<span>Dee Lesatri</span>
-					</div>
-
-					<div class="col-4">
-						<img src="assets/img/homepage/dilan.png" width="200px">
-						<div id="rating">
-							<img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg">
-						</div>	
-						<h5>Dilan 1990</h5>
-						<span>Pidi Baiq</span>
-					</div>
-					<div class="col-4">
-							<img src="assets/img/homepage/kata.png" width="200px">
-							<div id="rating">
-								<img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg">
-							</div>	
-								<h5>Kata</h5>
-								<span>Rintik sedu</span>
-					</div>
-					<div class="col-4">
-						<img src="assets/img/homepage/kakaku.png" width="200px">
-						<div id="rating">
-							<img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg">
-						</div>	
-							<h5>Dia adalah Kakakku</h5>
-							<span>Awan sundiawan</span><br><br><br><br><br>
-					</div>
-				</div>
-			</section>	
-			<a href="#" class="klik">Lainnya</a>
-		</div>
-
-		<section id="home_fitur">
-			<div class="container">
-				<div id="fitur">
-					<h2>Fitur Dukungan Pembelajaran</h2><br><br>
-					<div class="row">
-						<div class="col" id="baca_buku">
-							<img src="assets/img/homepage/readed.svg" width="120px">
-							<h4>Membaca lebih seru</h4><br>
-							<p>Membaca menjadi suatu kegiatan yang sangat bermanfaat. Salah satu manfaatnya yaitu mengembangkan kemampuan berpikir kritis.</p>
-
-						</div>
-						<div class="col" id="fre_fitur">
-							<img src="assets/img/homepage/free.svg" width="120px">
-							<h4>Fitur Gratis</h4><br>
-							<p>membaca lebih seru selain itu dengan fitur gratis agar para pembaca dapat menelusuri buku secara gratis disini</p>
-						</div>
-
-						<div class="col" id="tukar_poin">
-							<img src="assets/img/homepage/koin.svg"width="120px">
-							<h4>Tukar Nilai Dengan Poin</h4><br>
-							<p>membaca buku kini dapat mendapatkan poin dan jika poin itu terkumpul makan bisa ditukarkan dengan nilai remedial mu disekolah</p>
 						</div>
 						
 					</div>
-							
-				</div>	
-			
-			</div>	
-		</section>
 
-		<section id="home_literasi">	
-				<div id="literasi">	
-					<div class="row">	
-							<div class="col-2">	
-								<div id="tingkat_literasi">	
-									<h2>Tingkatkan Belajarmu Dengan Literasi Online</h2><br>	
-										<p>	membaca semakin mudah dengan literasi online ini diharapkan agar masyarakat lebih terbiasa membaca buku online </p><br>
-										<a href="#">Lebih Lanjut</a>
-								</div>
+					<div class="col-4">
+							<img src="assets/img/homepage/pramoedya.png" width="200px" class="gleam">
+							<div id="ket">
+								<img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg">
+							</div>	
+							<div id="ket_foot">
+								<h5>Bumi manusia</h5>
+								<span>Anata Toer</span>
 							</div>
-							<div class="col-2">	
-									<img src="assets/img/homepage/read.png" width="200">
-									<img src="assets/img/homepage/boks.png"width="200">
-									<img src="assets/img/homepage/gils_read.png" width="200">
+								
+					</div>
+
+					<div class="col-4">
+						<img src="assets/img/homepage/garis.png" width="200px" class="gleam">
+						<div id="ket">
+							<img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg">
+						</div>	
+						<div id="ket_foot">
+							<h5>Garis waktu</h5>
+							<span>Fiersa Besari</span>
+						</div>
+							
+					</div>
+				</div>
+			</section><br>
+
+			<!--buku baris kedua-->
+			<section id="buku_second">
+					<div class="col-4">
+						<img src="assets/img/homepage/aroma kesra.png" width="200px"class="gleam">
+							<div id="ket">
+								<img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg">
+							</div>	
+							<div id="ket_foot">
+								<h5>Aroma Kersa</h5>
+								<span>Dee Lesatri</span>
 							</div>
 					</div>
-				</div>		
+
+					<div class="col-4">
+						<img src="assets/img/homepage/dilan.png" width="200px"class="gleam">
+						<div id="ket">
+							<img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg">
+						</div>	
+						<div id="ket_foot">
+							<h5>Dilan 1990</h5>
+						<span>Pidi Baiq</span>
+						</div>
+					</div>
+
+					<div class="col-4">
+							<img src="assets/img/homepage/kata.png" width="200px"class="gleam">
+							<div id="ket">
+								<img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg">
+							</div>	
+							<div id="ket_foot">
+								<h5>Kata</h5>
+								<span>Rintik sedu</span>
+							</div>
+								
+					</div>
+					<div class="col-4">
+						<img src="assets/img/homepage/kakaku.png" width="200px"class="gleam">
+						<div id="ket">
+							<img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg">
+						</div>	
+						<div id="ket_foot">
+							<h5>Dia adalah Kakakku</h5>
+							<span>Awan sundiawan</span><br>
+						</div>
+							
+					</div>
+				</div>
+			</section>
+		
+
+		<section id="fitur-dukungan">	
+			<div class="container">	
+				<h2>	Fitur Dukungan Pembelajaran</h2>
+				<li>
+					<div id="membaca_seru">	
+						<img src="assets/img/homepage/readed.svg">
+						<h4><b>	Membaca Lebih Seru </b></h4><br>	
+						<p>Membaca menjadi suatu kegiatan yang sangat bermanfaat.salah satu manfaatnya yaitu mengembangkan kemampuan berpikir kritis.</p>
+					</div>
+				</li>
+
+				<li>
+					<div id="fitur_gratis">	
+						<img src="assets/img/homepage/free.svg">
+						<h4><b>	Fitur Gratis</b></h4><br>	
+						<p>membaca lebih seru selain itu dengan fitur gratis agar para pembaca dapat menelusuri buku secara gratis disini</p>
+					</div>
+				</li>
+
+				<li>
+					<div id="tukar_poin">	
+						<img src="assets/img/homepage/koin.svg">
+						<h4><b>	Tukar Nilai Dengan Poin </b></h4><br>	
+						<p>membaca buku kini dapat mendapatkan poin dan jika poin itu terkumpul makan bisa ditukarkan dengan nilai remedial mu disekolah</p>
+					</div>
+				</li>
+
+			</div>
+				<a href="#">Lebih lanjut</a>
 		</section>	
 
-	<!--testimony-->
-	<section id="home_testimony">		
-			<div class="row">	
-				<div id="testimony_first">	
-					<div id="text">	
-						<h2>Puluhan Orang Sudah Mencoba, Sekarang Giliranmu !</h2>
-						<p>lebih dari 50 orang sudah membaca buku di gleam readed dan hasilnya sangan memuaskan</p><br>	<br>	
-						<a href="#" class="learn_tombol">Learn more</a>
-					</div>	
-				</div>	
-				<div class="testimony_second">	
+		<section id="home_literasi">  
+     
+                <div id="tingkat_literasi"> 
+                  <h2>Tingkatkan Belajarmu Dengan Literasi Online</h2><br>  
+                    <p> membaca semakin mudah dengan literasi online ini diharapkan agar masyarakat lebih terbiasa membaca buku online </p><br><br>
+                    <a href="#" id="lebih_lanjut">Lebih Lanjut</a>
+                </div>
+              <div id="imj"> 
+                  <img src="assets/img/homepage/read.png" width="180">
+                  <img src="assets/img/homepage/boks.png"width="180">
+                  <img src="assets/img/homepage/gils_read.png" width="180">
+              </div>
+          
+        </div>    
+    </section>  
+    <section id="testimony">
+    	<div class="container">
+    		<div class="row">
+	    		<div id="bar_one">
+	    			<h2>Puluhan Orang Sudah Mencoba, Sekarang Giliranmu !</h2>
+	    			<p>lebih dari 50 orang sudah membaca buku di gleam readed dan hasilnya sangan memuaskan</p><br><br>
+	    			<a href="#" class="btn_testy">Learn more</a>
+	    		</div>
+	    		<div id="bar_two">	
 
-					<div id="yuki">	
-						<img src="assets/img/homepage/yuki.png" class="poto">
-						<div class="comment">	
-							<h5>Yuki Asuna</h5><br>	
-							<p>	saya nyaman membaca buku disini karena ada fitur pembagian poin nya terimaksih....</p>
-						</div>
-					</div>
-				
-					<div id="syafira">	
-						<img src="assets/img/homepage/syafira.png" width="50px" class="poto">
-						<div class="comment">	
-							<h5>Syafira permata</h5><br>
-							<p>	wow membaca disini menyenangkan ! ada soalnya lagi, keren....</p>
-						</div>
-					</div>	
+	    		</div>	
+	    	</div>
+    	</div>
+    </section>
 
-					
 
-					<div id="sayyid">	
-						<img src="assets/img/homepage/sayyid.png" class="poto">
-						<div class="comment">	
-							<h5>Sayyid Ahsan</h5><br>	
-							<p>saya membaca disini sudah 1 tahun lebih dan hasilnya sungguh memuaskan, kini dikelas saya mendapat nilai literasi paling besar karena saya tiap harinya membaca disini dan mendapatkan poin habis itu saya tukarkan ke nilai di sekolah</p>
-						</div>
-					</div>
-
-					<div id="puspita">	
-						<img src="assets/img/homepage/puspita.png" class="poto">
-						<div class="comment">	
-							<h5>Puspita Ayu dewi</h5><br>	
-							<p>unik banget ada fitur poin tukar sama nilai, nguntungin banget !!</p>
-						</div>
-					</div>
-
-					<div id="frastio">	
-						<img src="assets/img/homepage/frastio.png" class="poto">
-						<div class="comment">	
-							<h5>Frastio</h5><br>	
-							<p>	gua disekolah paling jelek nilainya, terus gua nyobain baca disini hasilnya perfect banget</p>
-						</div>
-					</div>
-				</div>
-			</div>
-	</section>	<br>
-
-		 	<!--footer--> 
-		<footer>
- 		<div class="container">
-			<div id="five">
-				<div class="list">
-					<img src="assets/img/homepage/logos.svg" width="30%"><br><br>	
-	 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
-				</div>
-				<div id="navigasi">
-					<li>
-	 						<a href="#" style="font-size:16px">Navigasi</a>	
-		 					<a href="#">Home</a>
-		 					<a href="#">kategori</a>
-		 					<a href="#">Daftar</a>
-	 				</li>
-				</div>
-				<div id="sport">
-					<li>	
-	 						<a href="#" style="font-size:16px">Sport</a>	
-		 					<a href="#">Blog</a>
-		 					<a href="#">Help</a>
-		 					<a href="#">FAQ</a>
-	 					
-	 				</li>
-				</div>
-				<div id="contact">
-					<li>	
-		 					<a href="#"style="font-size:16px">Contact</a>	
-		 					<a href="#">Sauqi.Arief@gmail.com</a>
-		 					<p>0852-1361-2215</p>
-		 					<a href="#"><img src="assets/img/homepage/fb.svg" width="30px"></a>
-		 					<a href="#"><img src="assets/img/homepage/ig.svg	"width="30px"></a>
-	 						<a href="#"><img src="assets/img/homepage/twitter-dark.svg" width="30px"></a>
-	 				</li>
-				</div>
-			</div>
- 		</div>
- 	</footer>
 
 
 
@@ -312,6 +254,12 @@
 
 </body>
 <script type="text/javascript" src="assets/js/jquery.js">
+
 	
 </script>
+<script src="./assets/js/slick.min.js"></script>
+
+<script type="text/javascript">
+
+    </script>
 </html>

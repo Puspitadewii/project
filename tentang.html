@@ -2,14 +2,16 @@
 <html>
 <head>
 	<title>Gleam readed</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/tentang-respons.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive/tentang-responsive.css">
 	<script src="assets/js/jquery.js"></script>
     <script src="assets/js/functions.js"></script>
 </head>
 <body>
-<!-- navbar -->
-<section class="nav-bar">
+	<!--nav-->
+<section class ="nav-bar">
   <div class="nav-container">
     <div class="brand">
       <a href="index.html"><img src="assets/img/homepage/logo-blue.svg"></a>
@@ -32,13 +34,12 @@
 
         <li><a href="FAQ.html">FAQ</a></li>
         <li><a href="login.html">Masuk</a></li>
-        <li><a href="#" class="tombol">Daftar</a></li>
+        <li><a href="reg_siswa.html" id="daftar">Daftar</a></li>
       </ul>
     </nav>
   </div>
 </section>
 
-<!-- ahir navbar -->
  <!--jumbotron-->
  <div class="jumbotron">
  	<div class="container">
@@ -70,7 +71,7 @@
  	 	<div class="row">
  	 		<div class="col-2">
  	 			<div class="thumb">
- 	 				<img src="assets/img/homepage/boy.png">
+ 	 				<img src="assets/img/homepage/boy.png" id="boy">
   	 			</div>
  	 		</div>
  	 		<div class="col-2">
@@ -86,39 +87,38 @@
  </div>
  	<!--jumbotron-->
  	<div class="workingspace">
-
- 	</div> 
- 	<div class="container">
- 		<div class="row">
- 			<div class="box">
- 				<div class="col-2">
-	 				<div class="thumb" id="grup">
-	 					<img src="assets/img/homepage/group.svg">
-	 					<div class="sub" >
-	 						<h2>buatlah grup belajar bersama teman-teman </h2>
-	 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
-	 					</div>	
-	 				</div>
- 				</div>
-	 			<div class="col-2">
-	 				<div class="thumb">
-	 					<img src="assets/img/homepage/class-group.svg">
-	 					<div class="sub">
-	 						<h2>sharing pertanyaan dengan guru mu</h2>
-	 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
-	 					</div>
-	 				</div>
+	 	<div class="container">
+	 			<div class="box">
+	 				<li>
+	 					<div id="grup">
+		 					<img src="assets/img/homepage/group.svg">
+		 						<h2>buatlah grup belajar bersama teman-teman </h2>
+		 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+		 				</div>
+	 				</li>
+		 				
+	 				<li>
+	 					<div id="shring">
+		 					<img src="assets/img/homepage/class-group.svg">
+		 	
+		 						<h2>sharing pertanyaan dengan guru mu</h2>
+		 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+		 					
+		 				</div>
+	 				</li>
+		 				
+		 			
 	 			</div>
- 			</div>
- 		</div>
- 	</div>
+	 	
+	 	</div>
+	 </div>
 
  	<section id="four">
  		<div class="container">
  			<div class="books">
- 				<h2>Temukan Buku Favoritmu</h2><br>
+ 				<h2>Temukan Buku Favoritmu Sekarang!</h2><br>
  				<p>kamu bisa memilih buku kesukaan mu, ataupun mencari genre buku yang menurut mu bisa menjadi pembelajaran dan jadikan perpustakaan kami sebagai tempat baca buku favoritmu! </p><br><br>	
- 				<a href="#">temukan sekarang</a>
+ 				<a href="#" id="find">temukan sekarang</a>
  			</div>
  			
  		</div>
@@ -133,7 +133,7 @@
 				</div>
 				<div id="navigasi">
 					<li>
-	 						<a href="#" style="font-size:16px">Navigasi</a>	
+	 						<a href="#" style="font-size:16px" id="smol">Navigasi</a>	
 		 					<a href="#">Home</a>
 		 					<a href="#">kategori</a>
 		 					<a href="#">Daftar</a>
@@ -141,7 +141,7 @@
 				</div>
 				<div id="sport">
 					<li>	
-	 						<a href="#" style="font-size:16px">Sport</a>	
+	 						<a href="#" style="font-size:16px" id="smol">Sport</a>	
 		 					<a href="#">Blog</a>
 		 					<a href="#">Help</a>
 		 					<a href="#">FAQ</a>
@@ -150,7 +150,7 @@
 				</div>
 				<div id="contact">
 					<li>	
-		 					<a href="#"style="font-size:16px">Contact</a>	
+		 					<a href="#"style="font-size:16px" id="smol">Contact</a>	
 		 					<a href="#">Sauqi.Arief@gmail.com</a>
 		 					<p>0852-1361-2215</p>
 		 					<a href="#"><img src="assets/img/homepage/fb.svg" width="30px"></a>
@@ -162,6 +162,9 @@
  		</div>
  	</footer>
 
+ 	<script type="text/javascript" src="assets/js/jquery.js">
+	
+</script>
 
 </body>
 </html>

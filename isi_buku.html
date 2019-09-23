@@ -2,30 +2,50 @@
 <html>
 <head>
 	<title>isi buku</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive/isi-buku_responsive.css">
+	<script src="assets/js/jquery.js"></script>
+    <script src="assets/js/functions.js"></script>
 </head>
 <body>
-	<div class="container">	
-			<nav>
-				<div class="logo">
-					<a href="#"><img src="assets/img/homepage/logo-blue.svg" width="16%"></a>
-				</div>
-				<div class="menu">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="tentang.html">Tentang</a></li>
-						<li><a href="#">Kategori</a></li>
-						<li><a href="FAQ.html">FaQ</a></li>
-						<li><a href="login.html">Masuk</a></li>
-						<li><a href="#" class="tombol"></a>Daftar</li>
-					</ul>
-				</div>		
-			</nav>
-	</div>
+	<!--nav-->
+<section class ="nav-bar">
+  <div class="nav-container">
+    <div class="brand">
+      <a href="index.html"><img src="assets/img/homepage/logo-blue.svg"></a>
+    </div>
+    <nav>
+      <div class="nav-mobile"><a id="nav-toggle" href="#"><span></span></a></div>
+      <ul class="nav-list">
+        <li> <a href="index.html">Home</a></li>
+        <li><a href="tentang.html">Tentang</a> </li>
+
+      	<li> <a href="#">Kategori</a>
+          <ul class="nav-dropdown">
+            <li><a href="#">Semua</a></li>
+            <li><a href="#">Cerpen</a></li>
+            <li><a href="#">Novel</a></li>
+            <li><a href="#">Matematika</a></li>
+            <li><a href="#">Biografi</a></li>
+          </ul>
+        </li>
+
+        <li><a href="FAQ.html">FAQ</a></li>
+        <li><a href="login.html">Masuk</a></li>
+        <li><a href="#" class="tombol">Daftar</a></li>
+      </ul>
+    </nav>
+  </div>
+</section>
+
+	<!--ahir nav-->
+	
 	<div class="container">
 		<div id="chapter_head">
-			<h2 >Nanti Kisah Cerita Tentang Hari Ini</h2>
-			<img src="assets/img/homepage/see.svg" width="23%">
+			<h2 >Nanti Kisah Cerita Tentang Hari Ini</h2><br>
+			
 		</div>
 		<div id="chapter_bodi">
 			<h4>Chapter 5</h4><br>
@@ -44,15 +64,18 @@
 		<div id="ikut_quiz">
 			<h3>Sudahkah anda membaca dengan baik dan benar</h3><br>
 			<p>ikuti quis untuk mebuktikan bahwa kamu sudah membaca seluruh halaman buku dan dapatkan poin impianmu!</p><br><br>
-			<a href="#">Ambil Quis</a>
+			<a href="laman_quis1.html">Ambil Quis</a>
 		</div>
 
 		<section class="ulasan">
 			<div id="bagi">
 				<span>Bagikan</span>
-				<img src="assets/img/homepage/fb-dark.svg" width="30px">
-				<img src="assets/img/homepage/ig.svg"width="30px">
-				<img src="assets/img/homepage/twitter-dark.svg" width="30px">
+				<div id="bagi_share">
+					<img src="assets/img/homepage/fb-dark.svg" width="30px">
+					<img src="assets/img/homepage/ig.svg"width="30px">
+					<img src="assets/img/homepage/twitter-dark.svg" width="30px">
+				</div>
+				
 			</div>
 			<div id="rating" class="center">
 				<h3>Rating dan Ulasan</h3>
@@ -104,14 +127,13 @@
 						<img src="assets/img/homepage/syafira.png" width="50px">
 						<h5>Syafira Permata</h5><span class="little-span">Apr 12, 2018</span>
 						<div class="bintang">
-							<img src="assets/img/homepage/star-blue.svg" width="15px"><img src="assets/img/homepage/star-blue.svg" width="15px"> <img src="assets/img/homepage/star-blue.svg" width="15px"><img src="assets/img/homepage/star-dark.svg" width="15px"><img src="assets/img/homepage/star-dark.svg" width="15px">
+							<img src="assets/img/homepage/star-blue.svg" width="15px"><img src="assets/img/homepage/star-blue.svg" width="15px"> <img src="assets/img/homepage/star-blue.svg" width="15px"><img src="assets/img/homepage/star-dark.svg" width="17px"><img src="assets/img/homepage/star-dark.svg" width="17px">
 						</div>
 					</div><br>	
 						<div class="comen_bodi">
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
 						</div><br>	
 						<a href="#">Sukai</a> <a href="#">Balas</a>
-				
 				</div>
 				<!--ahir komen-->
 				<div id="comen">
@@ -119,7 +141,7 @@
 						<img src="assets/img/homepage/syafira.png" width="50px">
 						<h5>Syafira Permata</h5><span class="little-span">Apr 12, 2018</span>
 						<div class="bintang">
-							<img src="assets/img/homepage/star-blue.svg" width="15px"><img src="assets/img/homepage/star-blue.svg" width="15px"> <img src="assets/img/homepage/star-blue.svg" width="15px"><img src="assets/img/homepage/star-dark.svg" width="15px"><img src="assets/img/homepage/star-dark.svg" width="15px">
+							<img src="assets/img/homepage/star-blue.svg" width="15px"><img src="assets/img/homepage/star-blue.svg" width="15px"> <img src="assets/img/homepage/star-blue.svg" width="15px"><img src="assets/img/homepage/star-dark.svg" width="17px"><img src="assets/img/homepage/star-dark.svg" width="17px">
 						</div>
 					</div><br>	
 						<div class="comen_bodi">
@@ -134,7 +156,7 @@
 						<img src="assets/img/homepage/syafira.png" width="50px">
 						<h5>Syafira Permata</h5><span class="little-span">Apr 12, 2018</span>
 						<div class="bintang">
-							<img src="assets/img/homepage/star-blue.svg" width="15px"><img src="assets/img/homepage/star-blue.svg" width="15px"> <img src="assets/img/homepage/star-blue.svg" width="15px"><img src="assets/img/homepage/star-dark.svg" width="15px"><img src="assets/img/homepage/star-dark.svg" width="15px">
+							<img src="assets/img/homepage/star-blue.svg" width="15px"><img src="assets/img/homepage/star-blue.svg" width="15px"> <img src="assets/img/homepage/star-blue.svg" width="15px"><img src="assets/img/homepage/star-dark.svg" width="17px"><img src="assets/img/homepage/star-dark.svg" width="17px">
 						</div>
 					</div><br>	
 						<div class="comen_bodi">
@@ -156,7 +178,7 @@
  		<div class="container">
 			<div id="five">
 				<div class="list">
-					<img src="assets/img/homepage/logos.svg" width="30%"><br><br>	
+					<img src="assets/img/homepage/logos.svg" id="logos"><br><br>	
 	 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
 				</div>
 				<div id="navigasi">

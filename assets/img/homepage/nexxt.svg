@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48.766" height="48.766" viewBox="0 0 48.766 48.766">
+  <g id="Group_243" data-name="Group 243" transform="translate(-875 -641)">
+    <g id="Ellipse_28" data-name="Ellipse 28" transform="translate(875 641)" fill="none" stroke="#999" stroke-width="1">
+      <circle cx="24.383" cy="24.383" r="24.383" stroke="none"/>
+      <circle cx="24.383" cy="24.383" r="23.883" fill="none"/>
+    </g>
+    <path id="Chevron_Right_1_" d="M62.825,7.547,55.516.24A.821.821,0,1,0,54.354,1.4l6.73,6.728-6.729,6.728a.821.821,0,0,0,1.162,1.16l7.31-7.307A.828.828,0,0,0,62.825,7.547Z" transform="translate(841.207 657.255)" fill="#999"/>
+  </g>
+</svg>

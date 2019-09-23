@@ -3,36 +3,184 @@
 <head>
 	<title>registrasi siswa</title>
 	<script src="assets/js/jquery.js"></script>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive/re-responsive.css">
+
 </head>
+<style type="">
+	*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+html, body{
+  overflow-x: hidden;
+}
+</style>
 <body>
+	<!--nav-->
+<section class ="nav-bar">
+  <div class="nav-container">
+    <div class="brand">
+      <a href="index.html"><img src="assets/img/homepage/logo-blue.svg"></a>
+    </div>
+    <nav>
+      <div class="nav-mobile"><a id="nav-toggle" href="#"><span></span></a></div>
+      <ul class="nav-list">
+        <li> <a href="index.html">Home</a></li>
+        <li><a href="tentang.html">Tentang</a> </li>
+
+      	<li> <a href="#">Kategori</a>
+          <ul class="nav-dropdown">
+            <li><a href="#">Semua</a></li>
+            <li><a href="#">Cerpen</a></li>
+            <li><a href="#">Novel</a></li>
+            <li><a href="#">Matematika</a></li>
+            <li><a href="#">Biografi</a></li>
+          </ul>
+        </li>
+
+        <li><a href="FAQ.html">FAQ</a></li>
+        <li><a href="login.html">Masuk</a></li>
+        <li><a href="reg_siswa.html" class="tombol">Daftar</a></li>
+      </ul>
+    </nav>
+  </div>
+</section>
+
 
 	
 		<div id="registrasi">	
 			<div class="container">
 				<div id="reg_head">
-					<img src="assets/img/homepage/logos.svg" width="30%" style="padding-left: 9%;">
+					<img src="assets/img/homepage/logos.svg" id="logosreg">
 					<h1 style="color: #fff">Buat Akun Baru</h1>	
-					<img src="assets/img/homepage/google.svg" width="8%"><img src="assets/img/homepage/telfon.svg" width="8%">
+					<img src="assets/img/homepage/google.svg" width="5%" class="head_img"><img src="assets/img/homepage/telfon.svg" width="5%" class="head_img">
 				</div>
 				<!--registrasi-->
+
+				<div class="daftar">
 					<form class="login-form" action="menu.html">
 					    <div class="txtb">
-					      <input type="text" id="" >
-					      <span data-placeholder="Nama Depan"></span>
+					      <input type="text" >
+					      <span data-placeholder="nama depan"></span>
+					    </div>
+
+					    <div class="txtb">
+					      <input type="text">
+					      <span data-placeholder="nama belakang"></span>
+					    </div><br>	
+					    <div class="txtb">
+					      <input type="email" >
+					      <span data-placeholder="alamat email"></span>
 					    </div>
 
 					    <div class="txtb">
 					      <input type="password">
-					      <span data-placeholder="Nama Belakang"></span>
+					      <span data-placeholder="id user"></span>
+					    </div><br>	
+
+					    <div class="txtb">	
+					    	<select name="pendidikan"  class="pilihan">
+					    		<option value="#" class="opt">Pendidikan</option>
+								<option value="#" class="opt">SD</option>
+								<option value="#" class="opt">SMP</option>
+								<option value="#" class="opt">SMK</option>
+								<option value="#" class="opt">SMA</option>
+								<option value="#" class="opt">Universitas</option>
+							</select>
 					    </div>
-					</form>    
+					    <div id="option">
+							    <div class="txtb" style="width: 100px">
+							      <select name="gender" class="pilihan">
+							    		<option value="#" class="opt">gender</option>
+							    		<option value="#" class="opt">Perempuan</option>
+										<option value="#" class="opt">Laki-laki</option>
+									</select>
+							    </div>	
+							    <div class="txtb" style="width: 100px; ">
+							      <select name="usia" class="pilihan">
+							    		<option value="#" class="opt">usia</option>
+							    		<option value="#" class="opt">7</option>
+										<option value="#" class="opt">8</option>
+										<option value="#" class="opt">9</option>
+										<option value="#" class="opt">10</option>
+										<option value="#" class="opt">11</option>
+										<option value="#" class="opt">12</option>
+										<option value="#" class="opt">13</option>
+										<option value="#" class="opt">14</option>
+										<option value="#" class="opt">15</option>
+										<option value="#" class="opt">16</option>
+										<option value="#" class="opt">17</option>
+										<option value="#" class="opt">18</option>
+									</select>
+							    </div>	
+						</div>	
+
+
+						<div class="txtb" id="width">
+					      <input type="password">
+					      <span data-placeholder="kata sandi"></span>
+					    </div><br>	
+					    <div class="txtb" id="width">
+					      <input type="password">
+					      <span data-placeholder="ulang kata sandi"></span>
+					    </div><br>	<br>	<br><br>	
+
+					    <input class="logbtn" type="submit" value="Daftar"></input><br><br>
+				        <div class="button-text">
+				          <span style="font-family: Quicksand , sans-serif; font-size: 16px;">sudah punya akun?</span><a href="#">masuk sekarang!</a>
+				        </div>
+
+
+					   
+
+					</form>
+				</div>    
 				
 			</div>
-			<img src="assets/img/homepage/login.svg" style="float: right; margin-top: -26%"></form>
-
-		
+			<img src="assets/img/homepage/login.svg" id="img_register"></form>
 		</div>
+		<footer>
+ 		<div class="container">
+			<div id="five">
+				<div class="list">
+					<img src="assets/img/homepage/logos.svg" width="30%"><br><br>	
+	 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+				</div>
+				<div id="navigasi">
+					<li>
+	 						<a href="#" style="font-size:16px" id="smol">Navigasi</a>	
+		 					<a href="#">Home</a>
+		 					<a href="#">kategori</a>
+		 					<a href="#">Daftar</a>
+	 				</li>
+				</div>
+				<div id="sport">
+					<li>	
+	 						<a href="#" style="font-size:16px" id="smol">Sport</a>	
+		 					<a href="#">Blog</a>
+		 					<a href="#">Help</a>
+		 					<a href="#">FAQ</a>
+	 					
+	 				</li>
+				</div>
+				<div id="contact">
+					<li>	
+		 					<a href="#"style="font-size:16px" id="smol">Contact</a>	
+		 					<a href="#">Sauqi.Arief@gmail.com</a>
+		 					<p>0852-1361-2215</p>
+		 					<a href="#"><img src="assets/img/homepage/fb.svg" width="30px"></a>
+		 					<a href="#"><img src="assets/img/homepage/ig.svg	"width="30px"></a>
+	 						<a href="#"><img src="assets/img/homepage/twitter-dark.svg" width="30px"></a>
+	 				</li>
+				</div>
+			</div>
+ 		</div>
+ 	</footer>
+
 			
 
 	 <script type="text/javascript">
