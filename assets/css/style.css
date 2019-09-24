@@ -1,101 +1,465 @@
-*{
-	padding: 0;
-	margin: 0;
-	font-family: sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
 }
-html, body{
+
+html,
+body {
   overflow-x: hidden;
 }
 
-.container{
-	max-width: 1080px;
-	width: 100%;
-	margin: auto;
+.container {
+  max-width: 1080px;
+  width: 100%;
+  margin: auto;
 }
+
 .nav-bar {
   height: 70px;
   background: #ffffff;
-   position: fixed;
-  width:  100%;
-   width:  100%;
-  margin-bottom: 15%; z-index: 999;
+  position: fixed;
+  width: 100%;
+  width: 100%;
+  margin-bottom: 15%;
+  z-index: 999;
 }
 
 /*.menu{*/
-	/*float: right;*/
-	/*margin-top: -40px; color: #fff;*/
+/*float: right;*/
+/*margin-top: -40px; color: #fff;*/
 /*}*/
 /*menu a{text-decoration: none; color: #fff;}	*/
 /*.menu ul li{display: inline;padding-right: 40px;text-decoration: none;}*/
 /*nav{background-color:#216583;  font-family:Sans-serif;  padding-top: 3%; font-size: 14px;}*/
-li{
-	list-style-type: none;
+li {
+  list-style-type: none;
 }
 
- border-radius: 25px; border: 1px solid #FFFFFF;}
-.logo.h4{padding-left: 3em; }
-.jumbotron-content{padding-top: 250px; color: #fff; }
-.jumbotron{ background-color: #216583; height: 609px; clear: both; position: relative; background-image:url(../img/homepage/bullet.svg); }
-.jumbotron h2  { font-size: 3em;  max-width: 13em; margin: auto; line-height: 45px; font-weight: 500;}
-.jumbotron h2 { text-align: center; }
-.jumbotron p{font-size: 14px; max-width: 39em; margin: auto; line-height: 25px; text-align: center;}
-.jumbotron a{ text-decoration: none; color: #fff;  padding: 18px 42px;
- border-radius: 25px; border: 1px solid #FFFFFF; position: relative;left: 40%
-	}
-.row{width: 100%; clear: both;}
-.col-3{width: 16,6%; float: left; padding: 12px; box-sizing: border-box; overflow: hidden;}
-.thumb{  width: 100%;}
-.col-2{width: 50%; float: left; padding: 12px; box-sizing: border-box; overflow: hidden;}
-h3{
+/*
+border-radius: 25px;
+border: 1px solid #FFFFFF;
+*/
+/*}*/
+.logo.h4 {
+  padding-left: 3em;
+}
+
+.jumbotron-content {
+  padding-top: 250px;
+  color: #fff;
+}
+
+.jumbotron {
+  background-color: #216583;
+  height: 609px;
+  clear: both;
+  position: relative;
+  background-image: url(../img/homepage/bullet.svg);
+}
+
+.jumbotron h2 {
+  font-size: 3em;
+  max-width: 13em;
+  margin: auto;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+.jumbotron h2 {
+  text-align: center;
+}
+
+.jumbotron p {
+  font-size: 14px;
+  max-width: 39em;
+  margin: auto;
+  line-height: 25px;
+  text-align: center;
+}
+
+.jumbotron a {
+  text-decoration: none;
+  color: #fff;
+  padding: 18px 42px;
+  border-radius: 25px;
+  border: 1px solid #FFFFFF;
+  position: relative;
+  left: 40%;
+}
+
+.row {
+  width: 100%;
+  clear: both;
+}
+
+.col-3 {
+  width: 16.6%;
+  float: left;
+  padding: 12px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.thumb {
+  width: 100%;
+}
+
+.col-2 {
+  width: 50%;
+  float: left;
+  padding: 12px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+h3 {
   float: center;
 }
-h1, h2{font-weight: 500; font-family: vidaloka;}
-.populer form{
+
+h1,
+h2 {
+  font-weight: 500;
+  font-family: vidaloka;
+}
+
+.populer form {
   margin: auto;
 }
-.tombol a{ padding: 0px 30px; height: 50px; border-radius: 25px; border: 1px solid black; padding-top: 2%;}
+
+.tombol a {
+  padding: 0px 30px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid black;
+  padding-top: 2%;
+}
+
 /*.tombol{padding: 15px 42px; border-radius: 25px; border: 1px solid #FFFFFF;}
-*/#two{ margin-top: 180px; margin-left: 10%;}
-#two h1{font-size: 24px; line-height: 35px; max-width: 231px; font-weight: 500;}
-#tri{margin-left: 10%;}
-#two p{margin-top: 45px; text-align: left; line-height: 32px; max-width: 450px; color: #888888;}
-#tri img{
-	margin-top: 215px;}
-#tri #text{margin-top: 300px; margin-left: 10%; }
-#text p{font-size: 14px; color: #888888; margin-top: 50px; line-height: 32px; max-width: 302px;}
-#text h1 { font-family: vidaloka, sans-serif; font-size: 24px; max-width: 267px; color: #666666; line-height: 35px;  }
-.workingspace{background-image: url(../img/homepage/jumbotron-bg.png);height: 628px; margin-top: 80%; background-size: cover;
-	}
-.col-4{width: 30%;float: left; padding:0px; box-sizing: border-box; overflow: hidden; }
+*/
+#two {
+  margin-top: 180px;
+  margin-left: 10%;
+}
 
-#four{ margin-top: 20em; }
-#shring{padding-left: 47%;}
-#shring img{position: relative; right: 39%;}
-.box img{width: 62px;} .box h2{color: #666666; font-size: 16px; line-height: 20px; width: 150px;} .box p{color: #666666; line-height: 20px; font-size: 10px; width: 250px; padding-top: 8px;}
-.box{ position: relative; display: inline; background-color: #FFFFFF; float: left; height: 270px; margin-top:50%; border-radius: 16px; box-shadow: 0px 5px 15px #888888;  width: 85%; left: 5%;}
-.box li{ float: left; margin-top: 5%; padding-left: 14%;} .box img{right: 23%; position: relative;}
-.books{text-align: center;} .books h2{font-size: 20px; color: #9F9C9C} .books p{line-height: 30px; font-size: 14px; max-width: 570px;
- margin: 0 auto; color: #888888;} #find:hover{color:#216583; border: 2px solid #216583; background: #fff; }
-.books a{background-color: #216583; color: #fff;  padding: 18px 42px;
- border-radius: 25px; border: 1px solid #216583; margin-top: 2em;}
- a{text-decoration: none;}
- /*footer*/
-footer{background-color: #1C6A7E; color: #fff;
- height: 350px; 
- margin-top: 8em;
+#two h1 {
+  font-size: 24px;
+  line-height: 35px;
+  max-width: 231px;
+  font-weight: 500;
+}
 
- } #five{ padding-top: 5em;} .list{max-width: 320px; line-height: 25px;  font-size: 14px;}
-  #navigasi li{list-style-type: none; max-width: 8%; line-height: 2em; margin-left: 27em; margin-top: -7em; color: #fff;}
-  #sport{list-style-type: none; max-width: 6%; line-height: 2em; margin-left: 39em; margin-top: -8em;}
-  footer a{ color: #fff; }
-  /*ahir footer*/
-  
-#contact{max-width:15%; list-style-type: none; line-height: 2em; margin-left: 51em; margin-top: -8em;}
+#tri {
+  margin-left: 10%;
+}
+
+#two p {
+  margin-top: 45px;
+  text-align: left;
+  line-height: 32px;
+  max-width: 450px;
+  color: #888888;
+}
+
+#tri img {
+  margin-top: 215px;
+}
+
+#tri #text {
+  margin-top: 300px;
+  margin-left: 10%;
+}
+
+#text p {
+  font-size: 14px;
+  color: #888888;
+  margin-top: 50px;
+  line-height: 32px;
+  max-width: 302px;
+}
+
+#text h1 {
+  font-family: vidaloka, sans-serif;
+  font-size: 24px;
+  max-width: 267px;
+  color: #666666;
+  line-height: 35px;
+}
+
+.workingspace {
+  background-image: url(../img/homepage/jumbotron-bg.png);
+  height: 628px;
+  margin-top: 80%;
+  background-size: cover;
+}
+
+.col-4 {
+  width: 30%;
+  float: left;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#four {
+  margin-top: 20em;
+}
+
+#shring {
+  padding-left: 47%;
+}
+
+#shring img {
+  position: relative;
+  right: 39%;
+}
+
+.box img {
+  width: 62px;
+}
+
+.box h2 {
+  color: #666666;
+  font-size: 16px;
+  line-height: 20px;
+  width: 150px;
+}
+
+.box p {
+  color: #666666;
+  line-height: 20px;
+  font-size: 10px;
+  width: 250px;
+  padding-top: 8px;
+}
+
+.box {
+  position: relative;
+  display: inline;
+  background-color: #FFFFFF;
+  float: left;
+  height: 270px;
+  margin-top: 50%;
+  border-radius: 16px;
+  box-shadow: 0px 5px 15px #888888;
+  width: 85%;
+  left: 5%;
+}
+
+.box li {
+  float: left;
+  margin-top: 5%;
+  padding-left: 14%;
+}
+
+.box img {
+  right: 23%;
+  position: relative;
+}
+
+.books {
+  text-align: center;
+}
+
+.books h2 {
+  font-size: 20px;
+  color: #9F9C9C;
+}
+
+.books p {
+  line-height: 30px;
+  font-size: 14px;
+  max-width: 570px;
+  margin: 0 auto;
+  color: #888888;
+}
+
+#find:hover {
+  color: #216583;
+  border: 2px solid #216583;
+  background: #fff;
+}
+
+.books a {
+  background-color: #216583;
+  color: #fff;
+  padding: 18px 42px;
+  border-radius: 25px;
+  border: 1px solid #216583;
+  margin-top: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*footer*/
+footer {
+  background-color: #1C6A7E;
+  color: #fff;
+  height: 350px;
+  margin-top: 8em;
+}
+
+#five {
+  padding-top: 5em;
+}
+
+.list {
+  max-width: 320px;
+  line-height: 25px;
+  font-size: 14px;
+}
+
+#navigasi li {
+  list-style-type: none;
+  max-width: 8%;
+  line-height: 2em;
+  margin-left: 27em;
+  margin-top: -7em;
+  color: #fff;
+}
+
+#sport {
+  list-style-type: none;
+  max-width: 6%;
+  line-height: 2em;
+  margin-left: 39em;
+  margin-top: -8em;
+}
+
+footer a {
+  color: #fff;
+}
+
+/*ahir footer*/
+#contact {
+  max-width: 15%;
+  list-style-type: none;
+  line-height: 2em;
+  margin-left: 51em;
+  margin-top: -8em;
+}
 
 /*books*/
-
-
 /*RESPONSIVE*/
 /*mobile*/
 /*RESPONSIVE*/
 /*mobile*/
+/**
+Global responsive
+**/
+.container {
+  margin: 0 auto !important;
+  clear: both;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.center-content * {
+  left: unset !important;
+}
+
+@media screen and (max-width: 980px) {
+  .container {
+    max-width: 768px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 600px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100% !important;
+    padding: 0px 15px !important;
+    box-sizing: border-box;
+  }
+}
+/**
+Footer responsive 
+**/
+@media screen and (max-width: 768px) {
+  .nav-bar nav {
+    padding: 0 0 15px !important;
+  }
+  .nav-bar nav .nav-list {
+    margin-top: 45px;
+  }
+  .nav-bar .brand {
+    padding-top: 10px;
+  }
+
+  #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+    height: 3px !important;
+    width: 30px !important;
+  }
+
+  footer {
+    height: unset !important;
+    overflow: hidden;
+    clear: both;
+    padding: 50px 0;
+  }
+  footer #five {
+    position: unset;
+    clear: both;
+    overflow: hidden;
+    padding-top: unset;
+  }
+  footer #five #navigasi li {
+    padding-top: 20px;
+    width: 100% !important;
+    margin-left: unset !important;
+    max-width: unset !important;
+    display: block;
+    margin-top: unset !important;
+  }
+  footer #five #navigasi li a {
+    width: 100% !important;
+    display: block;
+  }
+  footer #five #sport {
+    padding-top: 20px;
+    max-width: unset !important;
+    margin-left: unset !important;
+    margin-top: unset !important;
+  }
+  footer #five #sport a {
+    width: 100% !important;
+    display: block;
+  }
+  footer #five #contact {
+    width: 100%;
+    margin-top: unset !important;
+    max-width: unset !important;
+    margin-left: unset !important;
+  }
+  footer #five .list {
+    width: 100% !important;
+    overflow: hidden;
+    left: unset !important;
+    position: static !important;
+    float: left;
+    max-width: 100%;
+  }
+  footer #five #navigasi {
+    width: 50% !important;
+    float: left;
+  }
+  footer #five #sport {
+    width: 50% !important;
+    float: left;
+  }
+  footer #five #contact {
+    padding-top: 15px;
+    width: 100%;
+    float: left;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
