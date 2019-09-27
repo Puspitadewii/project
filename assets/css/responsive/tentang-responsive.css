@@ -183,241 +183,54 @@ nav ul li ul li a {
   transform: rotate(-45deg);
 }
 
-/*ahir hamburger*/
-/*IPAD*/
-/*
- @media only screen and (max-width: 768px) {
 
-  .container{max-width: 700px!important; width: 100%;}
 
-  .nav-mobile {
-    display: block;
-  }
-  nav {
-    width: 100%;
-    padding: 70px 0 15px;
-  }
-  nav ul {
-    display: none;
-  }
-  nav ul li {
-    float: none;
-  }
-  /*nih tambahinn*/
-/*nav ul li a {
-    padding: 15px;
-    line-height: 20px;
-  padding-left: 25%;background: #fff; padding: 10px; padding-left: 49%;
 
-  }
-  nav ul li ul li a {
-    padding-left: 39%;
-  }
-
-  .nav-dropdown {
-    position: static;
-  }
-  .brand a img {
-    max-height: 60px;
-    margin-top: 5px;
-  }
-  #two{ margin-top: 120px; }
-  .thumb p{margin-top: 3%!important; font-size: 14px; line-height: 10px;} #boy{width: 100%;} 
-  #text{margin-top: 250px!important;}
-  .workingspace{margin-top: 95%!important;}
-  .box{background-color: #FFFFFF; height: 270px; margin-top: 75%!important; border-radius: 16px; box-shadow: 1px 4px 10px #888888;}
-  #four{ margin-top: 17em; }
-  #footer{height: 300px;}
-#five{ padding-top: 5em!important; margin-top: 5%; font-size: 12px;} #navigasi li{max-width: 4%!important; line-height: 2em; margin-left: 25em!important; margin-top: -7em; color: #fff;}
-  #sport{list-style-type: none; max-width: 6%; line-height: 2em; margin-left: 35em!important; margin-top: -8em;}
-  #contact{margin-left: 40em!important; margin-top: -8em!important; max-width: 30%!important;}  #contact a p{font-size: 13px;}
- #find:hover{background-color: #fff;  color:#216583;  padding: 18px 42px;} #navigasi{margin-top: -14%!important; position: relative; left: 5%;}
-#smol{font-size: 14px!important;}
-.list p{font-size: 12px;}
-
- #grup {position: relative; left: 37%; margin-top: -10%;} #grup p{padding-top: 15%!important;}
- #grup img{position: relative; right: 40%; float: left;} #grup h2{margin-top: 2px;} #shring{position: relative; left: 20%; margin-top: -12%;} #shring img{}
- .sub p{width: 160px!important; font-size: 10px; line-height: 16px;}
- .sub{margin-top: -5%;}  #shring img{position: relative; right: 40%;}
-}**/
-/*ukuran 1024*/
-@media screen and (max-width: 1024px) {
-  .container {
-    max-width: 900px;
-    margin: 0;
-  }
-
-  .nav-container {
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-
-  .list {
-    position: relative;
-    left: 10%;
-  }
-
-  #two {
-    margin-top: 120px;
-  }
-
-  .thumb p {
-    margin-top: 3% !important;
-    font-size: 14px;
-    line-height: 10px;
-  }
-
-  #boy {
-    width: 100%;
-  }
-
-  #text {
-    margin-top: 250px !important;
-  }
-
-  .workingspace {
-    background-image: url(../img/homepage/jumbotron-bg.png);
-    height: 628px;
-    margin-top: 80%;
-    background-size: cover;
-  }
-
-  .box {
-    display: inline;
-    background-color: #FFFFFF;
-    float: left;
-    height: 270px;
-    margin-top: 50%;
-    border-radius: 16px;
-    box-shadow: 0px 5px 15px #888888;
-    width: 85%;
-  }
-
-  #four {
-    margin-top: 17em;
-  }
-
-  footer {
-    height: 300px;
-  }
-
-  footer .container {
-    max-width: 900px;
-    margin: 0 auto;
-  }
-
-  #navigasi li {
-    max-width: 4% !important;
-    line-height: 2em;
-    margin-left: 25em !important;
-    margin-top: -7em;
-    color: #fff;
-  }
-
-  #sport {
-    list-style-type: none;
-    max-width: 6%;
-    line-height: 2em;
-    margin-left: 35em !important;
-    margin-top: -8em;
-  }
-
-  #contact {
-    margin-left: 40em !important;
-    margin-top: -8em !important;
-    max-width: 30% !important;
-  }
-
-  #contact a p {
-    font-size: 13px;
-  }
-
-  #find:hover {
-    background-color: #fff;
-    color: #216583;
-    padding: 18px 42px;
-  }
-
-  #smol {
-    font-size: 14px !important;
-  }
-
-  .list p {
-    font-size: 12px;
-  }
-
-  .box li {
-    margin: 0% !important;
-    float: left;
-    padding: 9%;
-    margin-top: -5%;
-  }
-
-  #grup {
-    position: relative;
-    left: 37%;
-    margin-top: -10%;
-  }
-
-  #grup p {
-    padding-top: 15% !important;
-  }
-
-  #grup img {
-    position: relative;
-    right: 40%;
-    float: left;
-  }
-
-  #grup h2 {
-    margin-top: 2px;
-  }
-
-  .box #shring {
-    position: relative;
-    left: 20%;
-    margin-top: -92%;
-  }
-
-  .sub p {
-    width: 160px !important;
-    font-size: 10px;
-    line-height: 16px;
-  }
-
-  .sub {
-    margin-top: -5%;
-  }
-}
+/**/
 /**
 Responsive
 */
+
 @media screen and (max-width: 768px) {
+  .container {
+    max-width: 600px !important;
+  }
   .workingspace {
-    margin-top: unset !important;
-    height: unset;
-    overflow: hidden;
+ background-image: url(../img/homepage/jumbotron-bg.png)
+  height: 50px!important;
+}
+  .workingspace {
+    margin-top: 20px!important;
+    height: 400px!important;
+  
   }
   .workingspace .box {
     box-sizing: border-box;
-    margin-top: 20px !important;
+    margin-top: 80px !important;
     margin-bottom: 20px !important;
     clear: both;
-    overflow: hidden;
-    height: unset !important;
+    height: 200px!important;
     width: 100% !important;
     left: 0 !important;
     padding-bottom: 20px;
+    box-shadow: 0px 5px 15px #888888!important;
+  
+  }
+  .workingspace .box{
+    margin-top: 50%!important;
+    height: 250px!important;
+    
   }
   .workingspace .box li {
-    width: 100% !important;
-    margin-top: unset !important;
+    width: 90% !important;
+    margin-top: -20px !important;
     display: block;
-    padding: 10px;
+    padding: 10px!important;
     box-sizing: border-box;
+    float: right!important;
   }
   .workingspace .box li #grup, .workingspace .box li #shring {
-    margin-top: unset !important;
+    margin-top: 25px!important;
     left: unset !important;
     clear: both;
     padding-top: 20px;
@@ -427,21 +240,37 @@ Responsive
     align-items: center;
     text-align: center;
     padding-left: unset !important;
+    width: 30%;
+    margin-left: 40px;
+
   }
+  .workingspace .box li #shring{
+    position: relative;
+    left: 46%!important;
+    margin-top: -166px!important;
+  }
+  .workingspace .box li #shring img{
+    margin-top: -19%!important;
+    width: 50px;
+  }
+   
+ 
   .workingspace .box li #grup img, .workingspace .box li #shring img {
-    min-height: 50px;
+    min-height: 10px!important;
     float: none;
     display: block;
-    right: unset !important;
+    right: 50px !important;
   }
   .workingspace .box li #grup p, .workingspace .box li #shring p {
     width: 100% !important;
-    padding-top: 15px !important;
-    font-size: 14px;
+    padding-top: 10px !important;
+    font-size: 10px;
   }
   .workingspace .box li #grup h2, .workingspace .box li #shring h2 {
     float: none;
-    width: 100%;
+    max-width: 250px;
+    padding-top: 8px; padding-left: 15px;
+    line-height: 13px;
   }
 
   #two, #tri {
@@ -469,8 +298,68 @@ Responsive
   }
 
   #four {
-    margin-top: 50px !important;
+    margin-top: 100px !important;
   }
 }
 
+@media screen and (max-width: 420px) {
+  .container{
+    max-width: 300px!important;
+  }
+   .workingspace {
+    margin-top: 20px!important;
+    height: 210px!important;
+  
+  }
+  .workingspace .box {
+    box-sizing: border-box;
+    margin-top: 80px !important;
+    margin-bottom: 20px !important;
+    clear: both;
+    height: 200px!important;
+    width: 100% !important;
+    left: 0 !important;
+    padding-bottom: 20px;
+    box-shadow: 0px 5px 15px #888888!important;
+  
+  }
+  .workingspace .box{
+    margin-top: 50%!important;
+    height: 420px!important;
+    
+  }
+  .workingspace .box li {
+    width: 100% !important;
+    margin-top: -10px !important;
+    display: block;
+    padding: 10px!important;
+    box-sizing: border-box;
+    float: right!important;
+  }
+  .workingspace .box li #grup p , .workingspace .box li #shring p{
+    width: 180px!important;
+  }
+
+  .workingspace .box li #shring{
+    position: relative;
+    left: 20%!important;
+    margin-top: 20px!important;
+ 
+  }
+  .workingspace .box li #grup{
+    position: relative;
+    left: 20%!important;
+    margin-top: 10px!important;
+ 
+  }
+  #four {
+    margin-top: 25em !important;
+  }
+  .workingspace .box li #grup h2, .workingspace .box li #shring h2 {
+    float: none;
+    max-width: 250px;
+    padding-top: 8px; padding-left: 4px;
+    line-height: 13px;
+  }
+}
 /*# sourceMappingURL=tentang-responsive.css.map */

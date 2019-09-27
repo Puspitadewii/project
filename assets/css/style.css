@@ -25,22 +25,10 @@ body {
   z-index: 999;
 }
 
-/*.menu{*/
-/*float: right;*/
-/*margin-top: -40px; color: #fff;*/
-/*}*/
-/*menu a{text-decoration: none; color: #fff;}	*/
-/*.menu ul li{display: inline;padding-right: 40px;text-decoration: none;}*/
-/*nav{background-color:#216583;  font-family:Sans-serif;  padding-top: 3%; font-size: 14px;}*/
 li {
   list-style-type: none;
 }
 
-/*
-border-radius: 25px;
-border: 1px solid #FFFFFF;
-*/
-/*}*/
 .logo.h4 {
   padding-left: 3em;
 }
@@ -48,6 +36,9 @@ border: 1px solid #FFFFFF;
 .jumbotron-content {
   padding-top: 250px;
   color: #fff;
+}
+.jumbotron-content h1{
+  color: #fff; text-decoration: none;
 }
 
 .jumbotron {
@@ -70,6 +61,7 @@ border: 1px solid #FFFFFF;
   text-align: center;
 }
 
+
 .jumbotron p {
   font-size: 14px;
   max-width: 39em;
@@ -78,7 +70,7 @@ border: 1px solid #FFFFFF;
   text-align: center;
 }
 
-.jumbotron a {
+.join {
   text-decoration: none;
   color: #fff;
   padding: 18px 42px;
@@ -135,8 +127,6 @@ h2 {
   padding-top: 2%;
 }
 
-/*.tombol{padding: 15px 42px; border-radius: 25px; border: 1px solid #FFFFFF;}
-*/
 #two {
   margin-top: 180px;
   margin-left: 10%;
@@ -205,14 +195,11 @@ h2 {
   margin-top: 20em;
 }
 
-#shring {
-  padding-left: 47%;
+.workingspace .box li #shring {
+  position: relative;
+  left: 37%;
 }
 
-#shring img {
-  position: relative;
-  right: 39%;
-}
 
 .box img {
   width: 62px;
@@ -247,17 +234,16 @@ h2 {
 }
 
 .box li {
-  float: left;
+  float: left!important;
   margin-top: 5%;
-  padding-left: 14%;
+  padding-left: 14%; 
+  
 }
 
-.box img {
-  right: 23%;
-  position: relative;
+.workingspace .box li img{
+  display: inline-block!important;
 }
-
-.books {
+  .books {
   text-align: center;
 }
 
@@ -291,6 +277,10 @@ h2 {
 
 a {
   text-decoration: none;
+}
+.workingspace .box li #shring img{
+  position: relative; right:-1%!important;
+  width: 55px;
 }
 
 /*footer*/
@@ -331,24 +321,11 @@ footer {
 footer a {
   color: #fff;
 }
-
+#contact{max-width:15%; list-style-type: none; line-height: 2em; margin-left: 51em; margin-top: -8em;}
 /*ahir footer*/
-#contact {
-  max-width: 15%;
-  list-style-type: none;
-  line-height: 2em;
-  margin-left: 51em;
-  margin-top: -8em;
-}
 
-/*books*/
-/*RESPONSIVE*/
-/*mobile*/
-/*RESPONSIVE*/
-/*mobile*/
-/**
-Global responsive
-**/
+
+/*GLOBAL RESPONSIVE*/
 .container {
   margin: 0 auto !important;
   clear: both;
@@ -363,26 +340,317 @@ Global responsive
   left: unset !important;
 }
 
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 900px;
+    margin: 0;
+  }
+
+  .nav-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .list {
+    position: relative;
+    left: 1%;
+  }
+
+  #two {
+    margin-top: 120px;
+  }
+
+  .thumb p {
+    margin-top: 3% !important;
+    font-size: 14px;
+    line-height: 10px;
+  }
+
+  #boy {
+    width: 100%;
+  }
+
+  #text {
+    margin-top: 250px !important;
+  }
+
+  .workingspace {
+    /*background-image: url(../img/homepage/jumbotron-bg.png);*/
+    height: 628px;
+    margin-top: 80%;
+    background-size: cover;
+  }
+
+  .box {
+    
+    background-color: #FFFFFF;
+    float: left;
+    height: 270px;
+    margin-top: 540px;
+    border-radius: 16px;
+    box-shadow: 0px 5px 15px #888888;
+    width: 85%;
+  }
+    .box li{
+      float: left!important;
+    }
+  #four {
+    margin-top: 17em;
+  }
+
+  
+  
+  #find:hover {
+    background-color: #fff;
+    color: #216583;
+    padding: 18px 42px;
+  }
+
+  #smol {
+    font-size: 14px !important;
+  }
+     .workingspace .box li #shring{
+    position: relative;
+    left: 61%!important;
+    margin-top: -170px!important;
+  }
+    
+  .workingspace .box li {
+    width: 50% !important;
+    margin-top: unset !important;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    float: right!important;
+  }
+  .workingspace .box li #grup p, .workingspace .box li #shring p {
+    width: 60% !important;
+    padding-top: 8px !important;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: left;
+  }
+   .workingspace .box li #grup p {
+    padding-top: 7px!important;
+}
+.workingspace .box li #grup h2 {
+    padding-top: 20px!important;
+}
+  .workingspace .box li #grup, .workingspace .box li #shring {
+    margin-top: unset !important;
+    left: unset !important;
+    clear: both;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: unset !important;
+    width: 70%;
+    margin-left: 50px;
+
+  }
+  .workingspace .box li #grup h2, .workingspace .box li #shring h2 {
+    float: none;
+    max-width: 250px;
+    padding-top: 10px;
+    line-height: 15px;
+    text-align: left;
+  }
+  .workingspace .box li #shring img , .workingspace .box li #grup img{
+  position: relative; right: 18%!important;
+  width: 55px;
+}
+{
+  position: relative; left: 5%;
+  width: 55px;
+}
+
+   
+  
+}
 @media screen and (max-width: 980px) {
   .container {
     max-width: 768px !important;
   }
+  .box{
+    margin-top: 70%!important;
+    width: 100%!important;
+    position: relative!important;
+    left: -1%!important;
+  }
+  .workingspace .box li #shring {
+  position: relative;
+  left:2%;
+  margin-top: -2%!important;
+  }
+  .workingspace .box li #shring p, .workingspace .box li #grup p{
+    width: 180px!important;
+  }
+  .workingspace .box li #shring h2, .workingspace .box li #grup h2{
+    padding-top: 7px!important; padding-right: 30px;
+  }
+  .workingspace .box li #shring img, .workingspace .box li #grup img{
+    padding-left: 30px;
+  }
+  .workingspace .box li #grup h2{
+    left: 1%; position: relative;
+  }
+  .workingspace .box li #shring h2{
+    padding-top: 15px!important;
+  }
+  .workingspace .box li #grup{
+    margin-top: unset !important;
+    left: unset !important;
+    clear: both;
+    padding-top: 30px!important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: unset !important;
+    width: 70%;
+    margin-left: 50px;
+
+  }
+
+
+
+
 }
 @media screen and (max-width: 768px) {
   .container {
     max-width: 600px !important;
   }
+  
 }
-@media screen and (max-width: 768px) {
-  .container {
-    width: 100% !important;
-    padding: 0px 15px !important;
-    box-sizing: border-box;
+/*hp*/
+@media screen and (max-width: 420px) {
+  .container{
+    max-width: 300px!important;
   }
+  .jumbotron h2 {
+  font-size: 28px;
+  max-width: 13em;
+  margin: auto; margin-top: -30px;
+  line-height: 45px;
+  font-weight: 500;
+}
+  .jumbotron {
+  background-color: #216583;
+  height: 609px;
+  clear: both;
+  position: relative;
+  background-image: url(../img/homepage/bullet.svg);
+}
+.join{
+  margin-top: -50px;
+}
+
+    
 }
 /**
 Footer responsive 
 **/
+
+/*fot 1024*/
+@media screen and (max-width: 1024px) {
+  footer {
+    height: 300px;
+  }
+
+  footer .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  #navigasi li {
+    max-width: 4% !important;
+    line-height: 2em;
+    margin-left: 25em !important;
+    margin-top: -7em;
+    color: #fff;
+  }
+
+  #sport {
+    list-style-type: none;
+    max-width: 6%;
+    line-height: 2em;
+    margin-left: 35em !important;
+    margin-top: -8em;
+  }
+
+  #contact {
+    margin-left: 43em !important;
+    margin-top: -8em !important;
+    max-width: 30% !important;
+  }
+
+  #contact a p {
+    font-size: 13px;
+  }
+  .list p {
+    font-size: 12px;
+  }
+}
+/*fot 980*/
+@media screen and (max-width: 980px) {
+  footer .container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+   #contact {
+    margin-left: 40em !important;
+    margin-top: -8em !important;
+    max-width: 30% !important;
+  }
+  #contact a p {
+    font-size: 13px;
+  }
+  .list p {
+    font-size: 12px;
+  }
+  #smol {
+    font-size: 12px !important;
+  }
+   footer #five .list {
+     max-width: 280px!important;
+    overflow: hidden;
+    right: 10% !important;
+    position: relative !important;
+    float: left; 
+  
+    max-width: 100%;
+  }
+  #navigasi li {
+    max-width: 4% !important;
+    line-height: 2em;
+    margin-left: 22em !important;
+    margin-top: 3em;
+    color: #fff;
+  }
+
+  #sport {
+    list-style-type: none;
+    max-width: 6%;
+    line-height: 2em;
+    margin-left: 30em !important;
+    margin-top: -8em;
+  }
+
+  #contact {
+    margin-left: 37em !important;
+    margin-top: -8em !important;
+    max-width: 30% !important;
+  }
+  footer #five a p{
+    font-size: 10px!important;
+  }
+  
+}
+/*fot 768*/
 @media screen and (max-width: 768px) {
   .nav-bar nav {
     padding: 0 0 15px !important;
@@ -411,10 +679,16 @@ Footer responsive
     overflow: hidden;
     padding-top: unset;
   }
+  footer #five .list{
+   
+  }
+  footer #five #navigasi{
+    margin-top: 5%;
+  }
   footer #five #navigasi li {
     padding-top: 20px;
-    width: 100% !important;
-    margin-left: unset !important;
+    width: 10% !important;
+    margin-left: 8% !important;
     max-width: unset !important;
     display: block;
     margin-top: unset !important;
@@ -425,9 +699,9 @@ Footer responsive
   }
   footer #five #sport {
     padding-top: 20px;
-    max-width: unset !important;
-    margin-left: unset !important;
-    margin-top: unset !important;
+    max-width: 100px !important;
+    margin-left: 62%!important;
+    margin-top: -25% !important;
   }
   footer #five #sport a {
     width: 100% !important;
@@ -435,12 +709,17 @@ Footer responsive
   }
   footer #five #contact {
     width: 100%;
-    margin-top: unset !important;
+    margin-top: -24% !important;
     max-width: unset !important;
-    margin-left: unset !important;
+    margin-left: 75% !important;
+    padding-top: 15px;
+    float: left;
+  }
+  footer #five #contact li{
+    width: 30%;
   }
   footer #five .list {
-    width: 100% !important;
+     max-width: 230px!important;
     overflow: hidden;
     left: unset !important;
     position: static !important;
@@ -455,11 +734,53 @@ Footer responsive
     width: 50% !important;
     float: left;
   }
+  
+}
+/*fot 420*/
+@media screen and (max-width: 420px){
+  footer .container{
+    max-width: 304px;
+    margin: 0 auto;
+  }
+   
+   
+  footer #five #navigasi{
+    margin-top: unset !important;
+  }
+  footer #five #navigasi li {
+    padding-top: 20px;
+    width: 10% !important;
+    margin-left: 158% !important;
+    max-width: unset !important;
+    display: block;
+    margin-top: -150px !important;
+  }
+   footer #five #sport {
+    padding-top: 20px;
+    max-width: 100px !important;
+    margin-left: 2%!important;
+    margin-top: -1% !important;
+  }
+  footer #five #sport a {
+    width: 100% !important;
+    display: block;
+  }
   footer #five #contact {
-    padding-top: 15px;
     width: 100%;
+    margin-top: -48% !important;
+    max-width: unset !important;
+    margin-left: 35% !important;
+    padding-top: px;
     float: left;
   }
+  footer #five #contact li{
+    width: 40%;
+  }
+
+
+
 }
+
+/*ahir footer responsive*/
 
 /*# sourceMappingURL=style.css.map */

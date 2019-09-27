@@ -20,7 +20,7 @@ h2, h3{
 	margin: auto;
   
 }
-.nav-bar
+.nav-baru
 /*un
  dropdown*/
 /*ahirdropdown*/
@@ -67,16 +67,6 @@ li{list-style-type: none;}
 #img{
 	padding: 9px;
 }
-/*footer*/
-footer{background-color: #1C6A7E; color: #fff;
- height: 350px; 
- margin-top: 8em;
- } #five{ padding-top: 5em;} .list{max-width: 320px; line-height: 25px;  font-size: 14px;}
-  #navigasi li{list-style-type: none; max-width: 8%; line-height: 2em; margin-left: 27em; margin-top: -7em; color: #fff;}
-  #sport{list-style-type: none; max-width: 6%; line-height: 2em; margin-left: 39em; margin-top: -8em;}
-  footer a{ color: #fff; }
-  /*ahir footer*/
-#contact{max-width:15%; list-style-type: none; line-height: 2em; margin-left: 51em; margin-top: -8em;}
 
 
  #logos{width: 40%;}
@@ -103,8 +93,8 @@ margin-top: 100px;
 position: absolute; top: 0; right: 0; height: 42px; width: 160px; font-size: 14px; color: #fff;text-align: center;line-height: 42px;border-width: 0;
 background-color: #216583;-moz-border-radius: 0px 5px 5px 0px; border-radius: 40px;cursor: pointer; margin-top: 6px;
 }
-#ket_foot{padding-top: 12px; line-height: 25px; padding-left: 36px;}
-#ket img{padding: 2px;}
+#ket_foot{padding-top: 12px; line-height: 23px; padding-left: 8px;}
+#ket img{padding: 1px;}
 /*genre populer*/
 #genre-buku-populer img{
 	padding: 17px;
@@ -122,8 +112,8 @@ background-color: #216583;-moz-border-radius: 0px 5px 5px 0px; border-radius: 40
 #home-link a{margin: 20px;}
 #link{color: #999999;padding: 15px 42px; border-radius: 25px; border: 1px solid #DBDBDB}
 #novel{color: #E8E8E8; padding: 15px 42px; border-radius: 25px; border: 1px solid #DBDBDB; background-color: #216583;}
-#buku_first{margin-top: 60px; margin-left: 6%;}
-#buku_second{ margin-left: 6%; margin-top: 35%; height: 400px;}
+#buku_first{margin-top: 60px; margin-left: 14%;}
+#buku_second{ margin-left: 14%; margin-top: 35%; height: 400px;}
 .col p{line-height: 24px; font-size: 14px;}
 /*Grid*/
 .row{
@@ -146,7 +136,7 @@ background-color: #216583;-moz-border-radius: 0px 5px 5px 0px; border-radius: 40
 .col{ float: left; }
 /*fitur*/
 #fitur-dukungan a{color: #E8E8E8; padding: 15px 42px; border-radius: 25px; border: 1px solid #DBDBDB; background-color: #042F4B; float: left; margin-top: 26%; position: relative; right: 37%;}
-#fitur-dukungan{background-color: #042F4B; width: 100%; height: 635px; margin-top: 7%;} #fitur-dukungan h2{font-size: 24px; color: #FFFFFF; font-weight: 500; padding-top: 9%;}
+#fitur-dukungan{background-color: #042F4B; width: 100%; height: 595px; margin-top: 30%;} #fitur-dukungan h2{font-size: 24px; color: #FFFFFF; font-weight: 500; padding-top: 9%;}
 #fitur-dukungan li{max-width: 200px; float: left; padding-left: 11%; margin-top: 6%; } #fitur-dukungan li p{color: white; font-size: 14px; line-height: 24px; text-align: center;}
 #fitur-dukungan h4{color: white; padding-top: 5%;} #fitur-dukungan img{padding-left: 9%;} #membaca_seru img, #tukar_poin img{left: 18%; position: relative;} #fitur_gratis{margin-top: -9%;}
 
@@ -159,6 +149,8 @@ background-color: #216583;-moz-border-radius: 0px 5px 5px 0px; border-radius: 40
 #tingkat_literasi h2{ font-size: 36px; color: #666666;  max-width: 300px; text-align: left; line-height: 42px;}
 .btn_testy{color: #E8E8E8; padding: 15px 42px; border-radius: 25px; border: 1px solid #DBDBDB; background-color: #042F4B; }
 /*testimony*/ 
+#yuki .comment{background-color:#fff ; height: 130px; width: 300px; border-radius: 20px 20px 20px 0px;  box-shadow: 0px 5px 17px #888888; float: }
+
 
 /*FAQ*/
 #faq_how h1{margin: 0 auto; color: #666666; margin-top: 160px;}

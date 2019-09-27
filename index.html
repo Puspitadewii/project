@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="assets/css/responsive/home-responsive.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/page.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
 	<script src="assets/js/jquery.js"></script>
@@ -45,7 +46,12 @@
 
 	<!--ahir nav-->
 			<div class="home-head" >
-					<h1 >Baca Buku Dan Tingkatkan Nilai</h1><br>
+					<h1>
+		 				<a href="" class="typewrite" data-period="2000" data-type='[ "Baca Buku Dan Tingkatkan Nilai Sekolahmu" ]' style="color: #666666; font-size: 42px;">
+					    <span class="wrap"></span>
+					  </a>
+		 			</h1>
+					<br>
 					<p>dengam membaca di gleam kalian bisa mendapatkan poin dan tukarkan dengan nilai sekolah, kami bekerja sama dengan  gurumu untuk mewujudkannya !</p>
 				</div>
 				<div id='search-box'>
@@ -97,7 +103,7 @@
 					</div>
 
 					<div class="col-4">
-						<img src="assets/img/homepage/buku.jpg" width="205px" height="260px" class="gleam" id="gleam">
+						<img src="assets/img/homepage/buku.jpg" width="205px" height="260px" class="gleam">
 						<div id="ket">
 							<img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg">
 						</div>	
@@ -120,8 +126,8 @@
 								
 					</div>
 
-					<div class="col-4">
-						<img src="assets/img/homepage/garis.png" width="200px" class="gleam">
+					<div class="col-4" id="garis">
+						<img src="assets/img/homepage/garis.png" width="200px" height="260px" class="gleam" style="margin-top: 16%!important">
 						<div id="ket">
 							<img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg">
 						</div>	
@@ -161,7 +167,7 @@
 					<div class="col-4">
 							<img src="assets/img/homepage/kata.png" width="200px"class="gleam">
 							<div id="ket">
-								<img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg">
+							<img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg"><img src="assets/img/homepage/bintang.svg">
 							</div>	
 							<div id="ket_foot">
 								<h5>Kata</h5>
@@ -232,18 +238,63 @@
     </section>  
     <section id="testimony">
     	<div class="container">
-    		<div class="row">
 	    		<div id="bar_one">
 	    			<h2>Puluhan Orang Sudah Mencoba, Sekarang Giliranmu !</h2>
 	    			<p>lebih dari 50 orang sudah membaca buku di gleam readed dan hasilnya sangan memuaskan</p><br><br>
 	    			<a href="#" class="btn_testy">Learn more</a>
 	    		</div>
 	    		<div id="bar_two">	
+	    			<div id="yuki"> 
+	           			 <img src="assets/img/homepage/yuki.png">
+	           		 		<div class="comment"> 
+	            	  			<h5>Yuki Asuna</h5><br> 
+	            	  			<p> saya nyaman membaca buku disini karena ada fitur pembagian poin nya terimaksih....</p>
+	           				 </div>
+	           		</div>
 
 	    		</div>	
 	    	</div>
     	</div>
     </section>
+    <!--footer-->
+ 	<footer>
+ 		<div class="container">
+			<div id="five">
+				<div class="list">
+					<img src="assets/img/homepage/logos.svg" width="30%"><br><br>	
+	 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+				</div>
+				<div id="navigasi">
+					<li>
+	 						<a href="#" style="font-size:16px" id="smol">Navigasi</a>	
+		 					<a href="#">Home</a>
+		 					<a href="#">kategori</a>
+		 					<a href="#">Daftar</a>
+	 				</li>
+				</div>
+				<div id="sport">
+					<li>	
+	 						<a href="#" style="font-size:16px" id="smol">Sport</a>	
+		 					<a href="#">Blog</a>
+		 					<a href="#">Help</a>
+		 					<a href="#">FAQ</a>
+	 					
+	 				</li>
+				</div>
+				<div id="contact">
+					<li>	
+		 					<a href="#"style="font-size:16px" id="smol">Contact</a>	
+		 					<a href="#">Sauqi.Arief@gmail.com</a>
+		 					<p>0852-1361-2215</p>
+		 					<a href="#"><img src="assets/img/homepage/fb.svg" width="30px"></a>
+		 					<a href="#"><img src="assets/img/homepage/ig.svg	"width="30px"></a>
+	 						<a href="#"><img src="assets/img/homepage/twitter-dark.svg" width="30px"></a>
+	 				</li>
+				</div>
+			</div>
+ 		</div>
+ 	</footer>
+
 
 
 
@@ -253,13 +304,65 @@
 		
 
 </body>
-<script type="text/javascript" src="assets/js/jquery.js">
-
-	
-</script>
+<script type="text/javascript" src="assets/js/jquery.js"></script>
 <script src="./assets/js/slick.min.js"></script>
-
 <script type="text/javascript">
+	var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
 
-    </script>
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+</script>
+
 </html>

@@ -21,8 +21,8 @@
 }
  
 .nav-container {
-  max-width: 1080px;
-  margin: 0 auto;
+  margin: 0 auto !important;
+  clear: both;
 }
  
 nav {
@@ -147,6 +147,7 @@ nav ul li ul li a {
 	}
 	#nav-toggle span:before {
 	  top: -10px;
+
 	}
 	#nav-toggle span:after {
 	  bottom: -10px;
@@ -164,9 +165,118 @@ nav ul li ul li a {
 	  transform: rotate(-45deg);
 	}
  /*ahir hamburger*/
+ @media screen and (max-width: 1024px) {
+  .container {
+    max-width: 900px;
+    margin: 0;
+  }
+  .home-head{padding-top: 30%;  margin-left: 13em!important;} 
+  #home-link{margin-top: 60px; margin-left: 10%;}
+  #home-link a{margin: 5px!important;}
+  #buku_first{margin-top: 60px; margin-left: 14%!important;}
+  #fitur-dukungan{
+      margin-top: 55%!important;
+  }
+
+#fitur-dukungan li #membaca_seru,#fitur-dukungan li #fitur_gratis,#fitur-dukungan li #tukar_poin {
+    margin-top: 5px!important;
+    left: unset !important;
+    clear: both;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: unset !important;
+    width: 40%;
+    margin-left: 0px;
+
+  }
+  #fitur-dukungan li #fitur_gratis{
+    margin-top: -20px!important;
+  }
+  #fitur-dukungan li #membaca_seru p ,#fitur-dukungan li #fitur_gratis p ,#fitur-dukungan li #tukar_poin p {
+    width: 220px!important;
+  }
+  #fitur-dukungan li #membaca_seru h4 ,#fitur-dukungan li #fitur_gratis h4 ,#fitur-dukungan li #tukar_poin h4 {
+    width: 220px!important;
+    margin-top: 30px;
+  }
+  #home_literasi #tingkat_literasi{
+    position: relative; right: 10%;
+  }
+  #imj img{ margin-top: -10%; position: relative; left: -15%; width: 25%;}
+
+}
+@media  screen and (max-width: 980px) {
+  .container {
+    max-width: 768px!important;
+  }
+  #home-link{margin-top: 60px; margin-left: 0%;}
+  #home-link a{margin: 0px!important;}
+   #fitur-dukungan li #membaca_seru p , #fitur-dukungan li #fitur_gratis p , #fitur-dukungan li #tukar_poin p {
+    width: 180px!important;
+  }
+  #link{color: #999999;padding: 15px 32px!important; border-radius: 25px; border: 1px solid #DBDBDB}
+  .gleam{width:190px; height:260px; }
+  #ket img{padding: 0px!important;}
+  #ket_foot{margin-top: -8%!important; line-height: 20px!important; padding-left: 0px!important;}
+    #buku_first.row .col-4{
+      padding: 100px!important;
+    }
+     #buku_first{margin-top: 90px; margin-left: 14%!important;}
+    .col-4{
+  width: 27%!important;
+  float: left;
+  margin: 15px;
+}
+#garis{margin-top: -20px;}
+ #fitur-dukungan li #membaca_seru ,#fitur-dukungan li #fitur_gratis ,#fitur-dukungan li #tukar_poin{
+    margin-top: 5px!important;
+    left: unset !important;
+    clear: both;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: unset !important;
+    width: 50%!important;
+    margin-left: 20px!important;
+
+}
+   #fitur-dukungan li #tukar_poin{
+    margin-top: -340px!important;
+    padding-left: 15em!important;
+  }
+  #fitur-dukungan li #fitur_gratis{
+  margin-top: -20px!important;
+  }
+  #fitur-dukungan a{color: #E8E8E8; padding: 15px 42px; border-radius: 25px; border: 1px solid #DBDBDB; background-color: #042F4B; float: left; margin-top: 6%!important; position: relative; right: 26%!important;}
+  #home_literasi #tingkat_literasi{
+    position: relative; right: 1%;
+  }
+   #fitur-dukungan li #membaca_seru p , #fitur-dukungan li #fitur_gratis p , #fitur-dukungan li #tukar_poin p {
+    width: 180px!important;
+  }
+  #imj img{ margin-top: -10%; position: relative; left: -3%; width: 20%;}
+    #genre-buku-populer img{
+  padding: 15px!important; width: 
+}
+
+
+
+  
+  
+}
 
  /*IPAD*/
- @media only screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
+  .container {
+    max-width: 600px!important;
+  }
   .container{max-width: 700px!important; width: 100%; clear: both; }
   .nav-mobile {
     display: block;
@@ -204,53 +314,59 @@ nav ul li ul li a {
     max-height: 60px;
     margin-top: 5px;
   }
-  #testimony_second{}
-  .home-head{margin-top: 20%;  margin-right: 15%;}
-  .home-head p{color: #BBBBBB;   font-size: 14px; width: 300px; text-align:center; line-height: 25px; float: right;}
-  .home-head h1{color: #666666; font-size: 32px!important; line-height: 55px; }
+  #garis{margin-top: -10px;}
+
+    .home-head {padding-top: 20%;  margin-left: 5em!important;} 
+  .home-head p{color: #BBBBBB;   font-size: 14px; width: 300px; text-align:center; line-height: 25px; float: right; padding-right: 250px!important;}
+  .home-head h1{color: #666666; font-size: 32px!important; line-height: 59px; width: 550px; }
    #search-box {position: relative; left : 10%!important;width: 80%!important;margin-top: 20%!important;}
-   #home-buku-populer p{font-size: 20px!important; margin-left: 15em}
+   #home-buku-populer p{font-size: 20px!important; margin-left: 11em!important;}
    #home-buku-populer{margin-right: 2%;}
    #home-link{margin-top: 30px!important; position: relative; right: 3.5%;}
   #home-link a{margin: 2px!important;}
-  #link{color: #999999;padding: 10px 25px!important; border-radius: 25px; border: 1px solid #DBDBDB}
+  #link{color: #999999;padding: 10px 15px!important; border-radius: 25px; border: 1px solid #DBDBDB}
+  #novel{color: #E8E8E8; padding: 10px 25px!important; border-radius: 25px; border: 1px solid #DBDBDB; background-color: #216583;}
+
   #buku_first{margin-top: 90px!important; margin: 3%!important;}
-   .gleam{width: 85%;} #gleam{height: 185px;}
+   .gleam{width: 85%; height: 170px; } #gleam{height: 155px;}
    #ket_foot{padding-top: 12px; line-height: 25px; padding-left: 15%;}
    #buku_second{ right: 4%; margin-top: 35%; position: relative;}
   #fitur h2{color: #fff; margin-left: 12%!important;} #fitur img{width: 60px;} 
 
   #home-genre{
-  margin-top: 100px; position: relative; left: -5%;}
-    #buku_second{ margin-left: 6%; margin-top: 40%!important;}
-  #baca_buku img{width:67px;  position: relative; padding-top: 4%;}  #baca_buku{margin-top: -1.5%;} #baca_buku h4{padding-top: 5%!important;}
-  #fre_fitur{padding-right: 4%!important; } #fre_fitur h4{margin-left: 17%;}#fre_fitur img{width: 80px; margin-left: 15%;}
-   #fitur p{font-size: 12px!important; width: 18px;}
-  
-  
-  .col{width: 19%; padding: 2%;} .col p{width: 200px!important;} .col h4{width: 120px; font-size: 13px;} 
-  #tukar_poin h4{margin-left: 18%} #tukar_poin p{margin-top: 10%;}#tukar_poin img{position: relative; left: 15%;}
-  #tukar_poin{margin-left: 3%!important;}
-  .col-2 img{width: 120px;} 
-  #tingkat_literasi h2{font-size: 26px!important;} #tingkat_literasi a{margin-top: 30px!important;}
-  #testimony_first{padding-left: 2em!important; }
-  #testimony_first h2{font-size: 25px!important;}
+  margin-top: 100px; position: relative; left: 8%!important;}
+    #buku_second{ margin-left: 6%!important; margin-top: 40%!important;}
+    #fitur-dukungan{background-color: #042F4B; width: 100%; height: 595px; margin-top: 10%;}
+    #fitur-dukungan li #membaca_seru ,#fitur-dukungan li #fitur_gratis ,#fitur-dukungan li #tukar_poin{
+    margin-top: 5px!important;
+    left: -15%!important;
+    clear: both;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: unset !important;
+    width: 20%!important;
+    margin-left: -20px!important;
 
-  #home_testimony p{font-size: 12px;}
- *footer*/
- #footer{height: 300px; padding-top: 10%; margin: 10%!important;}
-#five{ padding-top: 5em!important; margin-top: 5%;} #navigasi li{max-width: 4%!important; line-height: 2em; margin-left: 25em!important; margin-top: -7em; color: #fff;}
-  #sport{list-style-type: none; max-width: 6%; line-height: 2em; margin-left: 30em!important; margin-top: -8em;}
-  #contact{margin-left: 33em!important; margin-top: -8em!important; max-width: 30%!important;}  #contact a p{font-size: 13px;}
-  /*ahir footer*/
- 
- /*bodi*/
- #lainnya{position: relative; right: 25%; margin-top: 100px!important;}
- #testimony_first{
-  width: 900px!important; height: 260px!important;}
-#testimony_second{} #text h2{ font-size: 30px!important; } #text{margin-top: -100px;} #text p{font-size: 15px!important;}
-.testimony_second{position: relative; left: 50%; margin-top: 10em!important;}
-/*komentar*/
+}
+   #fitur-dukungan li #tukar_poin{
+    margin-top: -330px!important;
+    padding-left: 11em!important;
+  }
+  #fitur-dukungan li #fitur_gratis{
+  margin-top: -20px!important; position: relative; right: 15%;
+  }
+  #fitur-dukungan a{color: #E8E8E8; padding: 15px 42px; border-radius: 25px; border: 1px solid #DBDBDB; background-color: #042F4B; float: left; margin-top: 6%!important; position: relative; right: 26%!important;}
+  #home_literasi #tingkat_literasi{
+    position: relative; right: 1%;
+  }
+  
+  
+  /*bodi*/
+ /*komentar*/
 #yuki{position: relative; right: 25%;} #syafira{position: relative;right: 35%; margin-top: 15%;}
 #yuki img{float: left; margin-top: 16%!important; position: relative; left: 77%;}#syafira img{float: left;  margin-top: 9%!important; right: 5%!important;position: relative;}
 #syafira .comment{margin-left: 2%;} #yuki .comment{background-color: #FFFFFF; height: 130px; width: 280px!important; border-radius: 20px 20px 0px 20px!important; 
