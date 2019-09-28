@@ -1,7 +1,8 @@
-<svg id="Group_206" data-name="Group 206" xmlns="http://www.w3.org/2000/svg" width="1366" height="609" viewBox="0 0 1366 609">
-  <rect id="Rectangle_50" data-name="Rectangle 50" width="1366" height="609" fill="#216583"/>
-  <circle id="Ellipse_18" data-name="Ellipse 18" cx="154" cy="154" r="154" transform="translate(794 77)" fill="#a8aeff" opacity="0.09"/>
-  <circle id="Ellipse_19" data-name="Ellipse 19" cx="83.5" cy="83.5" r="83.5" transform="translate(301 269)" fill="#a8aeff" opacity="0.09"/>
-  <circle id="Ellipse_20" data-name="Ellipse 20" cx="55.5" cy="55.5" r="55.5" transform="translate(685 431)" fill="#a8aeff" opacity="0.09"/>
-  <circle id="Ellipse_21" data-name="Ellipse 21" cx="27.5" cy="27.5" r="27.5" transform="translate(413 105)" fill="#a8aeff" opacity="0.09"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="643" height="651" viewBox="0 0 643 651">
+  <g id="Group_243" data-name="Group 243" transform="translate(-10 -3688)">
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="183.5" cy="183.5" r="183.5" transform="translate(10 3688)" fill="#a8aeff" opacity="0.08"/>
+    <circle id="Ellipse_14" data-name="Ellipse 14" cx="81" cy="81" r="81" transform="translate(382 4115)" fill="#a8aeff" opacity="0.08"/>
+    <circle id="Ellipse_15" data-name="Ellipse 15" cx="49" cy="49" r="49" transform="translate(75 4241)" fill="#a8aeff" opacity="0.08"/>
+    <circle id="Ellipse_16" data-name="Ellipse 16" cx="33.5" cy="33.5" r="33.5" transform="translate(586 3829)" fill="#a8aeff" opacity="0.08"/>
+  </g>
 </svg>

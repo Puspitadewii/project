@@ -164,13 +164,19 @@ nav ul li ul li a {
 	  transform: rotate(-45deg);
 	}
  /*ahir hamburger*/
+ @media screen and (max-width: 1024px) {
+  .container {
+    max-width: 900px;
+    margin: 0;
+  }
+}
 
  /*IPAD*/
  @media only screen and (max-width: 768px) {
   
-    .container{max-width: 700px!important; width: 100%; clear: both; }
+    .container{max-width: 600px!important; width: 100%; clear: both; }
   
-  .nav-mobile {
+  .nav-mobile {   
     display: block;
     margin-right: 50px;
   }
@@ -207,11 +213,30 @@ nav ul li ul li a {
     margin-top: 5px;
   }
  /*footer*/
- #footer{height: 300px; padding-top: 10%; margin: 10%!important;}
-#five{ padding-top: 5em!important; margin-top: 5%;} #navigasi li{max-width: 4%!important; line-height: 2em; margin-left: 25em!important; margin-top: -7em; color: #fff;}
-  #sport{list-style-type: none; max-width: 6%; line-height: 2em; margin-left: 30em!important; margin-top: -8em;}
-  #contact{margin-left: 33em!important; margin-top: -8em!important; max-width: 30%!important;}  #contact a p{font-size: 13px;}
-  /*ahir footer*/
- 
 
+}
+@media screen and (max-width: 420px) {
+  .container{
+    max-width: 300px!important;
+  }
+  #aswer h2{
+    font-size: 20px; width: 230px!important;
+  }
+  #right{margin-left:12%!important;}
+  #right p{font-size: 13px;}
+  .radiotoggle{
+
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid  #999999;
+  border-radius: 100%;  
+  transition: .2s ease;
+}
+ #back{right: 2%!important; position: relative;}
+ #nexxt{margin-left: 58%!important;}
+
+
+
+   
 }

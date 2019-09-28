@@ -162,3 +162,32 @@ nav ul li ul li a {
     transform: rotate(-45deg);
   }
  /*ahir hamburger*/
+ @media screen and (max-width: 1024px) {
+  .container {
+    max-width: 900px!important;
+    margin: 0;
+  }
+  #login_second img{ width:500px!important; position: relative;}
+  #login_second {width: 61%; float: right; margin-top: -50em!important;position: relative; left: 12%!important; height: 1150px!important;}
+
+
+}
+@media screen and (max-width: 980px) {
+  .container {
+    max-width: 768px !important;
+    margin: 0;
+  }
+   
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 600px !important;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 420px) {
+  .container{
+    max-width: 300px!important;
+  }
+   
+}

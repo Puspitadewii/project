@@ -18,11 +18,11 @@
 }
 
 #testimony {
-	overflow: hidden;
 	background-color: #042F4B;
 	margin-top: 10%;
 	width: 60%;
 	height: 600px;
+
 }
 
 #tingkat_literasi {
@@ -36,6 +36,3 @@
 	line-height: 30px;
 }
 
-#bar_two {
-	float: left;
-}

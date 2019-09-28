@@ -33,20 +33,20 @@ a{
 #categori_kedua{display: inline-block;} #sirst{margin-top: 24%; position: relative; left: 43%; }
  #third{height: 290px; margin-top: 50%; position: relative; left: 43%;}
 /*footer*/
-footer{background-color: #1C6A7E; color: #fff;
+/*footer{background-color: #1C6A7E; color: #fff;
  height: 350px; 
  margin-top: 8em;
  } #five{ padding-top: 5em;} .list{max-width: 320px; line-height: 25px;  font-size: 14px;}
   #navigasi li{list-style-type: none; max-width: 8%; line-height: 2em; margin-left: 27em; margin-top: -7em; color: #fff;}
   #sport{list-style-type: none; max-width: 6%; line-height: 2em; margin-left: 39em; margin-top: -8em;}
   footer a{ color: #fff; }
-  /*ahir footer*/
+  /*ahir footer
 #contact{max-width:15%; list-style-type: none; line-height: 2em; margin-left: 51em; margin-top: -8em;}
 
 
  #logos{width: 40%;}
 
-  /*ahir footer*/
+*/  /*ahir footer*/
   li{list-style-type: none;}
 #option li , #art-option li{list-style-type: none; width: 100%; padding: 10px;}
 
