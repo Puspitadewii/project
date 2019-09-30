@@ -348,7 +348,8 @@ h4 {
   border-radius: 25px;
   border: 1px solid #216583;
   float: left;
-  margin-right: auto;
+  position: relative;
+  left: 5em;
   margin-left: auto;
   margin-top: 10%;
 
@@ -367,8 +368,9 @@ h4 {
 }
 #buku_second {
   margin-left: 14%;
-  margin-top: 35%;
+  margin-top: 36%;
   height: 470px;
+
 }
 .col p {
   line-height: 24px;
@@ -383,6 +385,7 @@ h4 {
 .col-4 {
   width: 25%;
   float: left;
+  padding: 8px!important;
 }
 .col-3 {
   width: 33%;

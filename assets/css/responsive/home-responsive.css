@@ -297,14 +297,14 @@ nav ul li ul li a {
     line-height: 30px!important;
     max-width: 350px;
   }
-  #bar_two {
-    float: left!important;
-    position: relative;
-    left: 6em;
-    margin-top: -80%!important;
-    float: right!important;
-  }
-  #testimony #bar_two #yuki {
+  #bar_two li{
+  float: right!important;
+  position: relative;
+  left: 6em;
+  margin-top: 5%!important;
+}
+
+  #testimony #bar_two #yuki li {
     position: relative;
     left: 77%;
     margin-top: -6em;
@@ -399,10 +399,6 @@ right: 12em;
 
 
 }
-  #bar_two img{
-  margin-top: 2em!important;
-}
-
 
 
 }

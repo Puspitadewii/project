@@ -24,11 +24,11 @@ a{
 	height: 371px;
 	padding-top: 3%;
 	margin-top: 144px;
-	margin-left: 10%; }
+}
 #categori a{
 	padding:13px;
  	 color: #C8C6C6;
-   font-size: 16px;
+   font-size: 14px;
      }
 ul li{
      list-style-type: none;
@@ -38,26 +38,17 @@ ul li{
 	 margin: 17px;
 }
 #categori h4{
-	font-size: 20px; 
+	font-size: 16px; 
 	color: #666666; 
-	font-weight: 500; 
-	padding-left: 15%;
+	font-weight: 60; 
+	padding-right: 4em;
 	 }
+ #categori img{
+ 		padding-left: 20%;
+}
  #categori a:hover{
  	color:#1C6A7E;
  }
-.col-3{
-	width: 16%;
-	float: left;
-}
-.row{
-	width: 100%;
-}
-.left{
-	position: relative;
-	 left: 43%;
-	  margin-top: -31%;
-	  } 
 	  #cat{
 	  	padding: 5px;
 	  	} #cat_foot span{
@@ -95,7 +86,7 @@ ul li{
   /*Quiz lama 1*/
   h2{font-weight: 500; color: #666666;} #option input{background: pink!important; } 
   #option p{color: #999999; display: inline;  margin: 5px;	}
-#option , #art-option{margin: 2%; margin-left: 7%;} #nexxt{margin-left: 40%;} #back{right: 10%; position: relative;}
+#option , #art-option{margin: 2%; margin-left: 7%;} #nexxt{position: relative; left: 29em;} #back{right: 4%; position: relative;}
 #right{margin-left: 27%;}
 /*artboard*/
 #right-second{margin-left: 45%; background-color: #1C6A7E; height: 700px; overflow: hidden; } #art-option p{display: inline; margin: 5px;}
@@ -134,6 +125,9 @@ input[type="radio"]:checked + .radiolabel span{
 
 }
 #img_buton{
-	margin-top: -2em!important;
+	padding-top: -5em!important;
 }
+/*kategori*/
+#categori_first .col-3{
 
+}

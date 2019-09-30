@@ -72,6 +72,7 @@ nav ul li ul li a {
   display: none;
   z-index: 1;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  background-color: white;
 }
 .nav-mobile {
   display: none;

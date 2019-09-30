@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
+  font-family: "vidaloka", sans-serif;
 }
 
 html,
@@ -199,6 +199,7 @@ h2 {
 .workingspace .box li #shring {
   position: relative;
   left: 37%;
+  margin-top: -9px;
 }
 
 
@@ -299,6 +300,8 @@ footer {
 .list {
   max-width: 320px;
   line-height: 25px;
+}
+.list p{
   font-size: 14px;
 }
 
@@ -319,24 +322,22 @@ footer {
   margin-top: -8em;
 }
 
-footer a {
+footer a, footer p {
   color: #fff;
+   font-family: vidaloka, sans-serif;
+  
 }
-#contact{max-width:15%; list-style-type: none; line-height: 2em; margin-left: 51em; margin-top: -8em;}
-/*ahir footer*/
-
-
-/*GLOBAL RESPONSIVE*/
+#contact{max-width:15%; 
+  list-style-type: none;
+   line-height: 2em;
+    margin-left: 51em;
+     margin-top: -8em;}
 .container {
   max-width: 1080px;
   margin: auto;
 }
 
-/*.container {
-  margin: 0 auto !important;
-  clear: both;
-}
-*/
+
 .center-content {
   display: flex;
   justify-content: center;    
@@ -404,6 +405,9 @@ footer a {
     }
   #four {
     margin-top: 17em;
+    margin-left: 2em!important;
+    margin-right: auto!important;
+    width: 100%;
   }
 
   
@@ -414,9 +418,6 @@ footer a {
     padding: 18px 42px;
   }
 
-  #smol {
-    font-size: 14px !important;
-  }
      .workingspace .box li #shring{
     position: relative;
     left: 61%!important;
@@ -500,7 +501,7 @@ footer a {
     margin-top: 70%!important;
     width: 100%!important;
     position: relative!important;
-    left: -1%!important;
+    left: 13%!important;
   }
   .workingspace .box li #shring {
   position: relative;
@@ -537,6 +538,13 @@ footer a {
     margin-left: 50px;
 
   }
+  #four {
+    margin-top: 17em;
+    margin-left: 6em!important;
+    margin-right: auto!important;
+    width: 100%;
+  }
+
 
 
 
@@ -613,9 +621,7 @@ Footer responsive
   #contact a p {
     font-size: 13px;
   }
-  .list p {
-    font-size: 12px;
-  }
+  
 }
 /*fot 980*/
 @media screen and (max-width: 980px) {
@@ -633,9 +639,6 @@ Footer responsive
   }
   .list p {
     font-size: 12px;
-  }
-  #smol {
-    font-size: 12px !important;
   }
    footer #five .list {
      max-width: 280px!important;
