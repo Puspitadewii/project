@@ -37,7 +37,7 @@ li {
   padding-top: 250px;
   color: #fff;
 }
-.jumbotron-content h1{
+.jumbotron-content h2{
   color: #fff; text-decoration: none;
 }
 
@@ -50,10 +50,11 @@ li {
 }
 
 .jumbotron h2 {
-  font-size: 3em;
+  font-size: 42px;
   max-width: 13em;
   margin: auto;
   line-height: 45px;
+  height: 80px;
   font-weight: 500;
 }
 
@@ -188,7 +189,7 @@ h2 {
   float: left;
   padding: 0px;
   box-sizing: border-box;
-  overflow: hidden;
+  
 }
 
 #four {
@@ -310,7 +311,7 @@ footer {
   color: #fff;
 }
 
-#sport {
+#sport{
   list-style-type: none;
   max-width: 6%;
   line-height: 2em;
@@ -327,10 +328,15 @@ footer a {
 
 /*GLOBAL RESPONSIVE*/
 .container {
+  max-width: 1080px;
+  margin: auto;
+}
+
+/*.container {
   margin: 0 auto !important;
   clear: both;
 }
-
+*/
 .center-content {
   display: flex;
   justify-content: center;    
@@ -342,7 +348,7 @@ footer a {
 
 @media screen and (max-width: 1024px) {
   .container {
-    max-width: 900px;
+    max-width: 900px!important;
     margin: 0;
   }
 
@@ -389,6 +395,8 @@ footer a {
     margin-top: 540px;
     border-radius: 16px;
     box-shadow: 0px 5px 15px #888888;
+    position: relative;
+    left: 8em;
     width: 85%;
   }
     .box li{
@@ -466,15 +474,28 @@ footer a {
   position: relative; left: 5%;
   width: 55px;
 }
+  .jumbotron-content {
+  padding-top: 250px;
+  color: #fff;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  width: 100%;
+}
 
    
   
 }
 @media screen and (max-width: 980px) {
   .container {
-    max-width: 768px !important;
+    max-width: 768px!important;
     margin: 0;
   }
+  .jumbotron-content {
+  padding-top: 250px;
+  color: #fff;
+  margin-left: 6em!important;
+  
+}
   .box{
     margin-top: 70%!important;
     width: 100%!important;

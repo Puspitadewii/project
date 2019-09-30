@@ -9,6 +9,9 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	
 	<link rel="stylesheet" type="text/css" href="assets/css/responsive/re-responsive.css">
+	<script src="assets/js/jquery.js"></script>
+    <script src="assets/js/functions.js"></script>
+
 
 </head>
 <style type="">
@@ -23,7 +26,7 @@ html, body{
 </style>
 <body>
 	<!--nav-->
-<section class ="nav-bar">
+<section class ="nav-bar" style="font-size: 14px;">
   <div class="nav-container">
     <div class="brand">
       <a href="index.html"><img src="assets/img/homepage/logo-blue.svg"></a>
@@ -53,13 +56,12 @@ html, body{
 </section>
 
 
-	
-		<div id="registrasi">	
-			<div class="container">
+	<section id="registrasi">
+		<div class="container-reg">
 				<div id="reg_head">
-					<img src="assets/img/homepage/logos.svg" id="logosreg">
+					<img src="assets/img/homepage/logo_dark.svg" id="logosreg">
 					<h1 style="color: #fff">Buat Akun Baru</h1>	
-					<img src="assets/img/homepage/google.svg" width="5%" class="head_img"><img src="assets/img/homepage/telfon.svg" width="5%" class="head_img">
+					<img src="assets/img/homepage/google.svg" width="40px" class="head_img"><img src="assets/img/homepage/telfon.svg" width="40px" class="head_img">
 				</div>
 				<!--registrasi-->
 
@@ -86,7 +88,8 @@ html, body{
 
 					    <div class="txtb">	
 					    	<select name="pendidikan"  class="pilihan">
-					    		<option value="#" class="opt">Pendidikan</option>
+					  
+					    		<option value="#" class="opt">pendidikan</option>
 								<option value="#" class="opt">SD</option>
 								<option value="#" class="opt">SMP</option>
 								<option value="#" class="opt">SMK</option>
@@ -95,14 +98,14 @@ html, body{
 							</select>
 					    </div>
 					    <div id="option">
-							    <div class="txtb" style="width: 100px">
+							    <div class="txtb" style="width: 90px" >
 							      <select name="gender" class="pilihan">
 							    		<option value="#" class="opt">gender</option>
 							    		<option value="#" class="opt">Perempuan</option>
 										<option value="#" class="opt">Laki-laki</option>
 									</select>
 							    </div>	
-							    <div class="txtb" style="width: 100px; ">
+							    <div class="txtb" style="width: 70px; ">
 							      <select name="usia" class="pilihan">
 							    		<option value="#" class="opt">usia</option>
 							    		<option value="#" class="opt">7</option>
@@ -132,9 +135,13 @@ html, body{
 					    </div><br>	<br>	<br><br>	
 
 					    <input class="logbtn" type="submit" value="Daftar"></input><br><br>
+
 				        <div class="button-text">
-				          <span style="font-family: Quicksand , sans-serif; font-size: 16px;">sudah punya akun?</span><a href="#">masuk sekarang!</a>
+				          <span style="font-family: Quicksand , sans-serif; font-size: 13px;">sudah punya akun?</span><a href="#" style="font-size: 13px">masuk sekarang!</a>
 				        </div>
+				        <div id="reg_second">
+								
+						</div>
 
 
 					   
@@ -143,9 +150,11 @@ html, body{
 				</div>    
 				
 			</div>
-			<img src="assets/img/homepage/login.svg" id="img_register"></form>
+			
 		</div>
-		<footer>
+	</section>
+
+	<footer>
  		<div class="container">
 			<div id="five">
 				<div class="list">

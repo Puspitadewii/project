@@ -1,10 +1,11 @@
-nav-bar {
+.nav-bar {
   height: 70px;
   background: #ffffff;
   position: fixed;
   width: 100%;
   margin-bottom: 15%;
   z-index: 999;
+  font-size: 14px;
 }
 
 .brand {
@@ -193,7 +194,7 @@ Responsive
 
 @media screen and (max-width: 768px) {
   .container {
-    max-width: 600px !important;
+    max-width: 600px!important;
   }
   .workingspace {
  background-image: url(../img/homepage/jumbotron-bg.png)
@@ -211,7 +212,7 @@ Responsive
     clear: both;
     height: 200px!important;
     width: 100% !important;
-    left: 0 !important;
+    left: 5em!important;
     padding-bottom: 20px;
     box-shadow: 0px 5px 15px #888888!important;
   
@@ -247,10 +248,10 @@ Responsive
   .workingspace .box li #shring{
     position: relative;
     left: 46%!important;
-    margin-top: -166px!important;
+    margin-top: -175px!important;
   }
   .workingspace .box li #shring img{
-    margin-top: -19%!important;
+    margin-top: -15%!important;
     width: 50px;
   }
    
@@ -270,7 +271,7 @@ Responsive
     float: none;
     max-width: 250px;
     padding-top: 8px; padding-left: 15px;
-    line-height: 13px;
+    line-height: 16px;
   }
 
   #two, #tri {
@@ -298,8 +299,27 @@ Responsive
   }
 
   #four {
-    margin-top: 100px !important;
+    margin-top: 200px!important;
+    margin-left: 12%;
   }
+  .join {
+  text-decoration: none;
+  color: #fff;
+  padding: 18px 42px;
+  border-radius: 25px;
+  border: 1px solid #FFFFFF;
+  position: relative;
+  left: 15%!important;
+}
+  #two {
+  margin-top: 180px;
+  margin-left: 16%!important;
+}
+  #tri {
+  margin-left: 16%!important;
+}
+
+
 }
 
 @media screen and (max-width: 420px) {
@@ -326,6 +346,7 @@ Responsive
   .workingspace .box{
     margin-top: 50%!important;
     height: 420px!important;
+    margin-left: 4em;
     
   }
   .workingspace .box li {
@@ -359,7 +380,13 @@ Responsive
     float: none;
     max-width: 250px;
     padding-top: 8px; padding-left: 4px;
-    line-height: 13px;
+    line-height: 16px;
   }
+  .jumbotron-content {
+  padding-top: 250px;
+  color: #fff;
+  margin-left: 60px!important;
+  width: 100%;
+}
 }
 /*# sourceMappingURL=tentang-responsive.css.map */

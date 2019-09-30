@@ -1,11 +1,13 @@
 .nav-bar {
   height: 70px;
-  background: #ffffff; 
+  background: #ffffff;
   position: fixed;
-  width:  100%;
-  margin-bottom: 15%; z-index: 999;
+  width: 100%;
+  margin-bottom: 15%;
+  z-index: 999;
+  font-size: 14px;
 }
- 
+
 .brand {
   position: absolute;
   padding-left: 20px;
@@ -14,79 +16,87 @@
   text-transform: uppercase;
   font-size: 1.4em;
 }
+
 .brand a,
 .brand a:visited {
   color: #ffffff;
   text-decoration: none;
 }
- 
+
 .nav-container {
   max-width: 1080px;
   margin: 0 auto;
-
 }
- 
+
 nav {
   float: right;
   background-color: #fff;
-
 }
+
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-
 }
+
 nav ul li {
   float: left;
   position: relative;
 }
+
 nav ul li a,
 nav ul li a:visited {
   display: block;
   padding: 0 20px;
   line-height: 70px;
- 
   color: #9A9A9A;
   text-decoration: none;
 }
+
+
 /*nav ul li a:hover,*/
+
+
 /*nav ul li a:visited:hover {
   background: #2ab1ce;
   color: #ffffff;
 }
 */
+
 nav ul li a:not(:only-child):after,
 nav ul li a:visited:not(:only-child):after {
   padding-left: 4px;
   content: '';
 }
+
 nav ul li ul li {
   min-width: 190px;
 }
+
 nav ul li ul li a {
   padding: 15px;
   line-height: 20px;
 }
- 
+
 .nav-dropdown {
   position: absolute;
   display: none;
-  z-index: 1;
+  z-index: 1!important;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  background-color: white;
 }
+
 .nav-mobile {
   display: none;
   position: absolute;
   top: 0;
   right: 0;
-  background:none;
+  background: none;
   height: 50px;
   width: 50px;
 }
 
 @media only screen and (max-width: 798px) {
-
   .nav-mobile {
     display: block;
   }
@@ -103,83 +113,135 @@ nav ul li ul li a {
   nav ul li a {
     padding: 15px;
     line-height: 20px;
-	padding-left: 25%;
-	 
+    padding-left: 25%;
   }
   nav ul li ul li a {
     padding-left: 30%;
   }
- 
   .nav-dropdown {
     position: static;
   }
-	.brand a img {
-		max-height: 60px;
-		margin-top: 5px;
-	}
+  .brand a img {
+    max-height: 60px;
+    margin-top: 5px;
+  }
 }
-@media screen and (min-width: 799px) {
 
+@media screen and (min-width: 799px) {
   .nav-list {
     display: block !important;
   }
 }
 
-	#nav-toggle {
-	  position: absolute;
-	  left: 7px;
-	  top: 22px;
-	  cursor: pointer;
-    height:   40px;
-	  padding: 10px 35px 16px 0px;
-	}
-	#nav-toggle span,
-	#nav-toggle span:before,
-	#nav-toggle span:after {
-	  cursor: pointer;
-	  border-radius: 1px;
-	  height: 6px;
-	  width: 50px;
-	  background: #1C6A7E;
-	  position: absolute;
-	  display: block;
-	  content: ''; margin-right: 14%!important;
-	  transition: all 300ms ease-in-out;
-	}
-	#nav-toggle span:before {
-	  top: -10px;
+#nav-toggle {
+  position: absolute;
+  left: 7px;
+  top: 22px;
+  cursor: pointer;
+  height: 40px;
+  padding: 10px 35px 16px 0px;
+}
 
-	}
-	#nav-toggle span:after {
-	  bottom: -10px;
-	}
-	#nav-toggle.active span {
-	  background-color: transparent;
-	}
-	#nav-toggle.active span:before, #nav-toggle.active span:after {
-	  top: 0;
-	}
-	#nav-toggle.active span:before {
-	  transform: rotate(45deg);
-	}
-	#nav-toggle.active span:after {
-	  transform: rotate(-45deg);
-	}
- /*ahir hamburger*/
- @media screen and (max-width: 1024px) {
+#nav-toggle span,
+#nav-toggle span:before,
+#nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 6px;
+  width: 50px;
+  background: #1C6A7E;
+  position: absolute;
+  display: block;
+  content: '';
+  margin-right: 14%!important;
+  transition: all 300ms ease-in-out;
+}
+
+#nav-toggle span:before {
+  top: -10px;
+}
+
+#nav-toggle span:after {
+  bottom: -10px;
+}
+
+#nav-toggle.active span {
+  background-color: transparent;
+}
+
+#nav-toggle.active span:before,
+#nav-toggle.active span:after {
+  top: 0;
+}
+
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+
+/*ahir hamburger*/
+
+@media screen and (max-width: 1024px) {
   .container {
     max-width: 900px;
     margin: 0;
   }
-  .home-head{padding-top: 30%;  margin-left: 7em!important;} 
-  #home-link{margin-top: 60px; margin-left: 10%;}
-  #home-link a{margin: 5px!important;}
-  #buku_first{margin-top: 60px; margin-left: 14%!important;}
-  #fitur-dukungan{
-      margin-top: 55%!important;
+  .home-head {
+    padding-top: 30%;
+    margin-left: 7em!important;
   }
+  .home-head p {
+  margin-left: auto;
+  max-width: 420px;
+  margin-right: auto;
+  width: 100% !important;
+}
+  #home-link {
+    margin-top: 60px;
+    margin-left: 10%;
+  }
+  #home-link a {
+    margin: 5px!important;
+  }
+  /*#buku_first {
+    margin-top: 60px;
+    margin-left: 14%!important;
+  }
+  */#home-genre {
+  margin-top: 100px;
+   margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+  #fitur_gratis a {
+  color: #E8E8E8;
+  padding: 15px 49px!important;
+  width: 100%;
+  border-radius: 25px;
+  border: 1px solid #DBDBDB;
+  background-color: #042F4B;
+  margin-top: 10%;
+  position: relative;
 
-  #fitur-dukungan li #membaca_seru,#fitur-dukungan li #fitur_gratis,#fitur-dukungan li #tukar_poin {
+}
+
+ #fitur-dukungan {
+  background-color: #042F4B;
+  width: 100%;
+  height:637px!important;
+  margin-top: 25em!important;
+  margin-right: unset!important;
+  margin-left: 5%!important;
+}
+
+      
+  #fitur-dukungan li #membaca_seru,
+  #fitur-dukungan li #fitur_gratis,
+  #fitur-dukungan li #tukar_poin {
     margin-top: 5px!important;
     left: unset !important;
     clear: both;
@@ -191,138 +253,232 @@ nav ul li ul li a {
     text-align: center;
     padding-left: unset !important;
     width: 40%;
-    margin-left: 0px;
-
+    margin-left: 50px;
   }
-  #fitur-dukungan li #fitur_gratis{
+  #fitur-dukungan li #fitur_gratis {
     margin-top: -20px!important;
   }
-  #fitur-dukungan li #membaca_seru p ,#fitur-dukungan li #fitur_gratis p ,#fitur-dukungan li #tukar_poin p {
+  #fitur-dukungan li #membaca_seru p,
+  #fitur-dukungan li #fitur_gratis p,
+  #fitur-dukungan li #tukar_poin p {
     width: 220px!important;
   }
-  #fitur-dukungan li #membaca_seru h4 ,#fitur-dukungan li #fitur_gratis h4 ,#fitur-dukungan li #tukar_poin h4 {
+  #fitur-dukungan li #membaca_seru h4,
+  #fitur-dukungan li #fitur_gratis h4,
+  #fitur-dukungan li #tukar_poin h4 {
     width: 220px!important;
     margin-top: 30px;
   }
-  #home_literasi #tingkat_literasi{
-    position: relative; right: 10%;
+  #home_literasi #tingkat_literasi {
+    position: relative;
+    right: 5%;
+    
   }
-  #imj img{ margin-top: -10%; position: relative; left: -15%; width: 25%;}
-
-#bar_one {
-  padding-top: 20%!important;
-  padding-left: 20%;
-  width: 55%!important;
-}
-#bar_one h2 {
-  color: #D9D9D9;
-  font-size: 36px;
-  line-height: 50px;
-  text-align: left;
-  max-width: 350px;
-}
-#bar_one p {
-  color: #C4C4C4;
-  line-height: 30px!important;
-  max-width: 350px;
-}
-#bar_two{
-  float: left!important;
-  position: relative;
-  left: 6em;
+  #imj img {
+    margin-top: -10%;
+    position: relative;
+    left: -15%;
+    width: 25%;
+  }
+  #bar_one {
+    padding-top: 20%!important;
+    padding-left: 20%;
+    width: 55%!important;
+  }
+  #bar_one h2 {
+    color: #D9D9D9;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: left;
+    max-width: 350px;
+  }
+  #bar_one p {
+    color: #C4C4C4;
+    line-height: 30px!important;
+    max-width: 350px;
+  }
+  #bar_two {
+    float: left!important;
+    position: relative;
+    left: 6em;
     margin-top: -80%!important;
     float: right!important;
-}
+  }
   #testimony #bar_two #yuki {
-  position: relative;
-  left: 77%; margin-top: -6em;
- }
+    position: relative;
+    left: 77%;
+    margin-top: -6em;
+  }
+  #testimony #bar_two #syafira li {
+    left: 9em;
+    position: relative;
+    padding-top: 13%!important;
+  }
+  #testimony #bar_two #sayyid li {
+    padding-top: -16%!important;
+    position: relative;
+    left: 16em;
+  }
+  #testimony #bar_two #frastio li {
+    padding-top: 20%!important;
+    left: 19em!important;
+    position: relative;
+  }
+  #testimony #bar_two #puspita li {
+    padding-top: 16em!important;
+    position: relative;
+    left: 9em;
+  }
+  #garis {
+    margin-top: -30px!important;
+  }
+  #bar_two #yuki .comment {
+    background-color: #fff;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 0px 5px 17px #888888;
+    padding: 15px 20px!important;
+  }
+  #bar_two #syafira .comment {
+    background-color: #1C6A7E;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 0px 3px 6px #000000;
+    padding: 15px 20px!important;
+  }
+  #testimony #bar_two #sayyid .comment {
+    background-color: #543864;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 0px 10px 20px #000000;
+    padding: 15px 20px!important;
+  }
+  #testimony #bar_two #puspita .comment {
+    background-color: #D1517A;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 0px 5px 17px #000000;
+    padding: 15px 20px!important;
+  }
+  #testimony #bar_two #frastio .comment {
+    background-color: #FFFFFF;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 0px 5px 17px #000000;
+    padding: 15px 20px!important;
+  }
+  #testimony {
+    background-image: url(../img/homepage/bullet.svg);
+    background-color: #042F4B;
+    margin-top: 2%;
+    height: 880px!important;
+    display: inline-block!important;
+  }
+  #genre-buku-populer img{
+    margin-left: auto!important;
+    margin-right: auto!important;
+  }
+  #home-genre {
+  margin-top: 100px;
+   margin-left: auto!important;
+  margin-right: auto;
+  width: 100%;
+}
 
-#testimony #bar_two #syafira li{
-  left:9em;
+  #buku_first {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+  #see{
+  color: #216583;
+  padding: 15px 50px;
+  border-radius: 25px;
+  border: 1px solid #216583;
+
+  /*margin-right: 3%!important;*/
   position: relative;
-  padding-top: 13%!important;
- }
- #testimony #bar_two #sayyid li{
-  padding-top: -16%!important;
-  position: relative;
-  left: 16em;
- }
- #testimony #bar_two #frastio li{
-  padding-top: 20%!important;
-  left: 19em!important; position:relative;
- }
- #testimony #bar_two #puspita li{
-  padding-top: 16em!important;position: relative;
-  left: 9em;
- }
-#garis{margin-top: -30px!important;}
-#bar_two #yuki .comment{
-  background-color:#fff ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 5px 17px #888888;  
-   padding: 15px 20px!important;
- }
- #bar_two  #syafira .comment{
-  background-color:#1C6A7E ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 3px 6px #000000;  
-   padding: 15px 20px!important;
- }
- #testimony #bar_two #sayyid .comment{
-  background-color:#543864 ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 10px 20px #000000;  
-   padding: 15px 20px!important;
- }
- #testimony #bar_two #puspita .comment{
-  background-color:#D1517A ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 5px 17px #000000;  
-   padding: 15px 20px!important;
- }
- #testimony #bar_two #frastio .comment{
-  background-color:#FFFFFF ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 5px 17px #000000;  
-   padding: 15px 20px!important;
- }
- #testimony {
-  background-image: url(../img/homepage/bullet.svg);
-  background-color: #042F4B;
-  margin-top: 2%;
-  height: 880px!important;
-  display: inline-block!important;
+right: 12em;
+  margin-left: auto;
+  margin-top: 10%;
+
+
+}
+  #bar_two img{
+  margin-top: 2em!important;
+}
+
+
 
 }
 
-}
-
-
-@media  screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
   .container {
     max-width: 768px!important;
   }
-  #home-link{margin-top: 60px; margin-left: 0%;}
-  #home-link a{margin: 0px!important;}
-   #fitur-dukungan li #membaca_seru p , #fitur-dukungan li #fitur_gratis p , #fitur-dukungan li #tukar_poin p {
+   .home-head {
+    padding-top: 30%;
+    margin-left: 7em!important;
+  }
+  .home-head p {
+  margin-left: auto;
+  max-width: 420px;
+  margin-right: auto;
+  width: 100% !important;
+}
+.home-head h1 {
+  margin-left: auto;
+  max-width: 500px;
+  margin-right: auto;
+  width: 100% !important;
+}
+  #home-link {
+    margin-right: auto;
+    width: 100%;
+    margin: 
+      }
+  #home-link a {
+  margin: 3px!important;
+
+  }
+  
+  #fitur-dukungan li #membaca_seru p,
+  #fitur-dukungan li #fitur_gratis p,
+  #fitur-dukungan li #tukar_poin p {
     width: 180px!important;
   }
-  #link{color: #999999;padding: 15px 32px!important; border-radius: 25px; border: 1px solid #DBDBDB}
-  .gleam{width:190px; height:260px; }
-  #ket img{padding: 0px!important;}
-  #ket_foot{margin-top: -8%!important; line-height: 20px!important; padding-left: 0px!important;}
-    #buku_first.row .col-4{
-      padding: 100px!important;
-    }
-     #buku_first{margin-top: 90px; margin-left: 14%!important;}
-    .col-4{
-  width: 27%!important;
-  float: left;
-  margin: 15px;
-}
-#garis{margin-top: -15px!important;}
- #fitur-dukungan li #membaca_seru ,#fitur-dukungan li #fitur_gratis ,#fitur-dukungan li #tukar_poin{
+  #link {
+    color: #999999;
+    padding: 15px 32px!important;
+    border-radius: 25px;
+    border: 1px solid #DBDBDB
+  }
+  .gleam {
+    width: 190px;
+    height: 260px;
+  }
+  #ket img {
+    padding: 0px!important;
+  }
+  #ket_foot {
+    margin-top: -8%!important;
+    line-height: 20px!important;
+    padding-left: 0px!important;
+  }
+  #buku_first.row .col-4 {
+    padding: 100px!important;
+  }
+  #buku_first {
+    margin-top: 90px;
+    margin-left: 14%!important;
+  }
+  .col-4 {
+    width: 27%!important;
+    float: left;
+    margin: 15px;
+  }
+  #garis {
+    margin-top: -15px!important;
+  }
+
+  #fitur-dukungan li #membaca_seru,
+  #fitur-dukungan li #fitur_gratis,
+  #fitur-dukungan li #tukar_poin {
     margin-top: 5px!important;
     left: unset !important;
     clear: both;
@@ -335,108 +491,173 @@ nav ul li ul li a {
     padding-left: unset !important;
     width: 40%!important;
     margin-left: 10px!important;
+  }
+  #fitur-dukungan li #tukar_poin {
+    margin-top: -415px!important;
+    /*padding-left: 15em!important;*/
 
-}
-   #fitur-dukungan li #tukar_poin{
-    margin-top: -340px!important;
-    padding-left: 15em!important;
+     margin-left: 33em!important;
+  margin-right: auto!important;
+  width: 100%;
   }
-  #fitur-dukungan li #fitur_gratis{
-  margin-top: -20px!important;
+  #fitur-dukungan li #fitur_gratis {
+    margin-top: -20px!important;
   }
-  #fitur-dukungan a{color: #E8E8E8; padding: 15px 42px; border-radius: 25px; border: 1px solid #DBDBDB; background-color: #042F4B; float: left; margin-top: 6%!important; position: relative; right: 26%!important;}
-  #home_literasi #tingkat_literasi{
-    position: relative; right: 1%;
+  #fitur_gratis a {
+  color: #E8E8E8;
+  padding: 15px 45px!important;
+  border-radius: 25px;
+  border: 1px solid #DBDBDB;
+  background-color: #042F4B;
+  margin-top: 10%;
+  position: relative;
+  width: 100%!important;
+  display: none;
   }
-   #fitur-dukungan li #membaca_seru p , #fitur-dukungan li #fitur_gratis p , #fitur-dukungan li #tukar_poin p {
+
+  #fitur-dukungan a {
+    color: #E8E8E8;
+    padding: 15px 42px;
+    border-radius: 25px;
+    border: 1px solid #DBDBDB;
+    background-color: #042F4B;
+    float: left;
+    margin-top: 6%!important;
+    position: relative;
+    right: 26%!important;
+  }
+  #home_literasi #tingkat_literasi {
+    position: relative;
+    right: 1%;
+  }
+  #fitur-dukungan li #membaca_seru p,
+  #fitur-dukungan li #fitur_gratis p,
+  #fitur-dukungan li #tukar_poin p {
     width: 180px!important;
   }
-  #imj img{ margin-top: -10%; position: relative; left: -3%; width: 20%;}
-    #genre-buku-populer img{
-  padding: 15px!important; width: 
+  #imj img {
+    margin-top: -10%;
+    position: relative;
+    left: -3%;
+    width: 20%;
+  }
+   #genre-buku-populer{
+    margin-left: auto!important;
+    margin-right: auto!important;
+    width: 100%;
+  }
+  #home-genre {
+  margin-top: 100px;
+   margin-left: auto!important;
+  margin-right: auto!important;
+  width: 100%;
+  }
+ 
+  #testimony {
+    background-image: url(../img/homepage/bullet.svg);
+    background-color: #042F4B;
+    margin-top: 2%;
+    height: 880px!important;
+    display: inline-block!important;
+  }
+  #bar_two #yuki .comment {
+    background-color: #fff;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 0px 5px 17px #888888;
+    padding: 15px 20px!important;
+  }
+  #bar_two #syafira .comment {
+    background-color: #1C6A7E;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 0px 3px 6px #000000;
+    padding: 15px 20px!important;
+  }
+  #testimony #bar_two #sayyid .comment {
+    background-color: #543864;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 0px 10px 20px #000000;
+    padding: 15px 20px!important;
+  }
+  #testimony #bar_two #puspita .comment {
+    background-color: #D1517A;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 0px 5px 17px #000000;
+    padding: 15px 20px!important;
+  }
+  #testimony #bar_two #frastio .comment {
+    background-color: #FFFFFF;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 0px 5px 17px #000000;
+    padding: 15px 20px!important;
+  }
+  #testimony #bar_two #yuki {
+    position: relative;
+    left: 77%;
+    margin-top: -6em;
+  }
+  #fitur-dukungan li {
+  max-width: 180px!important;
+  float: left;
+   margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 6%;
 }
-#testimony {
-  background-image: url(../img/homepage/bullet.svg);
+    
+    #fitur-dukungan {
   background-color: #042F4B;
-  margin-top: 2%;
-  height: 880px!important;
-  display: inline-block!important;
-
-} 
-    #bar_two #yuki .comment{
-  background-color:#fff ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 5px 17px #888888;  
-   padding: 15px 20px!important;
- }
- #bar_two  #syafira .comment{
-  background-color:#1C6A7E ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 3px 6px #000000;  
-   padding: 15px 20px!important;
- }
- #testimony #bar_two #sayyid .comment{
-  background-color:#543864 ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 10px 20px #000000;  
-   padding: 15px 20px!important;
- }
- #testimony #bar_two #puspita .comment{
-  background-color:#D1517A ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 5px 17px #000000;  
-   padding: 15px 20px!important;
- }
- #testimony #bar_two #frastio .comment{
-  background-color:#FFFFFF ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 5px 17px #000000;  
-   padding: 15px 20px!important;
- }
- #testimony #bar_two #yuki {
-  position: relative;
-  left: 77%; margin-top: -6em;
- }
-
-
-  
+  width: 100%;
+  height: auto!important;
+  margin-top: 25em!important;
+  margin-right: unset!important;
+  margin-left: auto!important;
 }
 
- /*IPAD*/
- @media screen and (max-width: 768px) {
+}
+
+
+/*IPAD*/
+
+@media screen and (max-width: 768px) {
   .container {
     max-width: 600px!important;
   }
-  .container{max-width: 700px!important; width: 100%; clear: both; }
+  .container {
+    max-width: 700px!important;
+    width: 100%;
+    clear: both;
+  }
   .nav-mobile {
     display: block;
     margin-right: 50px;
   }
   .nav-mobile a span {
-    width:  100px;
+    width: 100px;
   }
   nav {
     width: 100%;
-    padding: 70px 0 15px; 
+    padding: 70px 0 15px;
   }
   nav ul {
-    display: none; font-size: 20px; 
-     width: 100%;
-    float: right; 
+    display: none;
+    font-size: 20px;
+    width: 100%;
+    float: right;
   }
   nav ul li {
-    float: none;   }
+    float: none;
+  }
   nav ul li a {
     padding: 15px;
     line-height: 20px;
-  padding-left: 25%; background: #216583; padding: 10px; padding-left: 49%;
-    
-   
+    padding-left: 25%;
+    background: #216583;
+    padding: 10px;
+    padding-left: 49%;
   }
   nav ul li ul li a {
     padding-left: 30%;
   }
- 
   .nav-dropdown {
     position: static;
   }
@@ -444,32 +665,120 @@ nav ul li ul li a {
     max-height: 60px;
     margin-top: 5px;
   }
-  #garis{margin-top: -10px;}
+  #garis {
+    margin-top: -10px;
+  }
+   .home-head {
+    padding-top: 30%;
+    margin-left: 7em!important;
+  }
+  .home-head p {
+  margin-left: auto;
+  max-width: 420px;
+  margin-right: auto;
+  width: 100% !important;
+}
+.home-head h1 {
+  margin-left: auto;
+  max-width: 500px;
+  margin-right: auto;
+  width: 100% !important;
+
+}
+  #search-box {
+    position: relative;
+    left: 10%!important;
+    width: 80%!important;
+    margin-top: 20%!important;
+  }
+  #home-buku-populer p {
+    font-size: 20px!important;
+    margin-left: 11em!important;
+  }
+  #home-buku-populer {
+    margin-right: 2%;
+  }
+  #home-link {
+    margin-right: auto!important;
+    width: 100%!important;
+    margin-left: auto!important;
+    margin: 10px;
+      }
+  .bgf{
+     margin-left: auto!important;
+  margin-right: auto!important;
+  width: 100%;
+  margin-top: 10em!important;
+  }
   
+#home-link a {
+  margin: 5px!important;
+}
+#link {
+  color: #999999;
+  padding: 15px 42px;
+  border-radius: 25px;
+  border: 1px solid #DBDBDB
+}
+#novel {
+  color: #E8E8E8;
+  padding: 15px 42px;
+  border-radius: 25px;
+  border: 1px solid #DBDBDB;
+  background-color: #216583;
+}
+  
+  
+  #buku_first {
+    margin-top: 90px!important;
+    margin: 3%!important;
+  }
+  .gleam {
+    width: 85%;
+    height: 170px;
+  }
+  #gleam {
+    height: 155px;
+  }
+  #ket_foot {
+    padding-top: 12px;
+    line-height: 25px;
+    padding-left: 15%;
+  }
+  #buku_second {
+    right: 4%;
+    margin-top: 35%;
+    position: relative;
+  }
+  #fitur h2 {
+    color: #fff;
+    margin-left: 12%!important;
+  }
+  #fitur img {
+    width: 60px;
+  }
+  #home-genre {
+    margin-top: 100px;
+    position: relative;
+    left: 8%!important;
+  }
+  #buku_second {
+    margin-left: 6%!important;
+    margin-top: 40%!important;
+  }
+      #fitur-dukungan {
+  background-color: #042F4B;
+  width: 100%;
+  height:637px!important;
+  margin-top: 25em!important;
+  margin-right: unset!important;
+  margin-left: auto!important;
+}
 
-
-    .home-head {padding-top: 20%;  margin-left: 5em!important;} 
-  .home-head p{color: #BBBBBB;   font-size: 14px; width: 300px; text-align:center; line-height: 25px; float: right; padding-right: 250px!important;}
-  .home-head h1{color: #666666; font-size: 32px!important; line-height: 59px; width: 550px; }
-   #search-box {position: relative; left : 10%!important;width: 80%!important;margin-top: 20%!important;}
-   #home-buku-populer p{font-size: 20px!important; margin-left: 11em!important;}
-   #home-buku-populer{margin-right: 2%;}
-   #home-link{margin-top: 30px!important; position: relative; right: 3.5%;}
-  #home-link a{margin: 2px!important;}
-  #link{color: #999999;padding: 10px 15px!important; border-radius: 25px; border: 1px solid #DBDBDB}
-  #novel{color: #E8E8E8; padding: 10px 25px!important; border-radius: 25px; border: 1px solid #DBDBDB; background-color: #216583;}
-
-  #buku_first{margin-top: 90px!important; margin: 3%!important;}
-   .gleam{width: 85%; height: 170px; } #gleam{height: 155px;}
-   #ket_foot{padding-top: 12px; line-height: 25px; padding-left: 15%;}
-   #buku_second{ right: 4%; margin-top: 35%; position: relative;}
-  #fitur h2{color: #fff; margin-left: 12%!important;} #fitur img{width: 60px;} 
-
-  #home-genre{
-  margin-top: 100px; position: relative; left: 8%!important;}
-    #buku_second{ margin-left: 6%!important; margin-top: 40%!important;}
-    #fitur-dukungan{background-color: #042F4B; width: 100%; height: 595px; margin-top: 10%;}
-    #fitur-dukungan li #membaca_seru ,#fitur-dukungan li #fitur_gratis ,#fitur-dukungan li #tukar_poin{
+  
+  #fitur-dukungan li #membaca_seru,
+  #fitur-dukungan li #fitur_gratis,
+  #fitur-dukungan li #tukar_poin {
     margin-top: 5px!important;
     left: -15%!important;
     clear: both;
@@ -482,138 +791,320 @@ nav ul li ul li a {
     padding-left: unset !important;
     width: 20%!important;
     margin-left: -20px!important;
-
-}
-   #fitur-dukungan li #tukar_poin{
+  }
+  #fitur-dukungan li #tukar_poin {
     margin-top: -330px!important;
     padding-left: 11em!important;
   }
-  #fitur-dukungan li #fitur_gratis{
-  margin-top: -20px!important; position: relative; right: 15%;
+  #fitur-dukungan li #fitur_gratis {
+    margin-top: -20px!important;
+    position: relative;
+    right: 15%;
   }
-  #fitur-dukungan a{color: #E8E8E8; padding: 15px 42px; border-radius: 25px; border: 1px solid #DBDBDB; background-color: #042F4B; float: left; margin-top: 6%!important; position: relative; right: 26%!important;}
-  #home_literasi #tingkat_literasi{
-    position: relative; right: 1%;
+  #fitur-dukungan a {
+    color: #E8E8E8;
+    padding: 15px 42px;
+    border-radius: 25px;
+    border: 1px solid #DBDBDB;
+    background-color: #042F4B;
+    float: left;
+    margin-top: 6%!important;
+    position: relative;
+    right: 26%!important;
+  }
+  #home_literasi #tingkat_literasi {
+    position: relative;
+    right: 1%;
   }
   /*komentar*/
-  #bar_two #yuki .comment{
-  background-color:#fff ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 5px 17px #888888;  
-   padding: 10px!important 13px!important;
- }
- #bar_two  #syafira .comment{
-  background-color:#1C6A7E ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 3px 6px #000000;  
-   padding: 10px!important 20px!important;
- }
- #testimony #bar_two #sayyid .comment{
-  background-color:#543864 ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 10px 20px #000000;  
-   padding: 5px!important 30px!important;
- }
- #testimony #bar_two #puspita .comment{
-  background-color:#D1517A ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 5px 17px #000000;  
-   padding: 15px 42px;
- }
- #testimony #bar_two #frastio .comment{
-  background-color:#FFFFFF ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 5px 17px #000000;  
-   padding: 20px 35px;
- }
- #testimony #bar_two #yuki li{
-  position: relative;
-  left: -9%!important;
-  margin-top: -10%!important;
- }
- #testimony #bar_two #syafira li{
-  right: 2em;
-  position: relative;
-  padding-top: 5%;
- }
- #testimony #bar_two #sayyid li{
-  padding-top: 19%!important;
-  position: relative;
-  left: 59%;
- }
- #testimony #bar_two #puspita li{
-  padding-top: 5%!important;
-  position: relative;
-  left: 50%;
- }
- #testimony #bar_two #frastio li{
-  display: none;
-  margin-top: -19%!important;
-  left: 25em; position:relative;
- }
- #yuki .comment p , #syafira .comment p , #sayyid .comment p , #frastio .comment p, #puspita .comment p{
-  color: #777777;
-  font-size: 10px;
-  text-align: left;
-  width: 200px!important;
- }
- #testimony {
-  background-image: url(../img/homepage/bullet.svg);
-  background-color: #042F4B;
-  margin-top: 2%;
-  height: 880px!important;
-
-}
- 
-}
-@media screen and (max-width: 420px) {
-  .container{
-    width: 300px!important;
+  #bar_two #yuki .comment {
+    background-color: #fff;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 0px 5px 17px #888888;
+    padding: 10px!important 13px!important;
   }
-  .home-head{padding-top: 70%!important;  margin-left: 23em;} 
-
+  #bar_two #syafira .comment {
+    background-color: #1C6A7E;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 0px 3px 6px #000000;
+    padding: 10px!important 20px!important;
   }
-  .home-head h1{
-    position: relative; right: 3em;
-    font-size: 10px!important;
+  #testimony #bar_two #sayyid .comment {
+    background-color: #543864;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 0px 10px 20px #000000;
+    padding: 5px!important 30px!important;
+  }
+  #testimony #bar_two #puspita .comment {
+    background-color: #D1517A;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 0px 5px 17px #000000;
+    padding: 15px 42px;
+  }
+  #testimony #bar_two #frastio .comment {
+    background-color: #FFFFFF;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 0px 5px 17px #000000;
+    padding: 20px 35px;
+  }
+  #testimony #bar_two #yuki li {
+    position: relative;
+    left: -9%!important;
+    margin-top: -10%!important;
+  }
+  #testimony #bar_two #syafira li {
+    right: 2em;
+    position: relative;
+    padding-top: 5%;
+  }
+  #testimony #bar_two #sayyid li {
+    padding-top: 19%!important;
+    position: relative;
+    left: 59%;
+  }
+  #testimony #bar_two #puspita li {
+    padding-top: 5%!important;
+    position: relative;
+    left: 50%;
+  }
+  #testimony #bar_two #frastio li {
+    display: none;
+    margin-top: -19%!important;
+    left: 25em;
+    position: relative;
+  }
+  #yuki .comment p,
+  #syafira .comment p,
+  #sayyid .comment p,
+  #frastio .comment p,
+  #puspita .comment p {
+    color: #777777;
+    font-size: 10px;
+    text-align: left;
     width: 200px!important;
   }
-  .home-head h1 a{color: #666666;  line-height: 50px;  }
- .home-head p{
-    color: #BBBBBB;  
-     font-size: 14px;
-     max-width: 407px; 
-     text-align:center;
-      line-height: 25px; 
-      position: relative;
-      left: 14em;
-    }
-      #search-box {
-    position: relative; left : 18%;
+  #testimony {
+    background-image: url(../img/homepage/bullet.svg);
+    background-color: #042F4B;
+    margin-top: 2%;
+    height: 100px!important;
+  }
+  #fitur-dukungan li #tukar_poin {
+    margin-top: -405px!important;
+    /*padding-left: 15em!important;*/
+
+     margin-left: 15em!important;
+  margin-right: auto!important;
+  width: 100%;
+  }
+  #fitur-dukungan li #membaca_seru p,
+  #fitur-dukungan li #fitur_gratis p,
+  #fitur-dukungan li #tukar_poin p {
+    width: 180px!important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .home-head {
+    padding-top: 30%;
+    margin-left: 3em!important;
+  }
+ .home-head p {
+  color: #BBBBBB;
+  font-size: 16px;
+  text-align: center!important;
+  line-height: 28px;
+}
+
+.home-head h1 {
+  margin-left: auto;
+  max-width: 500px;
+  margin-right: auto;
+  width: 100% !important;
+}
+  
+  .home-head h1 a {
+    color: #666666;
+    line-height: 50px;
+      font-size: auto;
+  }
+  
+  #search-box {
+    position: relative;
+    left: 18%;
     width: 70%;
     margin-top: 10em!important;
-    }
-
-    #search-button {
-    position: absolute ;
-     top: 0; right: 0; height: 32px; 
-     width: 110px!important; font-size: 14px; 
-     color: #fff;text-align: center;
-     line-height: 42px;border-width: 0;
+  }
+  #search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 32px;
+    width: 110px!important;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    border-width: 0;
     background-color: #216583;
-    -moz-border-radius: 0px 5px 5px 0px; 
-    border-radius: 40px;cursor: pointer; 
+    -moz-border-radius: 0px 5px 5px 0px;
+    border-radius: 40px;
+    cursor: pointer;
     margin-top: 6px;
-    }
-    #home-genre p{color: #928D8D; font-size: 24px; margin-left:3em!important;}
-    #genre-buku-populer img{
+  }
+  #home-genre p {
+    color: #928D8D;
+    font-size: 24px;
+    margin-left: 3em!important;
+  }
+  #genre-buku-populer img {
     padding: 2px!important;
-    } 
-    #genre-buku-populer{
-      padding-right: 20px!important;
-    }
-    #home-buku-populer p{color: #666666; font-size: 24px; margin-left: 2em!important;}
+  }
+  #genre-buku-populer {
+    padding-right: 20px!important;
+  }
+  #home-buku-populer p {
+    color: #666666;
+    font-size: 24px;
+    margin-left: 2em!important;
+  }
+  #home-link {
+    margin-right: auto;
+    width: 100%;
+    margin: 
+      }
+  #home-link a {
+  margin: 3px!important;
 
+  }
+  
+  #mtk{
+    margin-top: 100px!important;
+  }
+  .gleam{
+    width: 200px!important;
+    height: 250px!important;
+  }
+  .col-4 {
+  width: 100%!important;
+  float: left;
+}
+    #testimony {
+  background-image: url(../img/homepage/bullet.svg);
+  background-color: #042F4B;
+  margin-top: 0%!important;
+  height: auto!important;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+   
+ #buku_second {
+    right: 4%;
+    margin-top: 35%;
+    position: relative;
+    height: 150em!important;
+  }
+  #fitur-dukungan {
+  background-color: #042F4B;
+  width: 100%;
+  height:637px!important;
+  margin-top: 25em!important;
+  margin-right: unset!important;
+  margin-left: auto!important;
+}
+
+    #fitur-dukungan li {
+  max-width: 200px;
+  /*float: left;
+  padding-left: 11%;
+  margin-top: 6%;
+  */ margin-left: auto!important;
+  margin-right: auto!important;
+  width: 100%;
+  position: relative;
+  left: 7em;
+}
+  #fitur-dukungan li #membaca_seru,
+  #fitur-dukungan li #fitur_gratis,
+  #fitur-dukungan li #tukar_poin {
+    margin-top: 0px!important;
+    left: -15%!important;
+    clear: both;
+    padding-top: 0px!important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: unset !important;
+    width: 20%!important;
+    margin-left: -20px!important;
+    margin: 0!important;
+  }
+  #fitur-dukungan li #tukar_poin {
+    margin-top: -80px!important;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+  }
+#fitur-dukungan li #membaca_seru p,
+  #fitur-dukungan li #fitur_gratis p,
+  #fitur-dukungan li #tukar_poin p{
+    width: 255px!important;
+     
+  }
+  #imj {
+  margin-top: 25%!important;
+  position: relative;
+  left: 12%!important;
+
+  /*margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+ */
+ margin-left: auto;
+ margin-right: auto;
+ width: 100%;
+    }
+    #home_literasi {
+    height: 490px!important;
+  }
+  #bar_one {
+  /*padding-top: 30%;
+  padding-left: 20%;
+
+  */
+  padding-top: 20px;
+   margin-left: auto;
+  margin-right: auto;
+  width: 80%!important;
+  
+}
+    #testimony {
+      width: 100%!important;
+    background-image: url(../img/homepage/bullet.svg);
+    background-color: #042F4B;
+    margin-top: 2%;
+    height: 280px!important;
+    display: inline-block!important;
+  }
+  #bar_two {
+     margin-left: auto!important;
+  margin-right: auto!important;
+  width: 100%;
+padding-top: 20em;
+  position: relative;
+  left: -5em!important;
+  height: 
+
+
+}
 
 
 

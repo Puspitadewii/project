@@ -162,3 +162,48 @@ nav ul li ul li a {
     transform: rotate(-45deg);
   }
  /*ahir hamburger*/
+ @media screen and (max-width: 1024px) {
+  .container {
+    max-width: 900px!important;
+    
+  }
+  .container-reg{
+    max-width: 900px;
+  margin: auto;
+}
+ #reg_second{
+   /*background-image: url('../img/homepage/login.svg')!important;*/
+  
+  width: 620px;
+  height: 890px!important;
+  /*background-size: 80%;
+  */margin-top: -49em!important;
+  /*background-size: 100%;*/
+   position: relative;
+   left: 28em!important;
+
+}
+
+
+
+
+}
+@media screen and (max-width: 980px) {
+  .container {
+    max-width: 768px !important;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 600px !important;
+    margin: 
+  }
+  
+}
+/*hp*/
+@media screen and (max-width: 420px) {
+  .container{
+    max-width: 300px!important;
+  }
+}

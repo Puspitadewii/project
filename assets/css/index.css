@@ -1,189 +1,518 @@
-*{
-	padding: 0;
-	margin: 0;
-	font-family: sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
 }
-html, body{
+
+html,
+body {
   overflow-x: hidden;
 }
-a{
-	text-decoration: none;
+
+a {
+  text-decoration: none;
 }
-h1{color: #666666;}
-h2, h3{
-	color: #666666;
-	font-size: 20px;
- font-weight: 500;
+
+h1 {
+  color: #666666;
 }
-.container{
-	max-width: 1080px;
-	margin: auto;
-  
+
+h2,
+h3 {
+  color: #666666;
+  font-size: 20px;
+  font-weight: 500;
 }
+
+.container {
+  max-width: 1080px;
+  margin: auto;
+}
+.container-reg{
+    max-width: 1080px;
+  margin: auto;
+
+
+}
+
 .nav-baru
 /*un
  dropdown*/
+
+
 /*ahirdropdown*/
-.little-span{font-size: 8px; color: #C8C6C6;}
-.center{left: 40%; position: relative;}
-.menu{
-	float: right;
-	margin-top: -40px; color:#8B8B8B;
+
+.little-span {
+  font-size: 8px;
+  color: #C8C6C6;
 }
-.menu a{
-	text-decoration: none; color: #8B8B8B;
-}	
+
+.center {
+  left: 40%;
+  position: relative;
+}
+
+.menu {
+  float: right;
+  margin-top: -40px;
+  color: #8B8B8B;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #8B8B8B;
+}
+
+
 /*.menu ul li{
-	display: inline;
+  display: inline;
   padding-right: 40px;
-	text-decoration: none;
+  text-decoration: none;
 }
 /*nav{background-color:#fff;  font-family:Sans-serif;  padding-top: 3%; font-size: 14px; */
-}.tombol{padding: 15px 42px; border-radius: 25px; border: 1px solid #8B8B8B;position: relative;left: 10%;}
+
+
+}
+.tombol {
+  padding: 15px 42px;
+  border-radius: 25px;
+  border: 1px solid #8B8B8B;
+  position: relative;
+  left: 10%;
+}
+
 /*konten*/
-.view{margin-top: 7%;}
-.views{
-	display: inline; margin-top: 5%!important; } #reviews{position: relative; left: 20%; margin-top: -16em; font-family: "vidaloka", sans-serif; width: 50%;}
-	#reviews h2{text-align: left;}
-	#reviews img{ padding: 2px; } #span-bok{color: #A7A7A7; font-size: 10px;}
-.book{
-	margin-top: 130px; padding: 20px;}
-	/*share*/
-.share{
-	float: right; margin-top:-19em; margin-right: 7%;
+.view {
+  margin-top: 7%;
 }
-.share a{color: #1F5F7B; font-size: 12px; float: right;}
-.row{width: 100%;} .icons{position: relative; right: 14%;}
-.icons img{float: right; padding: 2px; margin-top: -23px; }  #share-head img{padding-right: 3em; margin-top: 15%;}
-#reviews a{
-	background-color: #1F5F7B; color: #fff;  padding: 16px 38px; border-radius: 25px;
-} 
-li{list-style-type: none;}
-#nanti img{width: 168px;}
-#book-rat img{ width: 3%; }
-#book-rat {position: relative; left: 0%;}
-#buku_terbaik{ 
+.views {
+  display: inline;
+  margin-top: 5%!important;
+}
+#reviews {
+  position: relative;
+  left: 20%;
+  margin-top: -16em;
+  font-family: "vidaloka", sans-serif;
+  width: 50%;
+}
+#reviews h2 {
+  text-align: left;
+}
+#reviews img {
+  padding: 2px;
+}
+#span-bok {
+  color: #A7A7A7;
+  font-size: 10px;
+}
+.book {
+  margin-top: 130px;
+  padding: 20px;
+}
+
+/*share*/
+.share {
+  float: right;
+  margin-top: -19em;
+  margin-right: 7%;
+}
+.share a {
+  color: #1F5F7B;
+  font-size: 12px;
+  float: right;
+}
+.row {
+  width: 100%;
+}
+.icons {
+  position: relative;
+  right: 14%;
+}
+.icons img {
+  float: right;
+  padding: 2px;
+  margin-top: -23px;
+}
+#share-head img {
+  padding-right: 3em;
+  margin-top: 15%;
+}
+#reviews a {
+  background-color: #1F5F7B;
+  color: #fff;
+  padding: 16px 38px;
+  border-radius: 25px;
+}
+li {
+  list-style-type: none;
+}
+#nanti img {
+  width: 168px;
+}
+#book-rat img {
+  width: 3%;
+}
+#book-rat {
+  position: relative;
+  left: 0%;
+}
+#buku_terbaik {
   height: 400px;
-  margin-top: -2%!important; }
-.buku-pertama img{ padding: 5px;  width: 99px;  height: 140px; margin-top: 9%;} 
-.buku-pertama p{padding-top: 15%; position: relative; left: 9%;}
-#buku-kedua { float: right; margin-top: -10em; padding: 2px; margin-right: 9%;} #buku-kedua img{padding: 5px;} #buku-kedua h4{margin-right: 69%; width: 200px;}
-#img{
-	padding: 9px;
+  margin-top: -2%!important;
+}
+.buku-pertama img {
+  padding: 5px;
+  width: 99px;
+  height: 140px;
+  margin-top: 7%;
+}
+.buku-pertama p {
+  padding-top: 15%;
+  position: relative;
+  left: 9%;
+}
+#buku-kedua {
+  float: right;
+  margin-top: -10em;
+  padding: 2px;
+  margin-right: 9%;
+}
+#buku-kedua img {
+  padding: 5px;
+}
+#buku-kedua h4 {
+  margin-right: 69%;
+  width: 200px;
+}
+#img {
+  padding: 9px;
+}
+#logos {
+  width: 40%;
 }
 
-
- #logos{width: 40%;}
- /*Home page*/
-.home-head{padding-top: 30%;  margin-left: 18em;} 
-.home-head p{color: #BBBBBB;   font-size: 16px;  text-align:center; line-height: 28px; margin-right: 2em!important;}
-.home-head h1{
-  margin-left: 5em;
+/*Home page*/
+.home-head {
+  padding-top: 10%;
 }
-.home-head h1 a{color: #666666; font-size: 42px!important; line-height: 55px; width: 320px; }
-h1, h2, h4{font-weight: 500; font-family: "vidaloka",sans-serif; text-align: center; max-width: 630px;}
-#lainnya{margin-left: 7%;}
+.home-head p {
+  color: #BBBBBB;
+  font-size: 14px;
+  text-align: center;
+  line-height: 25px;
+  max-width: 407px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.home-head h1 {
+  margin-left: auto;
+  max-width: 520px;
+  margin-right: auto;
+  width: 100% !important;
+  height: 150px;
+}
+.home-head h1 a {
+  color: #666666;
+  font-size: 42px!important;
+  line-height: 55px;
+}
+h1,
+h2,
+h4 {
+  font-weight: 500;
+  font-family: "vidaloka", sans-serif;
+  text-align: center;
+  max-width: 630px;
+}
+#lainnya {
+  margin-left: 7%;
+}
+
 /*search*/
 #search-box {
-position: relative; left : 18%;
-width: 70%;
-margin-top: 100px;
+  position: relative;
+  left: 18%;
+  width: 70%;
+  margin-top: 100px;
 }
-#search-form{height: 50px; border: 1px solid #fff; box-shadow: 0px 3px 30px #888888; -webkit-border-radius: 5px;
--moz-border-radius: 5px; background-color: #fff; border-radius: 20px 20px 20px 20px;
+#search-form {
+  height: 50px;
+  border: 1px solid #fff;
+  box-shadow: 0px 3px 30px #888888;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-color: #fff;
+  border-radius: 20px 20px 20px 20px;
 }
-#search-text
-{font-size: 14px; color: black; border-width: 0;background: transparent;
+#search-text {
+  font-size: 14px;
+  color: black;
+  border-width: 0;
+  background: transparent;
 }
-#search-box input[type="text"]{width: 90%; padding: 20px 0 12px 1em; outline: none;}
+#search-box input[type="text"] {
+  width: 90%;
+  padding: 20px 0 12px 1em;
+  outline: none;
+}
 #search-button {
-position: absolute; top: 0; right: 0; height: 42px; width: 160px; font-size: 14px; color: #fff;text-align: center;line-height: 42px;border-width: 0;
-background-color: #216583;-moz-border-radius: 0px 5px 5px 0px; border-radius: 40px;cursor: pointer; margin-top: 6px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 42px;
+  width: 160px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  line-height: 42px;
+  border-width: 0;
+  background-color: #216583;
+  -moz-border-radius: 0px 5px 5px 0px;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-top: 6px;
 }
-#ket_foot{padding-top: 12px; line-height: 23px; padding-left: 8px;}
-#ket img{padding: 1px;}
+#ket_foot {
+  padding-top: 12px;
+  line-height: 23px;
+  padding-left: 8px;
+}
+#ket img {
+  padding: 1px;
+}
+
 /*genre populer*/
-#genre-buku-populer img{
-	padding: 17px;
-} 
-#genre-buku-populer img:hover{margin-top: -3px;}
-#home-genre{
-	margin-top: 100px; position: relative; left: 2em;
+#genre-buku-populer{
+    margin-left: auto!important;
+    margin-right: auto!important;
+    width: 100%;
+  }
+#genre-buku-populer img {
+  padding: 10px;
 }
-#home-genre p{color: #928D8D; font-size: 24px; margin-left:12em;}
+#genre-buku-populer img:hover {
+  margin-top: -3px;
+}
+#home-genre {
+  margin-top: 100px;
+   margin-left: 4em;
+  margin-right: auto;
+  width: 100%;
+}
+#home-genre p {
+  color: #928D8D;
+  font-size: 24px;
+  margin-left: 12em;
+}
+
 /*buku populer*/
-#bok_fot{position: absolute; }  #cover_fot{position: absolute; } #cover_fot h4{position: relative;right: 10%;}
+#bok_fot {
+  position: absolute;
+}
+#cover_fot {
+  position: absolute;
+}
+#cover_fot h4 {
+  position: relative;
+  right: 10%;
+}
+#home-buku-populer {
+  margin-top: 110px
+   margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+#home-buku-populer p {
+  color: #666666;
+  font-size: 24px;
+  margin-left: 15em
+}
+#home-link {
+  margin-top: 60px;
+  margin-left: 10%;
+}
+#home-link a {
+  margin: 20px;
+}
+#link {
+  color: #999999;
+  padding: 15px 42px;
+  border-radius: 25px;
+  border: 1px solid #DBDBDB;
+}
+#see{
+  color: #216583;
+  padding: 15px 50px;
+  border-radius: 25px;
+  border: 1px solid #216583;
+  float: left;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10%;
 
-#home-buku-populer{margin-top: 110px;}#home-buku-populer p{color: #666666; font-size: 24px; margin-left: 15em}
-#home-link{margin-top: 60px; margin-left: 10%;}
-#home-link a{margin: 20px;}
-#link{color: #999999;padding: 15px 42px; border-radius: 25px; border: 1px solid #DBDBDB}
-#novel{color: #E8E8E8; padding: 15px 42px; border-radius: 25px; border: 1px solid #DBDBDB; background-color: #216583;}
-#buku_first{margin-top: 60px; margin-left: 14%;}
-#buku_second{ margin-left: 14%; margin-top: 35%; height: 400px;}
-.col p{line-height: 24px; font-size: 14px;}
+
+}
+#novel {
+  color: #E8E8E8;
+  padding: 15px 42px;
+  border-radius: 25px;
+  border: 1px solid #DBDBDB;
+  background-color: #216583;
+}
+#buku_first {
+  margin-top: 60px;
+  margin-left: 14%;
+}
+#buku_second {
+  margin-left: 14%;
+  margin-top: 35%;
+  height: 470px;
+}
+.col p {
+  line-height: 24px;
+  font-size: 14px;
+}
+
 /*Grid*/
-.row{
-	width: 100%;
-	clear: both;
+.row {
+  width: 100%;
+  clear: both;
 }
-.col-4{
-	width: 25%;
-	float: left;
+.col-4 {
+  width: 25%;
+  float: left;
+}
+.col-3 {
+  width: 33%;
+  float: left;
+}
+.col-2 {
+  width: 50%;
+  float: left;
+}
+.col {
+  float: left;
+}
 
-}
-.col-3{
-	width: 33%;
-	float: left;
-}
-.col-2{
-	width: 50%;
-	float: left;
-}
-.col{ float: left; }
 /*fitur*/
-#fitur-dukungan a{color: #E8E8E8; padding: 15px 42px; border-radius: 25px; border: 1px solid #DBDBDB; background-color: #042F4B; float: left; margin-top: 26%; position: relative; right: 37%;}
-#fitur-dukungan{background-color: #042F4B; width: 100%; height: 595px; margin-top: 30%;} #fitur-dukungan h2{font-size: 24px; color: #FFFFFF; font-weight: 500; padding-top: 9%;}
-#fitur-dukungan li{max-width: 200px; float: left; padding-left: 11%; margin-top: 6%; } #fitur-dukungan li p{color: white; font-size: 14px; line-height: 24px; text-align: center;}
-#fitur-dukungan h4{color: white; padding-top: 5%;} #fitur-dukungan img{padding-left: 9%;} #membaca_seru img, #tukar_poin img{left: 18%; position: relative;} #fitur_gratis{margin-top: -9%;}
+#fitur_gratis a {
+  color: #E8E8E8;
+  padding: 15px 45px;
+  border-radius: 25px;
+  border: 1px solid #DBDBDB;
+  background-color: #042F4B;
+  margin-top: 10%;
+  position: relative;
 
+}
+    #fitur-dukungan {
+  background-color: #042F4B;
+  width: 100%;
+  height: 890px!important;
+  margin-top: 25em!important;
+  margin-right: unset!important;
+  margin-left: auto!important;
 
+}
+#fitur-dukungan h2 {
+  font-size: 24px;
+  color: #FFFFFF;
+  font-weight: 500;
+  padding-top: 19%;
+  font-family: sans-serif;
+  justify-content: center!important;
+padding-left: 10em;
+}
+#fitur-dukungan li {
+  max-width: 200px;
+  float: left;
+  padding-left: 11%;
+  margin-top: 16%;
+}
+#fitur-dukungan li p {
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
+#fitur-dukungan h4 {
+  color: white;
+  padding-top: 5%;
+}
+#fitur-dukungan img {
+  padding-left: 9%;
+}
+#membaca_seru img,
+#tukar_poin img {
+  left: 18%;
+  position: relative;
+}
+#fitur_gratis {
+  margin-top: -9%;
+}
 
 /*literasi*/
-#imj{ margin-top: -18%; position: relative; left: 50%;}
-#lebih_lanjut{color: #216583; padding: 15px 42px; border-radius: 25px; border: 1px solid #216583; background-color: #fff;}
-#home_literasi{padding-top: 190px; overflow: hidden; height: 300px;}
-#tingkat_literasi h2{ font-size: 36px; color: #666666;  max-width: 300px; text-align: left; line-height: 42px;}
-.btn_testy{color: #E8E8E8; padding: 15px 42px; border-radius: 25px; border: 1px solid #DBDBDB; background-color: #042F4B; }
+#imj {
+  margin-top: -18%;
+  position: relative;
+  left: 50%;
+}
+#lebih_lanjut {
+  color: #216583;
+  padding: 15px 42px;
+  border-radius: 25px;
+  border: 1px solid #216583;
+  background-color: #fff;
+}
+#home_literasi {
+  margin-left: 0 auto;
+  margin-right: 0 auto;  
+  margin-top: 6em; 
+    width: 100%;
+  overflow: hidden;
+  height: 300px;
+}
+#tingkat_literasi h2 {
+  font-size: 36px;
+  color: #666666;
+  max-width: 300px;
+  text-align: left;
+  line-height: 42px;
+}
+.btn_testy {
+  color: #E8E8E8;
+  padding: 15px 42px;
+  border-radius: 25px;
+  border: 1px solid #DBDBDB;
+  background-color: #042F4B;
+}
 
-/*testimony*/ 
+/*testimony*/
 #bar_one {
   padding-top: 30%;
   padding-left: 20%;
   width: 45%;
   height:
 }
-
 #bar_one h2 {
   color: #D9D9D9;
   font-size: 36px;
   text-align: left;
   max-width: 350px;
 }
-
 #bar_one p {
   color: #C4C4C4;
   line-height: 20px;
   max-width: 350px;
 }
-
 #testimony {
   background-image: url(../img/homepage/bullet.svg);
   background-color: #042F4B;
   margin-top: 2%;
   height: 700px!important;
   display: inline-block!important;
-
 }
 #tingkat_literasi {
   color: #777777;
@@ -191,271 +520,653 @@ background-color: #216583;-moz-border-radius: 0px 5px 5px 0px; border-radius: 40
   max-width: 300px;
   padding-left: 10%;
 }
-
 #tingkat_literasi p {
   line-height: 30px;
 }
 #bar_two {
-  float: left!important;
+
 }
-#bar_two{
-  float: left!important;
+#bar_two {
+  float: right!important;
   position: relative;
   left: 6em;
-    margin-top: -50%!important;
-    float: right!important;
-    
+  margin-top: -57%!important;
 }
-#yuki li, #syafira li, #sayyid li, #puspita li, #frastio li {
+#yuki li,
+#syafira li,
+#sayyid li,
+#puspita li,
+#frastio li {
   float: left!important;
 }
-
- #yuki .comment p , #syafira .comment p , #sayyid .comment p , #frastio .comment p, #puspita .comment p{
+#yuki .comment p,
+#syafira .comment p,
+#sayyid .comment p,
+#frastio .comment p,
+#puspita .comment p {
   color: #777777;
   font-size: 10px;
   text-align: left;
   width: 230px;
- }
- #yuki .comment h5, #frastio .comment h5,{
-  color: #666666; font-size: 14px;
- }
-  #syafira .comment h5, #sayyid .comment h5, #puspita .comment h5{
-    color: #E8E0E0; font-size: 14px;
-  }
- #bar_two #yuki .comment{
-  background-color:#fff ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 5px 17px #888888;  
-   padding: 25px 42px;
- }
- #bar_two  #syafira .comment{
-  background-color:#1C6A7E ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 3px 6px #000000;  
-   padding: 25px 30px;
- }
- #testimony #bar_two #sayyid .comment{
-  background-color:#543864 ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 10px 20px #000000;  
-   padding: 45px 42px;
- }
- #testimony #bar_two #puspita .comment{
-  background-color:#D1517A ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 5px 17px #000000;  
-   padding: 15px 42px;
- }
- #testimony #bar_two #frastio .comment{
-  background-color:#FFFFFF ;  
-  border-radius: 0px 20px 20px 20px; 
-   box-shadow: 0px 5px 17px #000000;  
-   padding: 20px 35px;
-   
- }
- #testimony #bar_two #yuki {
+}
+#syafira .comment p , #sayyid .comment p{
+  color: #BCBCBC;
+}
+#puspita .comment p{
+  color: #BEBEBE;
+}
+#yuki .comment h5,
+#frastio .comment h5,
+{
+  color: #666666;
+  font-size: 14px;
+}
+#syafira .comment h5,
+#sayyid .comment h5,
+#puspita .comment h5 {
+  color: #E8E0E0;
+  font-size: 14px;
+}
+#bar_two img{
+  margin-top: -23px;
+}
+#bar_two #yuki .comment {
+  background-color: #fff;
+  border-radius: 0px 20px 20px 20px;
+  box-shadow: 0px 5px 17px #888888;
+  padding: 25px 42px;
+}
+#bar_two #syafira .comment {
+  background-color: #1C6A7E;
+  border-radius: 0px 20px 20px 20px;
+  box-shadow: 0px 3px 6px #000000;
+  padding: 25px 30px;
+}
+#testimony #bar_two #sayyid .comment {
+  background-color: #543864;
+  border-radius: 0px 20px 20px 20px;
+  box-shadow: 0px 10px 20px #000000;
+  padding: 45px 42px;
+}
+#testimony #bar_two #puspita .comment {
+  background-color: #D1517A;
+  border-radius: 0px 20px 20px 20px;
+  box-shadow: 0px 5px 17px #000000;
+  padding: 15px 42px;
+}
+#testimony #bar_two #frastio .comment {
+  background-color: #FFFFFF;
+  border-radius: 0px 20px 20px 20px;
+  box-shadow: 0px 5px 17px #000000;
+  padding: 20px 35px;
+  margin-left: 48px;
+}
+#testimony #bar_two #yuki {
   position: relative;
   left: 77%;
- }
- #testimony #bar_two #syafira li{
+}
+#testimony #bar_two #syafira li {
   right: 2em;
   position: relative;
   padding-top: 5%;
- }
- #testimony #bar_two #sayyid li{
+}
+#testimony #bar_two #sayyid li {
   padding-top: 10%!important;
- }
- #testimony #bar_two #puspita li{
+}
+#testimony #bar_two #puspita li {
   padding-top: 5%!important;
- }
- #testimony #bar_two #frastio li{
+}
+#testimony #bar_two #frastio li {
   margin-top: -10%!important;
-  left: 25em; position:relative;
- }
-
-
-
+  left: 25em;
+  position: relative;
+}
 
 /*FAQ*/
-#faq_how h1{margin: 0 auto; color: #666666; margin-top: 160px;}
-#frekuently{margin-top: 180px;  height: 370px;} #frekuently a{color: #999999;}
-#frekuently h2{color: #666666; position: relative;right: 18%;}
-#frekuently h3{color: #666666;} #frekuently p{color: #999999; font-size: 14px; line-height: 30px;}
-#general, #akun ,#membaca{margin-top: 3em;} #membaca{position: relative; left: 17%;} #akun{position: relative;left: 14%;}
+#faq_how h1 {
+  margin: 0 auto;
+  color: #666666;
+  margin-top: 160px;
+  font-size: 42px;
+}
+#frekuently {
+  margin-top: 180px;
+  height: 370px;
+}
+#frekuently a {
+  color: #999999;
+}
+#frekuently h2 {
+  color: #666666;
+  position: relative;
+  right: 18%;
+}
+#frekuently h3 {
+  color: #666666;
+}
+#frekuently p {
+  color: #999999;
+  font-size: 14px;
+  line-height: 30px;
+}
+#general,
+#akun,
+#membaca {
+  margin-top: 3em;
+}
+#membaca {
+  position: relative;
+  left: 17%;
+}
+#akun {
+  position: relative;
+  left: 14%;
+}
 
 /*halaman -*/
-.login{height: 500px!important;}
-#login_second img{height: 719px; width: 905px;}
-#tetap-masuk li {padding-left:30px ; margin: 8%; float: left;} #tetap-masuk p , #tdk_akun p{color: #8E9191; font-size: 12px;} #tdk_akun a{font-size: 12px;}
-#email h4{padding-right: 25em; color: #777777; font-size: 12px;}
-#login_first{ width: 40%; padding-top: 110px;} #login_first img{padding-left: 10em;}#login_first h1{color: #666666;font-size: 28px;}
-#login_second {width: 61%; float: right; margin-top: -45em;position: relative; left: 8%;} #tdk_akun li{float: left;position: relative;left: 25%;}
-#logoslog{width: 45%;}
-.masuk{ padding: 17px 14px; margin: 25px; 
- box-shadow: 0px 2px 7px #888888;
- }
- .masuk p{color:#777777;font-size: 12px; margin-left: 6em; margin-top: -10%;} 
-.masuk img{position: relative;right: 43%;}
-#login_first span{color:#CECECE; font-size: 12px;} .box{margin: 2%;}
-.box input{width: 386px;height: 45px; position: relative;left: 3%; outline: none;}#span{margin-left: 8em;}
-.psd{list-style-type: none; color: #216583; font-size: 12px; }
-#btn_masuk{background-color:#216583; color: #fff;  padding: 14px 170px;
- border-radius: 5px; border: 1px solid #216583; position: relative; left: 5%; }
- /*isi buku*/
- #isi_ulasan input{outline: none; color: #DBDBDB;}
- #chapter_head{ padding-top: 15%; margin:0 auto; width: 60%; border-bottom: 1px solid #CFCFCF;}
- #chapter_bodi{margin-top: 9%; padding-left: 15%;}
- #chapter_head img{ padding-left:58vh  ; } #chapter_bodi h4{color: #888888; right: 6%; position: relative;}
- #chapter_bodi p{color: #888888; font-size: 14px; width: 60%; text-align: left; line-height: 25px; margin: 0 auto;}
- #next{color: #fff; background-color: #1C6A7E; padding: 17px 38px; margin: 0 auto; left: 40%; position: relative;
- } #bagi_share{margin-top: -7%; margin-left: 10%;}
- #next:hover{background-color: #042F4B;}
- #head_comen h5 ,.little-span{margin-left: 7%; margin-top: -5%;} .little-span{color: #C8C6C6; font-size: 10px;}
- /*Quiz*/ 
- .quiz{margin-top: 10%;}
- #ikut_quiz{ box-shadow: 1px 4px 10px #888888; margin: 0 auto; width: 330px; padding: 25px;border-radius: 20px 20px 20px 0px; height: 200px; margin-top: 10%; margin-left: 28em;} 
- #ikut_quiz h3{width: 250px; font-size: 20px; color: #666666;} #ikut_quiz p{color: #666666; font-size: 14px; line-height: 20px;}
- #ikut_quiz a{background-color: #1C6A7E; color: #fff;  padding: 10px 25px; border-radius:20px 20px 20px 20px; z-index: 1;
-	position: relative;}
-#ikut_quiz a::after{
-	content: '';
-	display: block;
-	width: 100%;
-	height: 100%; 
-	background-image: #fff;
-	position: absolute;
-	bottom: 0;}
-	
- /*penentuan*/
- /*ulasan*/
-  #bagi span{color: #999999; font-size:12px; }#bagi{margin-left: 40%; margin-top: 5%;} #bagi img{padding: 3px; padding-top: 3%;}
- #penentuan{margin-left: 23%; margin-top: 8%; padding: 20px;}#penentuan h1{font-size: 28px;}
- .penentu_form p{color:#777777; font-size: 12px;  }
- .penentu_form input{width:53%;  padding: 15px; border: 1px solid #DBDBDB; color: #DBDBDB;}
- .penentu_form{margin-left: 16%; margin-top: 9%;}
- #lihat_test{background-color:#216583; color: #fff;  padding: 10px 135px;
- border-radius: 5px; border: 1px solid #216583; margin-top: 15%;}
- #rating{margin-top: 5%; padding: 6px;} #rating h3{color: #666666;font-size: 19px; font-family: vidaoka;}
- #beri_rating img{padding: 5px;} #rating_span{right: 10%; position: relative;margin-top: 2%;} 
- .bintang img{padding: 5px;}
+.login {
+  height: 500px!important;
+}
+#reg_second{
+   background-image: url('../img/homepage/login.svg')!important;
+   height: 880px;
+   width: 700px;
+   margin-top: -51em;
+   position: relative;
+   left: 33em;
+}
 
- /*REGISTRASI*/
- #txtc{border-bottom: 2px solid #999999; width: 290px; font-weight: 500;}
- #txtc input{color: #777777; font-size: 36px; border: none; background: none; outline: none;}
- #registrasi{background-color: #216583; height: 900px; padding-right: 15%; margin-top: 10%;}#img_register{float: right; margin-top: -70%; width: 62%;position: relative; left: 18%; height: 133%; }
- .head_img{position: relative; left: 17%; margin: 10px;}
- #reg_head{margin-right:9%;padding-top: 10%;} #reg_head h1{right:6%;position:relative;font-size: 35px;}
- #logosreg{width:30%; position: relative; left: 9%;}
-	#option{width: 50%; padding: 0; position: relative; float: right; right: 24%; padding: 0;}
+#login_second{
+   background-image: url('../img/homepage/login.svg');
+   height: 790px;
+   width: 800px;
+   margin-top: -80em;
+  margin-left: 29em;
+}
+#tetap-masuk li {
+  padding-left: 30px;
+  padding: 30px;
+  float: left;
+}
+#tetap-masuk p,
+#tdk_akun p {
+  color: #8E9191;
+  font-size: 12px;
+}
+#tdk_akun a {
+  font-size: 14px;
+}
+#email h4 {
+  padding-right: 25em;
+  color: #777777;
+  font-size: 12px;
+}
+#email{
+  margin-top: -2em;
+}
+#login_first {
+  width: 40%;
+  padding-top: 99px;
+}
+#login_first img {
+  padding-left: 10em;
+}
+#login_first h1 {
+  color: #666666;
+  font-size: 28px;
+}
+#tdk_akun li {
+  float: left;
+  position: relative;
+  left: 25%;
+}
+#logoslog {
+  width: 45%;
+}
+.masuk {
+  padding: 20px 14px;
+  margin: 17px;
+  box-shadow: 0px 2px 7px #888888;
+}
+.masuk p {
+  color: #777777;
+  font-size: 12px;
+  margin-left: 9em;
+  margin-top: -7%;
+}
+.masuk img {
+  position: relative;
+  right:  33%;
+    margin-top: -5px;
+}
+#login_first span {
+  color: #CECECE;
+  font-size: 12px;
+}
+.box input {
+  width: 395px;
+  height: 45px;
+  position: relative;
+  
+  left: 3%;
+  outline: none;
+}
+.box input['placeolder']{
+  padding: 
+}
+#span {
+  margin-left: 11em;
+}
+.psd {
+  list-style-type: none;
+  color: #216583;
+  font-size: 14px;
+}
+#btn_masuk {
+  background-color: #216583;
+  color: #fff;
+  padding: 14px 170px;
+  border-radius: 5px;
+  border: 1px solid #216583;
+  position: relative;
+  left: 5%;
+}
 
-  .login-form{
-        margin-right: 30%; 
-      }
-     #width{width: 455px;}
-      .txtb{
-        border-bottom: 2px solid #adadad;
-        position: relative;
-        margin: 20px ; display: inline-block; width: 208px;
-        
-      }
-      .txtb input{
-        font-size: 15px;
-        color: #333;
-        border: none;
-        width: 100%;
-        outline: none;
-        background: none; 
-        padding: 0 5px;
-         height: 40px;
+/*isi buku*/
+#isi_ulasan input {
+  outline: none;
+  color: #DBDBDB;
+}
+#chapter_head h2{
+  font-size: 20px;
+  font-family: "vidaloka", sans-serif;
 
-      }
-      .txtb span::before{
-        content: attr(data-placeholder);
-        position: absolute; 
-        top: 50%;
-        left: 5px;
-        color: #E1E1E1;
-        transform: translateY(-50%);
-        transition: .3s;
-      
-      }
-      .txtb span::after{
-        content: '';
-        position: absolute;
-        left: 0%;
-        bottom: -4%;
-        width: 0%;
-        height: 3px;
-        background-color:;
-        transition: .3s;
-      }
-      .focus + span::before{
-        top: -5px;
-      }
-      .focus + span::after{
-        width: 100%;
-      }
-      #pilihan{color:#fff; font-size: 20px; box-sizing: none; font-size: 16px;}
-      .opt{background: #216583;border : 9px solid pink;color: #fff;}
-      .logbtn{
-        display: block;
-        width: 457px;
-        height: 50px;
-        border: none; background:#216583;background-size: 200%; color: #E1E1E1;border: 2px solid #fff;
-        outline: none; cursor: pointer; transition: .5s;
-        margin-left: 3%;
-      }
-      .logbtn:hover{
-        background: #fff; color: #216583;
-      }
-      .button-text{
-        margin-top: 60px;
-        text-align: center; font-size: 20px;
-       color: #E5E5E5;font-family: Quicksand;margin-right: 40%; margin-top: 1px;
-      }
-      .button-text a{color: #fff; font-family: Quicksand; }
-      .txtb select{background: none; }
-     .txtb select,option{border:none; outline: none; color:#E1E1E1;}
-      
-      
- /*ulasan*/
-#coment_ulasan{left: 15%; position: relative;}
- #comen{margin-left: 20%;  margin-top: 5%;}
- .comen_bodi p{font-size: 14px; line-height: 20px; color: #999999; max-width: 500px;}
- #comen a{margin: 10px; color: #1C6A7E; font-size: 14px;}
- /*progress bar*/
- #progressbar {
+}
+#chapter_head {
+  padding-top: 15%;
+  margin: 0 auto;
+  width: 60%;
+   margin-left: 25%;
+}
+#chapter_bodi {
+  margin-top: 9%;
+  padding-left: 15%;
+}
+#chapter_head img {
+  padding-left: 29vh;
+}
+#chapter_bodi h4 {
+  color: #888888;
+  right: 10%;
+  font-size: 18px;
+  position: relative;
+}
+#chapter_bodi p {
+  color: #888888;
+  font-size: 14px;
+  width: 60%;
+  text-align: left;
+  line-height: 25px;
+  margin: 0 auto;
+}
+#next {
+  color: #fff;
+  background-color: #1C6A7E;
+  padding: 17px 38px;
+  margin: 0 auto;
+  left: 40%;
+  position: relative;
+}
+#bagi_share {
+  margin-top: -7%;
+  margin-left: 10%;
+}
+#next:hover {
+  background-color: #042F4B;
+}
+#head_comen h5,
+.little-span {
+  margin-left: 7%;
+  margin-top: -5%;
+}
+.little-span {
+  color: #C8C6C6;
+  font-size: 10px;
+}
+
+/*Quiz*/
+.quiz {
+  margin-top: 10%;
+}
+#ikut_quiz {
+  box-shadow: 1px 4px 10px #888888;
+  margin: 0 auto;
+  width: 330px;
+  padding: 25px;
+  border-radius: 20px 20px 20px 0px;
+  height: 200px;
+  margin-top: 10%;
+  margin-left: 28em;
+}
+#ikut_quiz h3 {
+  width: 250px;
+  font-size: 20px;
+  color: #666666;
+}
+#ikut_quiz p {
+  color: #666666;
+  font-size: 14px;
+  line-height: 20px;
+}
+#ikut_quiz a {
+  background-color: #1C6A7E;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 20px 20px 20px 20px;
+  z-index: 1;
+  position: relative;
+}
+#ikut_quiz a::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: #fff;
+  position: absolute;
+  bottom: 0;
+}
+
+/*penentuan*/
+
+/*ulasan*/
+#bagi span {
+  color: #999999;
+  font-size: 12px;
+}
+#bagi {
+  margin-left: 40%;
+  margin-top: 5%;
+}
+#bagi img {
+  padding: 3px;
+  padding-top: 3%;
+}
+#penentuan {
+  margin-left: 23%;
+  margin-top: 8%;
+  padding: 20px;
+}
+#penentuan h1 {
+  font-size: 28px;
+}
+.penentu_form p {
+  color: #777777;
+  font-size: 12px;
+}
+.penentu_form input {
+  width: 53%;
+  padding: 15px;
+  border: 1px solid #DBDBDB;
+  color: #DBDBDB;
+}
+.penentu_form {
+  margin-left: 16%;
+  margin-top: 9%;
+}
+#lihat_test {
+  background-color: #216583;
+  color: #fff;
+  padding: 10px 135px;
+  border-radius: 5px;
+  border: 1px solid #216583;
+  margin-top: 15%;
+}
+#rating {
+  margin-top: 5%;
+  padding: 6px;
+}
+#rating h3 {
+  color: #666666;
+  font-size: 19px;
+  font-family: vidaoka;
+}
+#beri_rating img {
+  padding: 5px;
+}
+#rating_span {
+  right: 8%;
+  position: relative;
+  margin-top: 2%;
+}
+.bintang img {
+  padding: 5px;
+}
+
+/*REGISTRASI*/
+#txtc {
+  border-bottom: 2px solid #999999;
+  width: 290px;
+  font-weight: 500;
+}
+#txtc input {
+  color: #777777;
+  font-size: 36px;
+  border: none;
+  background: none;
+  outline: none;
+}
+#registrasi {
+  background-color: #216583;
+  height: 900px;
+  overflow: hidden;
+  
+}
+#img_register {
+  float: right;
+  margin-top: -70%;
+  width: 62%;
+  position: relative;
+  left: 18%;
+  height: 133%;
+}
+.head_img {
+  position: relative;
+  left: 17%;
+  margin: 10px;
+}
+#reg_head {
+  margin-right: 9%;
+  padding-top: 13%;
+}
+#reg_head h1 {
+  right: 6%;
+  position: relative;
+  font-size: 28px;
+  font-family: sans-serif;
+}
+#logosreg {
+  width: 20%;
+  margin-left: 9em;
+  
+}
+#option {
+  width: 50%;
+  padding: 0;
+  position: relative;
+  float: right;
+  right: 17%;
+  padding: 0;
+}
+.login-form {
+  margin-right: 30%;
+}
+#width {
+  width: 455px;
+}
+
+.txtb {
+  border-bottom: 2px solid #adadad;
+  position: relative;
+  margin: 20px;
+  display: inline-block;
+  width: 208px;
+}
+.txtb input {
+  font-size: 14px;
+  color: #333;
+  border: none;
+  width: 100%;
+  outline: none;
+  background: none;
+  padding: 0 5px;
+  height: 40px;
+}
+.txtb span::before {
+  content: attr(data-placeholder);
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #E1E1E1;
+  transform: translateY(-50%);
+  font-size: 14px;
+  transition: .3s;
+}
+.txtb span::after {
+  content: '';
+  position: absolute;
+  left: 0%;
+  bottom: -4%;
+  width: 0%;
+  height: 3px;
+  background-color: ;
+  transition: .3s;
+
+}
+.focus+span::before {
+  top: -5px;
+}
+.focus+span::after {
+  width: 100%;
+}
+#pilihan {
+  color: #fff;
+  font-size: 20px;
+  box-sizing: none;
+  font-size: 16px;
+}
+.opt {
+  background: #216583;
+  border: 9px solid pink;
+  color: #fff;
+}
+.logbtn {
+  display: block;
+  width: 457px;
+  height: 50px;
+  border: none;
+  background: #216583;
+  background-size: 200%;
+  color: #E1E1E1;
+  border: 2px solid #fff;
+  outline: none;
+  cursor: pointer;
+  transition: .5s;
+  margin-left: 3%;
+}
+.logbtn:hover {
+  background: #fff;
+  color: #216583;
+}
+.button-text {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 20px;
+  color: #E5E5E5;
+  font-family: Quicksand;
+  margin-right: 40%;
+  margin-top: 1px;
+}
+.button-text a {
+  color: #fff;
+  font-family: Quicksand;
+}
+.txtb select {
+  background: none;
+}
+.txtb select,
+option {
+  border: none;
+  outline: none;
+  color: #E1E1E1;
+}
+#many{
+  width: 80px;
+}
+
+/*ulasan*/
+#coment_ulasan {
+  left: 15%;
+  position: relative;
+}
+#comen {
+  margin-left: 20%;
+  margin-top: 5%;
+}
+.comen_bodi p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #999999;
+  max-width: 500px;
+}
+#comen a {
+  margin: 10px;
+  color: #1C6A7E;
+  font-size: 14px;
+}
+
+/*progress bar*/
+#progressbar {
   background-color: #e9e9e9;
   width: 315px;
   margin: 16px;
- 
   /* (height of inner div) / 2 + padding */
 }
-.progress{padding-top: 32%; margin-top: -27em; position: relative; right: 1em;}
+.progress {
+  padding-top: 32%;
+  margin-top: -27em;
+  position: relative;
+  right: 1em;
+}
 #progressbar>div {
   background-color: #1C6A7E;
   width: 174px;
   /* Adjust with JavaScript */
+  
   height: 13px;
- 
 }
+
+/*pencarian*/
+#cari_buku {
+  float: left;
+  margin: 10px;
+  height: 300px!important;
+  overflow: hidden!important;
+}
+
 /*footer*/
 footer {
   background-color: #1C6A7E;
   color: #fff;
   height: 350px;
 }
-
 #five {
   padding-top: 5em;
 }
-
 .list {
   max-width: 320px;
   line-height: 25px;
   font-size: 14px;
 }
-
 #navigasi li {
   list-style-type: none;
   max-width: 8%;
@@ -464,7 +1175,6 @@ footer {
   margin-top: -7em;
   color: #fff;
 }
-
 #sport {
   list-style-type: none;
   max-width: 6%;
@@ -472,11 +1182,17 @@ footer {
   margin-left: 39em;
   margin-top: -8em;
 }
-
 footer a {
   color: #fff;
 }
-#contact{max-width:15%; list-style-type: none; line-height: 2em; margin-left: 51em; margin-top: -8em;}
+#contact {
+  max-width: 15%;
+  list-style-type: none;
+  line-height: 2em;
+  margin-left: 51em;
+  margin-top: -8em;
+}
+
 /*ahir footer*/
 
 /*fot 1024*/
@@ -484,12 +1200,12 @@ footer a {
   footer {
     height: 300px;
   }
-
+  
   footer .container {
     max-width: 900px!important;
     margin: 0 auto;
   }
-
+  
   #navigasi li {
     max-width: 4% !important;
     line-height: 2em;
@@ -497,7 +1213,7 @@ footer a {
     margin-top: -7em;
     color: #fff;
   }
-
+  
   #sport {
     list-style-type: none;
     max-width: 6%;
@@ -505,49 +1221,56 @@ footer a {
     margin-left: 35em !important;
     margin-top: -8em;
   }
-
+  
   #contact {
     margin-left: 43em !important;
     margin-top: -8em !important;
     max-width: 30% !important;
   }
-
+  
   #contact a p {
     font-size: 13px;
   }
+  
   .list p {
     font-size: 12px;
   }
 }
+
 /*fot 980*/
 @media screen and (max-width: 980px) {
   footer .container {
     max-width: 768px!important;
     margin: 0 auto;
   }
-   #contact {
+  
+  #contact {
     margin-left: 40em !important;
     margin-top: -8em !important;
     max-width: 30% !important;
   }
+  
   #contact a p {
     font-size: 13px;
   }
+  
   .list p {
     font-size: 12px;
   }
+  
   #smol {
     font-size: 12px !important;
   }
-   footer #five .list {
-     max-width: 280px!important;
+  
+  footer #five .list {
+    max-width: 280px!important;
     overflow: hidden;
     right: 10% !important;
     position: relative !important;
-    float: left; 
-  
+    float: left;
     max-width: 100%;
   }
+  
   #navigasi li {
     max-width: 4% !important;
     line-height: 2em;
@@ -555,7 +1278,7 @@ footer a {
     margin-top: 3em;
     color: #fff;
   }
-
+  
   #sport {
     list-style-type: none;
     max-width: 6%;
@@ -563,57 +1286,64 @@ footer a {
     margin-left: 30em !important;
     margin-top: -8em;
   }
-
+  
   #contact {
     margin-left: 37em !important;
     margin-top: -8em !important;
     max-width: 30% !important;
   }
-  footer #five a p{
+  
+  footer #five a p {
     font-size: 10px!important;
   }
-  
 }
+
 /*fot 768*/
 @media screen and (max-width: 768px) {
-   footer .container {
+  footer .container {
     max-width: 600px!important;
     margin: 0 auto;
   }
- 
+  
   .nav-bar nav {
     padding: 0 0 15px !important;
   }
+  
   .nav-bar nav .nav-list {
     margin-top: 45px;
   }
+  
   .nav-bar .brand {
     padding-top: 10px;
   }
-
-  #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  
+  #nav-toggle span,
+  #nav-toggle span:before,
+  #nav-toggle span:after {
     height: 3px !important;
     width: 30px !important;
   }
-
+  
   footer {
     height: unset !important;
     overflow: hidden;
     clear: both;
     padding: 50px 0;
   }
+  
   footer #five {
     position: unset;
     clear: both;
     overflow: hidden;
     padding-top: unset;
   }
-  footer #five .list{
-   
-  }
-  footer #five #navigasi{
+  
+  footer #five .list {}
+  
+  footer #five #navigasi {
     margin-top: 5%;
   }
+  
   footer #five #navigasi li {
     padding-top: 20px;
     width: 10% !important;
@@ -622,20 +1352,24 @@ footer a {
     display: block;
     margin-top: unset !important;
   }
+  
   footer #five #navigasi li a {
     width: 100% !important;
     display: block;
   }
+  
   footer #five #sport {
     padding-top: 20px;
     max-width: 100px !important;
     margin-left: 62%!important;
     margin-top: -25% !important;
   }
+  
   footer #five #sport a {
     width: 100% !important;
     display: block;
   }
+  
   footer #five #contact {
     width: 100%;
     margin-top: -24% !important;
@@ -644,38 +1378,42 @@ footer a {
     padding-top: 15px;
     float: left;
   }
-  footer #five #contact li{
+  
+  footer #five #contact li {
     width: 30%;
   }
+  
   footer #five .list {
-     max-width: 230px!important;
+    max-width: 230px!important;
     overflow: hidden;
     left: unset !important;
     position: static !important;
     float: left;
     max-width: 100%;
   }
+  
   footer #five #navigasi {
     width: 50% !important;
     float: left;
   }
+  
   footer #five #sport {
     width: 50% !important;
     float: left;
   }
-  
 }
+
 /*fot 420*/
-@media screen and (max-width: 420px){
-  footer .container{
+@media screen and (max-width: 420px) {
+  footer .container {
     max-width: 300px!important;
     margin: 0 auto;
   }
-   
-   
-  footer #five #navigasi{
+  
+  footer #five #navigasi {
     margin-top: unset !important;
   }
+  
   footer #five #navigasi li {
     padding-top: 20px;
     width: 10% !important;
@@ -684,16 +1422,19 @@ footer a {
     display: block;
     margin-top: -150px !important;
   }
-   footer #five #sport {
+  
+  footer #five #sport {
     padding-top: 20px;
     max-width: 100px !important;
     margin-left: 2%!important;
     margin-top: -1% !important;
   }
+  
   footer #five #sport a {
     width: 100% !important;
     display: block;
   }
+  
   footer #five #contact {
     width: 100%;
     margin-top: -48% !important;
@@ -702,14 +1443,10 @@ footer a {
     padding-top: px;
     float: left;
   }
-  footer #five #contact li{
+  
+  footer #five #contact li {
     width: 40%;
   }
-
-
-
 }
 
 /*ahir footer responsive*/
-
-
